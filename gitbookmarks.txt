@@ -1,0 +1,16 @@
+Advanced Git Tutorial
+https://www.youtube.com/watch?v=0SJCYPsef54
+
+Tutorial for learning advanced git usage, git internals and most useful git commands.
+* Commit by hand (repo internals)
+* Rebase
+* Interactive Rebase
+* rebase-on-pull
+* Pull Requests
+* External diff tools
+* Advanced logging
+* RefLog
+* Reset
+-------------------------------------------------------------------------------------
+
+
