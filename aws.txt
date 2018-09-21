@@ -1,0 +1,1 @@
+ssh -i <key> ubuntu@ec2-54-219-149-40.us-west-1.compute.amazonaws.com
