@@ -1,8 +1,8 @@
 ssh -i <key> ubuntu@ec2-54-219-149-40.us-west-1.compute.amazonaws.com
 
 
-Path for scala-shell
-/home/ubuntu/scaladownloads/spark-2.3.1-bin-hadoop2.7/bin/scala-shell
+Path for spark-shell
+/home/ubuntu/scaladownloads/spark-2.3.1-bin-hadoop2.7/bin/spark-shell
 
 Transfering files to aws instance,
 scp -i <pem-key> Scala-and-Spark-Bootcamp-master.zip ubuntu@ec2-54-219-149-40.us-west-1.compute.amazonaws.com:/home/ubuntu/data/
