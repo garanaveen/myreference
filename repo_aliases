@@ -1,0 +1,7 @@
+#!/bin/bash
+GITROOTDIR=$(dirname $(PWD))
+
+alias de='cd $GITROOTDIR/designpatternsbookmarks'
+alias re='cd $GITROOTDIR/resume'
+alias myg='cd $GITROOTDIR/myreference'
+alias li='cd $GITROOTDIR/linuxcommands'
