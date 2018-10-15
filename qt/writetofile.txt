@@ -1,0 +1,16 @@
+#include <QTextStream>
+#include <QFile>
+#include <QDateTime>
+
+int main()
+{
+   QString filename="/path/to/file.txt";
+   QFile file(filename);
+   if (file.open(QIODevice::Append))
+   {
+      QTextStream stream( &file );
+      QString currentTime = QDateTime::currentDateTime().toString();
+      stream << currentTime;
+      stream << "Contents of the message";
+   }
+}
