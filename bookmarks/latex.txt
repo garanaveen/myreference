@@ -1,0 +1,15 @@
+Online latex editor,
+#https://www.overleaf.com/19482846tfcvjwvyrwgz#/72348381/
+https://www.overleaf.com/
+
+Templatex from Overleaf online latex editor,
+https://www.overleaf.com/latex/templates/tagged/cv
+
+CV for freshers,
+https://www.overleaf.com/latex/templates/cv-for-freshers/jkpwvnrdrxpm
+
+Software Engineer Resume (Sourabh Bajaj),
+https://www.overleaf.com/latex/templates/software-engineer-resume/gqxmqsvsbdjf
+https://github.com/sb2nov/resume
+
+

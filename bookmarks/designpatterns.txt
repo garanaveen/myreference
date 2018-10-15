@@ -1,0 +1,28 @@
+Creational patterns:
+
+Double-Checked Locking is Fixed In C++11
+double-checked locking pattern (DCLP)
+http://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/?f5tp=1
+
+Wiki,
+double-checked locking (also known as "double-checked locking optimization") 
+https://en.wikipedia.org/wiki/Double-checked_locking#Usage_in_C++11
+
+
+
+Structural patterns:
+Pimpl idiom,
+https://stackoverflow.com/questions/8972588/is-the-pimpl-idiom-really-used-in-practice
+https://stackoverflow.com/questions/2346163/pimpl-idiom-vs-bridge-design-pattern
+https://en.cppreference.com/w/cpp/language/pimpl
+
+https://en.wikipedia.org/wiki/Bridge_pattern
+When there is only one fixed implementation, this pattern is known as the Pimpl idiom in the C++ world.
+
+
+
+
+General link for Designpatterns for C++
+https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
+
+
