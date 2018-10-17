@@ -13,9 +13,17 @@ https://askubuntu.com/questions/59559/how-to-configure-workspace-layout
 
 Another solution is to use the ubuntu native options,
 On Ubuntu 12 and above you do this in Settings->Keyboard->Short cuts->Navigation
+https://askubuntu.com/questions/98872/move-window-to-right-left-workspace-shortcut
 
 If you want to go with compizconfig tool,
 sudo apt-get install compizconfig-settings-manager
 This command is throwing error.
 System -> Preferences -> compizconfig-settings-manager
 ----------------------------
+
+-------------------------------------------------
+Wifi Drivers for RealTek wifi adapter for Ubuntu.
+ ANEWKODI 600Mbps USB WiFi Adapter USB Wireless Adapter Daul Band 2.4GHz/5GHz 433Mbps 802.11 ac/a/b/g/n Wireless Adapter for Desktop/Laptop/PC, Support Windows 10/8/7/Vista/XP/2000/Mac Os
+ Link: http://a.co/d/c4Mdykq
+origin  https://github.com/abperiasamy/rtl8812AU_8821AU_linux.git (fetch)
+-------------------------------------------------
