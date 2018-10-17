@@ -1,0 +1,21 @@
+
+sudo apt-get install ack-grep
+sudo apt-get install kruler
+sudo apt-get install nautilus
+
+Q : Ctrl+s doesn't save the file in QtCreator
+A : Check "Pass Control Key" in QtCreator FakeVim mode. (But this is also going to disable Ctrl+N autofill feature since Ctrl key is passed).
+
+
+----------------------------
+Configure Ubuntu Workspaces,
+https://askubuntu.com/questions/59559/how-to-configure-workspace-layout
+
+Another solution is to use the ubuntu native options,
+On Ubuntu 12 and above you do this in Settings->Keyboard->Short cuts->Navigation
+
+If you want to go with compizconfig tool,
+sudo apt-get install compizconfig-settings-manager
+This command is throwing error.
+System -> Preferences -> compizconfig-settings-manager
+----------------------------
