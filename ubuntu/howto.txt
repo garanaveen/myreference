@@ -1,0 +1,8 @@
+How to work with workspaces in Ubuntu?
+--------------------------------------
+Workspaces have been made vertical in latest version of ubuntu.
+Switching to workspace below -> <Ctrl>+<Alt>+DownArrow
+Switching to workspace above -> <Ctrl>+<Alt>+UpArrow
+https://help.ubuntu.com/stable/ubuntu-help/shell-workspaces-switch.html.en
+
+
