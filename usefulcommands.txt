@@ -1,0 +1,65 @@
+
+Shortcut to open Windows Disk Management,
+diskmgmt.msc
+
+----------------------------------------------------
+
+GMail search
+from:me to:me has:attachment filename:xlsx
+----------------------------------------------------
+
+How to serve files from http on ubuntu using python?
+----------------------------------------------------
+Open a Terminal window and go to the directory containing the files you want to serve and run:
+python -m SimpleHTTPServer
+then access it using, http://localhost:8000/ or http://WINNAME:8000/ 
+
+
+----------------------------------------------------
+"Pure Virtual Function Called": An Explanation
+http://www.artima.com/cppsource/pure_virtual.html
+http://www.artima.com/forums/flat.jsp?forum=226&thread=196881
+----------------------------------------------------
+
+#!/bin/bash
+# Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+docker rmi $(docker images -q)
+
+----------------------------------------------------
+
+Search which debian package a binary belongs to.
+dpkg -S
+-S, --search filename-search-pattern...
+Search for a filename from installed packages.
+
+----------------------------------------------------
+Extract rpm without installing it,
+rpm2cpio libdatrie-0.2.8-1.i386.rpm |cpio --extract --make-directories
+rpm2cpio php-5.1.4-1.esp1.x86_64.rpm | cpio -idmv
+
+
+----------------------------------------------------
+How to archive the entire repo's working directory
+hg archive ~/source.tar.gz -X ".hg*"
+
+
+----------------------------------------------------
+Stress command
+stress --cpu 4 --io 4 --vm 2 --hdd 4 --timeout 20m -v
+
+----------------------------------------------------
+
+find . -name "*ouch*"
+If you want to exclude .hg directory then add "-name .hg -prune -o" before name and "-print" at the end
+find . -name .hg -prune -o -name "*ouch*" -print
+More examples:
+find . -type d -name '.git*' -prune -o -type f -print       # DO THIS
+
+----------------------------------------------------
+
+----------------------------------------------------
+
+----------------------------------------------------
+

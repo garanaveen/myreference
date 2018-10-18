@@ -7,8 +7,29 @@ Command to show the file name opened using vim
 :args
 
 
+----------------------------------
 
 Remove stray (Non printable) characters in vim,
 :%s/[^ -~]//g
 
+
+----------------------------------
+How to edit an existing vim macro,
+https://robots.thoughtbot.com/how-to-edit-an-existing-vim-macro
+
+----------------------------------
+
+Replace multiple files using vim
+:set autowriteall
+:bufdo %s/pattern/replace/ge
+
+----------------------------------
+
+----------------------------------
+
+----------------------------------
+
+----------------------------------
+
+----------------------------------
 
