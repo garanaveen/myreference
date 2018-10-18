@@ -1,4 +1,1 @@
-Configure Ubuntu to switch between workspaces.
-
-Sat Oct 13 10:24:52 CDT 2018
-Rename designpatterns bookmarks to bookmarks and move the contents to myreference.
+Nothing for today!!
