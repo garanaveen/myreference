@@ -1,0 +1,14 @@
+:buffers
+:buffer n
+
+gf
+
+Command to show the file name opened using vim
+:args
+
+
+
+Remove stray (Non printable) characters in vim,
+:%s/[^ -~]//g
+
+

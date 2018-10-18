@@ -1,5 +1,0 @@
-
-Remove stray (Non printable) characters in vim,
-:%s/[^ -~]//g
-
-
