@@ -1,0 +1,14 @@
+set history save
+thread apply all bt
+thread 2
+info threads
+info args
+print *this
+print $eax
+disassemble
+frame 0
+ptype QString::d
+ptype QString
+set height 35
+print other
+
