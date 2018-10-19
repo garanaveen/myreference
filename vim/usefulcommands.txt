@@ -1,2 +1,14 @@
 TODO : http://sourabhbajaj.com/mac-setup/Vim/
 
+
+Format the html file,
+---------------------
+:!tidy -mi -xml -wrap 0 %
+tidy -mi -xml -wrap 0 <FileName>
+
+or
+
+:!tidy -mi -html -wrap 0 -q TUGBtn.html
+tidy -mi -html -wrap 0 -q TUGBtn.html
+----------------
+

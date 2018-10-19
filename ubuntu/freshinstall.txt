@@ -2,6 +2,8 @@
 sudo apt-get install ack-grep
 sudo apt-get install kruler
 sudo apt-get install nautilus
+sudo apt-get install tidy
+
 
 Q : Ctrl+s doesn't save the file in QtCreator
 A : Check "Pass Control Key" in QtCreator FakeVim mode. (But this is also going to disable Ctrl+N autofill feature since Ctrl key is passed).
