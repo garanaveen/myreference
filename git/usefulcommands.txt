@@ -10,4 +10,6 @@ Delete the entry in .gitkraken/profiles/<uuid>/localRepoCache
 https://stackoverflow.com/questions/38068790/remove-repository-from-gitkraken-overview
 
 
-
+How to archive the entire repo's working directory?
+hg archive ~/source.tar.gz -X ".hg*"
+git archive --format=tar --prefix=myreference-20181019/ HEAD > ~/tarofmyreference.tar.gz

@@ -41,11 +41,6 @@ rpm2cpio php-5.1.4-1.esp1.x86_64.rpm | cpio -idmv
 
 
 ----------------------------------------------------
-How to archive the entire repo's working directory
-hg archive ~/source.tar.gz -X ".hg*"
-
-
-----------------------------------------------------
 Stress command
 stress --cpu 4 --io 4 --vm 2 --hdd 4 --timeout 20m -v
 
