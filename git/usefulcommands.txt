@@ -13,3 +13,10 @@ https://stackoverflow.com/questions/38068790/remove-repository-from-gitkraken-ov
 How to archive the entire repo's working directory?
 hg archive ~/source.tar.gz -X ".hg*"
 git archive --format=tar --prefix=myreference-20181019/ HEAD > ~/tarofmyreference.tar.gz
+
+
+Check which commit introduced or deleted a specific regex-pattern, (This is very time consuming)
+https://stackoverflow.com/questions/1337320/how-to-grep-git-commit-diffs-or-contents-for-a-certain-word
+git log --pickaxe-regex -p --color-words -S <regex-pattern>
+git config diff.renameLimit 4950
+
