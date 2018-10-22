@@ -20,3 +20,11 @@ https://stackoverflow.com/questions/1337320/how-to-grep-git-commit-diffs-or-cont
 git log --pickaxe-regex -p --color-words -S <regex-pattern>
 git config diff.renameLimit 4950
 
+
+Show the conents of file at a particular revision,
+git show SHA1:filepath
+https://stackoverflow.com/questions/338436/is-there-a-quick-git-command-to-see-an-old-version-of-a-file
+
+Print just the sha1 list for a file,
+git rev-list HEAD DiagnosticsCenterApp_pt.ts
+https://stackoverflow.com/questions/20873649/show-sha1-only-with-git-log
