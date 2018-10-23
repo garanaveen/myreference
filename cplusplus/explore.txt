@@ -1,6 +1,3 @@
 QScopedPointer
 doxygen
 
-
-C++11 stroustrup page,
-http://www.stroustrup.com/C++11FAQ.html#override

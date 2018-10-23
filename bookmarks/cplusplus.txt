@@ -1,2 +1,6 @@
 Why not to use "using namespace std" 
 https://stackoverflow.com/questions/1452721/why-is-using-namespace-std-considered-bad-practice
+
+C++11 stroustrup page,
+http://www.stroustrup.com/C++11FAQ.html#override
+
