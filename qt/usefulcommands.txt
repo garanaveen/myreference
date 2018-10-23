@@ -1,0 +1,16 @@
+How to create a code snippet (Code auto completion for frequently used code)?
+
+Tools->Options->TextEditor->Snippets : Add the shortcut to "Trigger" column and the auto-complete code snippet in the textbox below it.
+
+Example,
+Map to have the following code snippet,
+classderivedfromqobject 
+class MyClass : public QObject
+{
+   Q_OBJECT
+public:
+   MyClass() {}
+   virtual ~MyClass() {}
+};
+
+
