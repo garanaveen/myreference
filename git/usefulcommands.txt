@@ -28,3 +28,16 @@ https://stackoverflow.com/questions/338436/is-there-a-quick-git-command-to-see-a
 Print just the sha1 list for a file,
 git rev-list HEAD DiagnosticsCenterApp_pt.ts
 https://stackoverflow.com/questions/20873649/show-sha1-only-with-git-log
+
+Log/Print the local branches that are not present in remote. (Local only branches)
+git log --graph --oneline --branches --not --remotes=*
+
+
+How to see what all changesets had a particular string and what didn't?
+Other keywords : Bisect. Where did this line change? Where was this line introduced or deleted?
+for sha1 in $(git rev-list HEAD FileName.txt) ; do 
+   echo $sha1 ; 
+   git show $sha1:./FileName.txt | grep "regex-pattern"; 
+done
+
+
