@@ -24,6 +24,11 @@ Replace multiple files using vim
 :bufdo %s/pattern/replace/ge
 
 ----------------------------------
+Explore ~/.viminfo
+
+----------------------------------
+Navigate to the link in vim help
+<Ctrl>+]
 
 ----------------------------------
 
@@ -31,5 +36,4 @@ Replace multiple files using vim
 
 ----------------------------------
 
-----------------------------------
 
