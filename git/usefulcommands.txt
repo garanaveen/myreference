@@ -41,3 +41,7 @@ for sha1 in $(git rev-list HEAD FileName.txt) ; do
 done
 
 
+
+How to delete a branch on git?
+git branch -d branch_name
+git branch -D branch_name
