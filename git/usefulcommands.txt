@@ -13,3 +13,35 @@ https://stackoverflow.com/questions/38068790/remove-repository-from-gitkraken-ov
 How to archive the entire repo's working directory?
 hg archive ~/source.tar.gz -X ".hg*"
 git archive --format=tar --prefix=myreference-20181019/ HEAD > ~/tarofmyreference.tar.gz
+
+
+Check which commit introduced or deleted a specific regex-pattern, (This is very time consuming)
+https://stackoverflow.com/questions/1337320/how-to-grep-git-commit-diffs-or-contents-for-a-certain-word
+git log --pickaxe-regex -p --color-words -S <regex-pattern>
+git config diff.renameLimit 4950
+
+
+Show the conents of file at a particular revision,
+git show SHA1:filepath
+https://stackoverflow.com/questions/338436/is-there-a-quick-git-command-to-see-an-old-version-of-a-file
+
+Print just the sha1 list for a file,
+git rev-list HEAD DiagnosticsCenterApp_pt.ts
+https://stackoverflow.com/questions/20873649/show-sha1-only-with-git-log
+
+Log/Print the local branches that are not present in remote. (Local only branches)
+git log --graph --oneline --branches --not --remotes=*
+
+
+How to see what all changesets had a particular string and what didn't?
+Other keywords : Bisect. Where did this line change? Where was this line introduced or deleted?
+for sha1 in $(git rev-list HEAD FileName.txt) ; do 
+   echo $sha1 ; 
+   git show $sha1:./FileName.txt | grep "regex-pattern"; 
+done
+
+
+
+How to delete a branch on git?
+git branch -d branch_name
+git branch -D branch_name
