@@ -3,6 +3,8 @@ git reset --hard <sha>
 
 
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+git remote set-url origin git@github.com:garanaveen/linuxcommands.git
+git remote set-url origin git@github.com:garanaveen/myreference.git
 
 
 gitkraken - how to remove the "recently open" entries from gitkraken?

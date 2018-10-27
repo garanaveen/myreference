@@ -1,1 +1,4 @@
-Nothing for today!!
+
+Sat Oct 27 13:12:59 CDT 2018
+Implement pre-commit hook to check if the user.name/email are correctly set.
+
