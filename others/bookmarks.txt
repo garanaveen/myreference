@@ -1,2 +1,7 @@
 Indian mathematician D. R. Kaprekar
 https://en.wikipedia.org/wiki/6174_(number)
+
+Open source alternative to wunderlist?
+http://todotxt.org/
+Need to explore this as this is opensource and also have command line utility.
+------------------------------------------------------------------------------
