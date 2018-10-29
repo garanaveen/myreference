@@ -17,4 +17,9 @@ Tutorial for learning advanced git usage, git internals and most useful git comm
 How to compare a local git branch with its remote branch?
 https://stackoverflow.com/questions/1800783/how-to-compare-a-local-git-branch-with-its-remote-branch
 
+-------------------------------------------------------------------------------------
 
+Move a directory from one repo to another,
+http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/
+
+-------------------------------------------------------------------------------------

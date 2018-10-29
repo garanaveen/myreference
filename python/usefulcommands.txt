@@ -1,0 +1,6 @@
+
+.format() documentation,
+https://pyformat.info/
+
+Strings and dictionaries,
+https://www.kaggle.com/colinmorris/strings-and-dictionaries
