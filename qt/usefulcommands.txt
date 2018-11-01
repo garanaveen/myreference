@@ -14,3 +14,9 @@ public:
 };
 
 
+
+-------------
+How to sleep?
+#include <QThread>
+QThread::sleep(3);
+-------------
