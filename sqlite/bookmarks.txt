@@ -1,0 +1,2 @@
+How To Corrupt An SQLite Database File
+https://www.sqlite.org/howtocorrupt.html
