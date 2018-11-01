@@ -5,3 +5,13 @@ https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean
 How to navigate directories faster with bash?
 ---------------------------------------------
 https://mhoffman.github.io/2015/05/21/how-to-navigate-directories-with-the-shell.html
+
+
+How to check if a command is installed or not in bash?
+------------------------------------------------------
+if [ -x "$(command -v ack-grep)" ]; then
+   echo "ack-grep is installed
+fi
+
+
+------------------------------------------------------

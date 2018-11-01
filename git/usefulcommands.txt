@@ -31,7 +31,7 @@ Print just the sha1 list for a file,
 git rev-list HEAD DiagnosticsCenterApp_pt.ts
 https://stackoverflow.com/questions/20873649/show-sha1-only-with-git-log
 
-Log/Print the local branches that are not present in remote. (Local only branches)
+Log/Print the local branches that are not present in remote. (LocalOnly branches)
 git log --graph --oneline --branches --not --remotes=*
 
 
@@ -47,3 +47,24 @@ done
 How to delete a branch on git?
 git branch -d branch_name
 git branch -D branch_name
+
+---------------------------------------------------------------------------------------------
+Create a pull request to a release branch. (Keywords:PullRequest)
+CanonicalFork - canon
+LocalFork - local
+Feature branch - feature
+Release branch - release
+1. Commit your change to feature branch.
+2. Add canon as a remote if you haven't already done so.
+3. Checkout canon/release branch. This will make a copy of release on local fork.
+4. Create a branch called SpecificFeature on the tip of release branch.
+5. Cherry pick the commit on to the SpecificFeature branch
+6. Drag and drop the SpecificFeature on to the release branch. Choose "Push SpecificFeature and make a pull request to canon/release"
+7. Go to canon and see if there are any pull requests. If yes thats all.
+
+If the 6th step doesn't allow you to create a pull request, then create a pull request on github.
+Go to the commit on github and say create pull request there, (The pull request is from Right to Left
+base fork: canon/reponame, base:release ... head fork:local/reponame compare:SpecificFeature 
+---------------------------------------------------------------------------------------------
+
+

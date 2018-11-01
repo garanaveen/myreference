@@ -12,3 +12,8 @@ or
 tidy -mi -html -wrap 0 -q TUGBtn.html
 ----------------
 
+rot13 ROT13 encoding
+"g?<MovementCommand>"
+Entire file : "ggg?G"
+Current line : "0g?$"
+One word : Go to beginning of line and say "g?w"
