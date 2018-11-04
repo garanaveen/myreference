@@ -6,3 +6,6 @@ https://github.com/FreemanKing/Design-Patterns-GoF.git
 
 grep.vim 
 https://github.com/yegappan/grep
+
+CppCoreGuidelines,
+https://github.com/isocpp/CppCoreGuidelines
