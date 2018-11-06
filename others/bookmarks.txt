@@ -5,3 +5,11 @@ Open source alternative to wunderlist?
 http://todotxt.org/
 Need to explore this as this is opensource and also have command line utility.
 ------------------------------------------------------------------------------
+
+
+H4 EAD faqs,
+http://www.immi-usa.com/h4-ead-faq/
+
+EAD and AP Renewal – Clarifications
+https://www.murthy.com/2013/03/05/ead-and-ap-renewal-clarifications/
+
