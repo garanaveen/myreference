@@ -49,6 +49,7 @@ git branch -d branch_name
 git branch -D branch_name
 
 ---------------------------------------------------------------------------------------------
+
 Create a pull request to a release branch. (Keywords:PullRequest)
 CanonicalFork - canon
 LocalFork - local
@@ -65,8 +66,8 @@ Release branch - release
 If the 6th step doesn't allow you to create a pull request, then create a pull request on github.
 Go to the commit on github and say create pull request there, (The pull request is from Right to Left
 base fork: canon/reponame, base:release ... head fork:local/reponame compare:SpecificFeature 
----------------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------------
 
 (macOS only) So that your computer remembers your password each time it restarts, open (or create) the ~/.ssh/config file and add these lines to the file:
 bitbucket
@@ -88,3 +89,13 @@ and the repository exists.
 Don't add keys to the individual repository. Add the keys for the account.
 Bottom-left user icon and then go to "Bitbucket settings" -> ssh keys.
 If you add ssh keys by visiting the individual repository you can only clone and when you try to push you get the above error.
+
+---------------------------------------------------------------------------------------------
+
+https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit
+git rebase -i <ParentOfChangesetForWhichAuthorNeedsToBeChanged>
+git commit --amend --author="Author Name <email@address.com>"
+git rebase --continue
+Force push to git repo if thats what you want.
+
+---------------------------------------------------------------------------------------------
