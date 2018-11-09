@@ -68,3 +68,23 @@ base fork: canon/reponame, base:release ... head fork:local/reponame compare:Spe
 ---------------------------------------------------------------------------------------------
 
 
+(macOS only) So that your computer remembers your password each time it restarts, open (or create) the ~/.ssh/config file and add these lines to the file:
+bitbucket
+.ssh/config
+Host *
+  UseKeychain yes
+
+---------------------------------------------------------------------------------------------
+
+How to add ssh keys to bitbucket correctly?
+
+$git push origin master
+repository access denied. access via a deployment key is read-only.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Don't add keys to the individual repository. Add the keys for the account.
+Bottom-left user icon and then go to "Bitbucket settings" -> ssh keys.
+If you add ssh keys by visiting the individual repository you can only clone and when you try to push you get the above error.
