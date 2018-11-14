@@ -11,6 +11,7 @@ Command to show the file name opened using vim
 
 Remove stray (Non printable) characters in vim,
 :%s/[^ -~]//g
+%s/[^ -~]//g
 
 
 ----------------------------------
