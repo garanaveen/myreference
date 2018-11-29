@@ -17,3 +17,11 @@ rot13 ROT13 encoding
 Entire file : "ggg?G"
 Current line : "0g?$"
 One word : Go to beginning of line and say "g?w"
+
+copy/yank to a register,
+Yank/Paste to a register k, <"kyy> and <"kp>
+Paste from system clipboard on Linux, <"+p>
+Paste from system clipboard on Windows, <"*p>
+
+
+
