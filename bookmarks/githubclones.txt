@@ -9,3 +9,7 @@ https://github.com/yegappan/grep
 
 CppCoreGuidelines,
 https://github.com/isocpp/CppCoreGuidelines
+
+
+Qt Sample code,
+https://github.com/voidrealms/
