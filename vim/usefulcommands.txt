@@ -17,3 +17,13 @@ rot13 ROT13 encoding
 Entire file : "ggg?G"
 Current line : "0g?$"
 One word : Go to beginning of line and say "g?w"
+
+copy/yank to a register,
+Yank/Paste to a register k, <"kyy> and <"kp>
+Paste from system clipboard on Linux, <"+p>
+Paste from system clipboard on Windows, <"*p>
+
+
+Edit already recorded macro, (2nd answer)
+Paste the macro contents by <"mp>. Change the contents and copy it to another macro by <"nyy> and n macro would have new sequence
+https://stackoverflow.com/questions/1497958/how-do-i-use-vim-registers

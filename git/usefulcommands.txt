@@ -101,3 +101,8 @@ git rebase --continue
 Force push to git repo if thats what you want.
 
 ---------------------------------------------------------------------------------------------
+
+How to generate a patch?
+git format-patch -3 HEAD #Generate top three commits as patches.
+git format-patch -1 <SHA> # Generate SHA commit as a patch.
+
