@@ -1,4 +1,17 @@
+------------
+
 B-Tree
 https://en.wikipedia.org/wiki/B-tree
 
+------------
+
+Hash tables,
+https://www.youtube.com/watch?v=shs0KM3wKv8
+
+Read about collision handling
+Read how hashtables grow and shrink
+Implement a simple hash table.
+Practice questions
+
+------------
 
