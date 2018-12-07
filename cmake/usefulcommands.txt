@@ -1,0 +1,10 @@
+cmake debug options,
+  --debug-output              = Put cmake in a debug mode.
+  --trace                     = Put cmake in trace mode.
+  -Wdev                       = Enable developer warnings.
+Run "cmake -Wdev --debug-output --trace <sourcedir> 2>&1 |tee cmake.log"
+------------------------------------------------------------------------
+
+  --debug-trycompile          = Do not delete the try_compile build tree.
+
+
