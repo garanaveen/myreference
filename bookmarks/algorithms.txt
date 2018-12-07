@@ -1,3 +1,7 @@
 One-hot encoding,
 https://en.wikipedia.org/wiki/One-hot
 Convert data in to binary value taking either 0 or 1. Basically categorizing the data (to help with say machine learning fitting data?)
+
+Competitive Programmer's Handbook,
+https://cses.fi/book/book.pdf
+
