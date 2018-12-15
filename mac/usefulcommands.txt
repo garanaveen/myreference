@@ -4,3 +4,7 @@ brew cask install iterm2
 https://www.iterm2.com/downloads.html
 https://sourabhbajaj.com/mac-setup/iTerm/
 
+
+New mac user?
+https://www.reddit.com/r/macbook/comments/a6ah0h/tips_for_a_new_macbook_user/
+
