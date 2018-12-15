@@ -1,0 +1,5 @@
+ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers
+https://www.youtube.com/watch?v=ZsHMHukIlJY
+
+Try Tank cloud generator on your codebase!
+

@@ -1,0 +1,6 @@
+redis database,
+https://www.youtube.com/watch?v=OG610oe_kxs
+
+What is redis?
+Its a database which has super low latency with read/write and lives inmemory and is a non-relational database (unlike oracle,mssql)
+It has predefined data structures for most populare usecases which makes the programming a lot easier when compared to other non-relational databases.
