@@ -1,0 +1,2 @@
+What is constexpr?
+https://stackoverflow.com/questions/29844028/explain-constexpr-with-const-charconst
