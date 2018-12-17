@@ -8,3 +8,17 @@ https://sourabhbajaj.com/mac-setup/iTerm/
 New mac user?
 https://www.reddit.com/r/macbook/comments/a6ah0h/tips_for_a_new_macbook_user/
 
+-----------------------------------------------------------------------------
+
+Put your mac to hibernatemode 25 to help with battery drain while in sleep mode,
+sudo pmset -a hibernatemode 25
+
+If you want your mac to go in to hibernation mode from sleep after 60 seconds,
+pmset -g #Check the status.
+sudo pmset -a hibernatemode 25
+sudo pmset -a standby 1
+sudo pmset -a standbydelaylow 60
+sudo pmset -a standbydelayhigh 60
+
+-----------------------------------------------------------------------------
+
