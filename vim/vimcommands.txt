@@ -20,6 +20,7 @@ https://robots.thoughtbot.com/how-to-edit-an-existing-vim-macro
 
 ----------------------------------
 
+batch-edit/bulk-edit,
 Replace multiple files using vim
 :set autowriteall
 :bufdo %s/pattern/replace/ge
