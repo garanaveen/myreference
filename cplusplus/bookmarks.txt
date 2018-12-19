@@ -11,3 +11,18 @@ CppCon 2015: Herb Sutter "Writing Good C++14... By Default"
 https://www.youtube.com/watch?v=hEx5DNLWGgA
 https://github.com/isocpp/CppCoreGuidelines/blob/master/talks/Sutter%20-%20CppCon%202015%20day%202%20plenary%20.pdf
 ----------------------------------------------------------------------------------------------------------
+
+
+Some good C++ articles,
+https://oneraynyday.github.io/dev/2017/11/19/C++-Threads-Waiting-Events/
+https://oneraynyday.github.io/dev/2017/11/19/C++-Threads-Sharing-Data/
+https://oneraynyday.github.io/dev/2017/11/19/C++-Threads-Basics/
+https://oneraynyday.github.io/dev/2017/11/13/Essential-C++-7/
+https://oneraynyday.github.io/ml/2017/10/20/Tensorflow-C++/
+https://oneraynyday.github.io/dev/2017/09/22/Essential-C++-6/
+https://oneraynyday.github.io/dev/2017/09/19/Essential-C++-5/
+https://oneraynyday.github.io/dev/2017/09/10/Essential-C++-4/
+https://oneraynyday.github.io/dev/2017/09/04/C++-Lvalue-Rvalue-Move/
+https://oneraynyday.github.io/dev/2017/08/31/Essential-C++-3/
+https://oneraynyday.github.io/dev/2017/08/29/Essential-C++-2/
+https://oneraynyday.github.io/dev/2017/08/28/Essential-C++-1/
