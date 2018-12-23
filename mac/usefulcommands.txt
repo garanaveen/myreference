@@ -22,3 +22,9 @@ sudo pmset -a standbydelayhigh 60
 
 -----------------------------------------------------------------------------
 
+
+How to mount shares on wdmycloud (macos):
+Go->ConnectToServer->Select mycloud->Provide password details.
+
+--------------------------------------------------------------
+
