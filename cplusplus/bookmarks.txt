@@ -1,6 +1,4 @@
 
-
-
 ----------------------------------------------------------------------------------------------------------
 Playlist from cppcon 2015,
 CppCon 2015: Bjarne Stroustrup “Writing Good C++14”
@@ -11,7 +9,6 @@ CppCon 2015: Herb Sutter "Writing Good C++14... By Default"
 https://www.youtube.com/watch?v=hEx5DNLWGgA
 https://github.com/isocpp/CppCoreGuidelines/blob/master/talks/Sutter%20-%20CppCon%202015%20day%202%20plenary%20.pdf
 ----------------------------------------------------------------------------------------------------------
-
 
 Some good C++ articles,
 https://oneraynyday.github.io/dev/2017/11/19/C++-Threads-Waiting-Events/
@@ -26,3 +23,10 @@ https://oneraynyday.github.io/dev/2017/09/04/C++-Lvalue-Rvalue-Move/
 https://oneraynyday.github.io/dev/2017/08/31/Essential-C++-3/
 https://oneraynyday.github.io/dev/2017/08/29/Essential-C++-2/
 https://oneraynyday.github.io/dev/2017/08/28/Essential-C++-1/
+
+Approaches to C++ Dependency Management, or Why We Built Buckaroo
+https://hackernoon.com/approaches-to-c-dependency-management-or-why-we-built-buckaroo-26049d4646e7
+
+Dependency management 2018
+https://anteru.net/blog/2018/dependency-management-2018/index.html
+
