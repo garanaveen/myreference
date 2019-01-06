@@ -33,6 +33,8 @@ Navigate to the link in vim help
 <Ctrl>+]
 
 ----------------------------------
+Cheat sheet,
+https://vim.rtorr.com/
 
 ----------------------------------
 
