@@ -37,6 +37,8 @@ Cheat sheet,
 https://vim.rtorr.com/
 
 ----------------------------------
+All the right moves
+http://vim.wikia.com/wiki/All_the_right_moves
 
 ----------------------------------
 
