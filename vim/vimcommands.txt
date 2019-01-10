@@ -6,17 +6,11 @@ gf
 Command to show the file name opened using vim
 :args
 
-
 ----------------------------------
 
 Remove stray (Non printable) characters in vim,
 :%s/[^ -~]//g
 %s/[^ -~]//g
-
-
-----------------------------------
-How to edit an existing vim macro,
-https://robots.thoughtbot.com/how-to-edit-an-existing-vim-macro
 
 ----------------------------------
 
@@ -31,15 +25,4 @@ Explore ~/.viminfo
 ----------------------------------
 Navigate to the link in vim help
 <Ctrl>+]
-
-----------------------------------
-Cheat sheet,
-https://vim.rtorr.com/
-
-----------------------------------
-All the right moves
-http://vim.wikia.com/wiki/All_the_right_moves
-
-----------------------------------
-
 
