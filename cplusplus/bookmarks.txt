@@ -30,3 +30,5 @@ https://hackernoon.com/approaches-to-c-dependency-management-or-why-we-built-buc
 Dependency management 2018
 https://anteru.net/blog/2018/dependency-management-2018/index.html
 
+Diamond inheritance can be solved using virtual inheritance,
+https://en.wikipedia.org/wiki/Virtual_inheritance

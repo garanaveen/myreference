@@ -1,0 +1,17 @@
+2019 Holiday Schedule
+01 January 2019  New Year's Day
+21 January 2019  Martin Luther King Day
+19 April 2019 Good Friday
+27 May 2019 Memorial Day
+04 July 2019 Independence Day
+05 July 2019 Non-Recurring Holiday
+02 September 2019 Labor Day
+28 November 2019 Thanksgiving Day
+29 November 2019 Day after Thanksgiving
+23 December 2019 Non-Recurring Holiday
+24 December 2019 Christmas Eve Day
+25 December 2019 Christmas Day
+26 December 2019 Christmas Shutdown Day
+27 December 2019 Christmas Shutdown Day
+30 December 2019 Christmas Shutdown Day
+31 December 2019 New Year's Eve Day
