@@ -1,0 +1,18 @@
+Using the leader key,
+http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+
+----------------------------------
+How to edit an existing vim macro,
+https://robots.thoughtbot.com/how-to-edit-an-existing-vim-macro
+
+----------------------------------
+Cheat sheet,
+https://vim.rtorr.com/
+
+----------------------------------
+All the right moves
+http://vim.wikia.com/wiki/All_the_right_moves
+
+----------------------------------
+
+
