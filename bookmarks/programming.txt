@@ -1,0 +1,2 @@
+"Little book of Semaphores" by Green Tea Press,
+http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
