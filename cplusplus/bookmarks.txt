@@ -32,3 +32,9 @@ https://anteru.net/blog/2018/dependency-management-2018/index.html
 
 Diamond inheritance can be solved using virtual inheritance,
 https://en.wikipedia.org/wiki/Virtual_inheritance
+
+
+C++11 youtube videos for a quick introduction,
+https://boqian.weebly.com/c-programming.html
+https://www.youtube.com/playlist?list=PL5jc9xFGsL8FWtnZBeTqZBbniyw0uHyaH
+
