@@ -1,2 +1,7 @@
 What is constexpr?
 https://stackoverflow.com/questions/29844028/explain-constexpr-with-const-charconst
+
+Return reference to unique_ptr in google mock,
+https://stackoverflow.com/questions/48058879/return-reference-to-unique-ptr-in-google-mock
+
+

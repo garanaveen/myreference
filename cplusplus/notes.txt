@@ -3,3 +3,9 @@ shared_ptr, make_shared, get, use_count
 unique_ptr, move, reset, release - Use when shared_ptr is unnecessary to reduce the overhead.
 
 weak_ptr, isexpired, lock(),  has no ownership of the object. Use it when you just want to access the object and no have to deal with memory management of it.
+
+for loop for iterating the containers.
+auto
+move constructor
+lvalreference and rvalreference
+
