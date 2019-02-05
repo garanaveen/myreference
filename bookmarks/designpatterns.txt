@@ -26,3 +26,8 @@ General link for Designpatterns for C++
 https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
 
 
+
+MVC,
+https://softwareengineering.stackexchange.com/questions/105352/why-should-i-use-an-mvc-pattern
+https://martinfowler.com/eaaDev/uiArchs.html
+
