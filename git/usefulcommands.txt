@@ -114,3 +114,14 @@ For this, you first need to generate rev-list and give that as a parameter.
 
 ----------------------
 
+
+
+How to checkout/revert specific files to specific revision?
+https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
+git checkout c5f567 -- file1/to/restore file2/to/restore
+
+
+git - How to list all the files in a commit?
+git diff-tree --no-commit-id --name-only -r <sha>
+hg st <sha> -n
+
