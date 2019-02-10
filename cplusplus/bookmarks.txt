@@ -40,3 +40,8 @@ C++11 youtube videos for a quick introduction,
 https://boqian.weebly.com/c-programming.html
 https://www.youtube.com/playlist?list=PL5jc9xFGsL8FWtnZBeTqZBbniyw0uHyaH
 
+General C++ videos by TheChernoProject,
+https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+
+
+
