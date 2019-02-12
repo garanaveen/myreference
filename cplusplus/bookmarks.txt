@@ -45,3 +45,8 @@ https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
 
 
 
+
+https://blog.qt.io/blog/2018/10/12/modern-qt-development-top-10-tools-using/
+https://www.kdab.com/cpp-modernization-brochure/
+
+
