@@ -17,3 +17,6 @@ http://vim.wikia.com/wiki/All_the_right_moves
 
 netrw and NERDtree
 https://shapeshed.com/vim-netrw/
+
+vim tutorials for beginners,
+https://habr.com/en/post/440130/
