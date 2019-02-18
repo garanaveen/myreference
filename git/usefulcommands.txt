@@ -125,3 +125,12 @@ git - How to list all the files in a commit?
 git diff-tree --no-commit-id --name-only -r <sha>
 hg st <sha> -n
 
+
+If you just want to review the changes and discard just indentation changes,
+git show --ignore-all-space <sha>
+
+Check for all the authors who contributed a directory in git,
+https://stackoverflow.com/questions/24807930/git-list-all-authors-of-a-folder-of-files
+git shortlog -n -s -- myfolder
+git log --pretty=format:"%an%x09" myfolder | sort | uniq
+
