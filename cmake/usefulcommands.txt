@@ -8,3 +8,7 @@ Run "cmake -Wdev --debug-output --trace <sourcedir> 2>&1 |tee cmake.log"
   --debug-trycompile          = Do not delete the try_compile build tree.
 
 
+
+How to enable C++11 in cmake,
+add_definitions(-std=c++11)
+
