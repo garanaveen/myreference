@@ -15,3 +15,8 @@ fi
 
 
 ------------------------------------------------------
+How to open editor with the current command on linux terminal? (TODO : I couldn't make this work. Need to figure out the right way to do it!)
+       edit-and-execute-command (C-xC-e)
+              Invoke an editor on the current command line, and execute the result as shell commands.  Bash attempts to invoke $VISUAL, $EDITOR, and emacs as the editor, in that order.
+
+
