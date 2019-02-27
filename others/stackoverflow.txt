@@ -1,0 +1,25 @@
+How to use QProcess::startDetached with setStandardOutputFile()
+
+I have a process which is supposed to start another process and am using QProcess::startDetached() as there is no relationship to the forked process. Now I am trying to figure out a way to redirect the stdout to a file. 
+When I use setStandardOutputFile() with QProcess::startDetached the redirection to file doesn't work. 
+While setStandardOutputFile() works fine with QProcess::start().
+
+I thought since QProcess::startDetached() is the static method, it might not work with setStandardOutputFile() but I saw this statement in QProcess documentation,
+
+---------
+Only the following property setters are supported by startDetached():
+setArguments()
+setCreateProcessArgumentsModifier()
+setStandardOutputFile()
+...
+---------
+
+Trying to understand what this statement means in the documentation.
+
+Gist of code,
+void ForkProcess()
+{
+QProcess processObj;
+processObj.setStandardOutputFile("/tmp/stdoutfile.txt");
+processObj.startDetached(processWithArguments);
+}
