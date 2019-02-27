@@ -6,3 +6,6 @@ https://wiki.qt.io/New_Signal_Slot_Syntax
 
 Crash course in Qt for C++ developers, Part 3
 https://www.cleanqt.io/blog/crash-course-in-qt-for-c%2B%2B-developers,-part-3
+
+Container Classes,
+https://doc.qt.io/qt-5/containers.html
