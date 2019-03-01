@@ -1,0 +1,11 @@
+Install exuberant-ctags 
+On linux,
+sudo apt-get install exuberant-ctags
+On mac,
+brew install ctags
+------------------------------------
+Generate ctags by being in the root directory,
+ctags --recurse .
+Add --recurse=yes to ~/.ctags if needed
+Add --exclude to ~/.ctags if needed
+

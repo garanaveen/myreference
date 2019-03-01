@@ -1,0 +1,10 @@
+At the root directory of the source-code create a cscope.files
+find . -name "*.cpp" > cscope.files
+find . -name "*.h" > cscope.files
+
+Generate cscope database,
+cscope -b -q -k
+This should generate 3 files (cscope.out, cscope.in.out, and cscope.po.out) 
+
+Launch cscope,
+cscope 

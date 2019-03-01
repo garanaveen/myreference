@@ -1,0 +1,3 @@
+Using Cscope on large projects,
+http://cscope.sourceforge.net/large_projects.html
+http://cscope.sourceforge.net/cscope_vim_tutorial.html

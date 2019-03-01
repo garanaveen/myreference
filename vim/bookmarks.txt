@@ -23,3 +23,6 @@ https://habr.com/en/post/440130/
 
 vim setup as IDE for C++ 
 https://www.reddit.com/r/vim/comments/5iz4cw/making_a_vim_setup_for_cc/
+
+Find in files within Vim,
+https://vim.fandom.com/wiki/Find_in_files_within_Vim
