@@ -1,0 +1,15 @@
+Disable flashing of terminal when tab is pressed with invalid autocompletion
+i.e. Disable visual bell.
+https://superuser.com/questions/201192/how-to-disable-flashing-terminal-in-mac-os/201193
+
+
+Macbook connected to external display configuration.
+----------------------------------------------------
+Macbook should be actively charging for it to not go to sleep when the lid is closed.
+Connect external display via hdmi adapter
+Connect external mouse and keyboard using usb hub, and usb adapter.
+SystemPreferences->Keyboard->Add MicrosoftKeyboard
+SystemPreferences->Keyboard->ModifierKeys->Switch Alt and Command keys for microsoft keyboard.
+SystemPreferences->Mouse -> Uncheck Scrolling : natural direction
+
+
