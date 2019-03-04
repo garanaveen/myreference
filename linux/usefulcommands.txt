@@ -1,2 +1,28 @@
 grep -f patternfile.txt
 ack "$(< pa)"
+
+------------------------------------
+find n most frequent words in a file
+https://unix.stackexchange.com/questions/41479/find-n-most-frequent-words-in-a-file
+
+tr -c '[:alnum:]' '[\n*]' < test.txt | sort | uniq -c | sort -nr | head  -10
+
+tr -c '[:alnum:]' '[\n*]' < test.txt |
+fgrep -v -w -f /usr/share/groff/current/eign |
+sort | uniq -c | sort -nr | head  -10
+
+Using awk in .bashrc,
+function wordfrequency() {
+  awk '
+     BEGIN { FS="[^a-zA-Z]+" } {
+         for (i=1; i<=NF; i++) {
+             word = tolower($i)
+             words[word]++
+         }
+     }
+     END {
+         for (w in words)
+              printf("%3d %s\n", words[w], w)
+     } ' | sort -rn
+}
+------------------------------------
