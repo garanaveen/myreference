@@ -1,0 +1,15 @@
+cscope quick start commands,
+----------
+Parsing for C++ files,
+#cscope.files would contain the list of all the files to be parsed,
+find . -name \*.h -print -o -name \*.cpp -print > cscope.files
+cscope -b -q -k
+----------
+Launching,
+cscope -d
+----------
+Type ? for help
+----------
+Navigating through history,
+Ctrl+b and Ctrl+f
+----------
