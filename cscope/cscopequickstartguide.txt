@@ -1,5 +1,9 @@
 cscope quick start commands,
 ----------
+Put cscope_maps.vim file in $HOME/.vim/plugins/ directory for vim/cscope compatibility,
+http://cscope.sourceforge.net/cscope_vim_tutorial.html
+http://cscope.sourceforge.net/cscope_maps.vim
+----------
 Parsing for C++ files,
 #cscope.files would contain the list of all the files to be parsed,
 find . -name \*.h -print -o -name \*.cpp -print > cscope.files
