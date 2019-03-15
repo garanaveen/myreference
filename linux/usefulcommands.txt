@@ -26,3 +26,11 @@ function wordfrequency() {
      } ' | sort -rn
 }
 ------------------------------------
+
+
+Explore the contents of iso,
+mkdir /tmp/iso/
+sudo mount -o loop imagefile.iso /tmp/iso
+cd /tmp/iso
+
+

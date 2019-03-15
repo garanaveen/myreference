@@ -1,3 +1,6 @@
 Using Cscope on large projects,
 http://cscope.sourceforge.net/large_projects.html
 http://cscope.sourceforge.net/cscope_vim_tutorial.html
+
+Manpage for vim,
+http://vimdoc.sourceforge.net/htmldoc/if_cscop.html

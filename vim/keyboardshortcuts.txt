@@ -1,0 +1,6 @@
+
+vim pageup pagedown shortcuts,
+[Control][b] - Move back one full screen
+[Control][f] - Move forward one full screen
+[Control][d] - Move forward 1/2 screen
+[Control][u] - Move back (up) 1/2 screen
