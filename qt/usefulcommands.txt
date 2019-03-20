@@ -20,3 +20,8 @@ How to sleep?
 #include <QThread>
 QThread::sleep(3);
 -------------
+
+Printing a pointer,
+MyClass *ptr = new MyClass();
+QString ptrStr = QString("0x%1").arg((quintptr)ptr, 
+                    QT_POINTER_SIZE * 2, 16, QChar('0'));
