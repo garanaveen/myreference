@@ -1,0 +1,3 @@
+How to verify keys,
+https://www.getmonero.org/pl/resources/user-guides/verification-allos-advanced.html
+
