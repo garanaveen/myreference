@@ -20,7 +20,7 @@ How to open editor with the current command on linux terminal? (TODO : I couldn'
               Invoke an editor on the current command line, and execute the result as shell commands.  Bash attempts to invoke $VISUAL, $EDITOR, and emacs as the editor, in that order.
 
 ------------------------------------------------------
-# Add an "alert" alias for long running commands.  Use like so:
+# Add an "alert" alias for long running commands.  Use like so: (alarm, windowshade)
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
