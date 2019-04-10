@@ -31,3 +31,7 @@ https://stackoverflow.com/questions/1497958/how-do-i-use-vim-registers
 
 Talk on going mouseless with Vim, Tmux, and Hotkeys
 https://youtu.be/E-ZbrtoSuzw
+
+Reverse the order of lines,
+:g/^/m0
+
