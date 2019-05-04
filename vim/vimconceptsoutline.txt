@@ -1,0 +1,98 @@
+Here are some Vim Topic roughly put into novice, intermediate, and advanced categories. Purely based on my opinions of course.
+
+Vim Topics
+
+
+Novice:
+
+Basic movement commands. See :h motion & :h usr_03.txt
+
+Creating basic mappings. See :h :map & :h usr_40.txt.
+
+Knowing Vim's operators. See :h operator
+
+Using letter registers. See :h registers
+
+Using letter marks. See :h mark-motions
+
+Setting up a vimrc file. See :h usr_05.txt. (pro-tip: use ~/.vim/vimrc instead of ~/.vimrc)
+
+Using :help. See :h and :h helphelp.txt
+
+Basic searching and substitution. See :h /, :h :s, :h usr_10.txt, :h usr_27.txt, :h patter.txt
+
+Using * to start a search. See :h *
+
+Intermediate:
+
+Using buffers. See :h buffers, :h :b, :h :ls
+
+Using windows. See :h windows, :h :sp, :h CTRL-W
+
+Using quick fix/location lists. See :h quickfix, :h :copen, :h :cdo, :h :cnext
+
+Using :grep & :make. See :h :grep, :h :vimgrep, :h :make, :h 'makeprg', :h :compiler, :h quickfix
+
+Using repeat commands. e.g. ., //, &, @:. See :h ., :h /, :h &, :h @:, :h repeating.
+
+Recording/playing macros. See :h recording, :h repeat, :h @
+
+Using non-letter marks. See :h marks
+
+Non-letter registers. See :h registers
+
+Using buffer-local mappings. :h :map-local
+
+Expression resister and <c-r>. See :h i_CTRL-R, :h quote=
+
+Understanding FileTypes. See :h filetypes, :h 'filetype'
+
+Using command-line window. See :h cmdwin, :h q:
+
+Acting on pattern via gn motion (use .). See :h gn
+
+Searching via [i/:isearch/.. and gd/gd
+
+Understand (line/character/block)-wise. See :h linewise
+
+Local options. See :h local-options
+
+Insert completion. See :h ins-completion
+
+Argument list. See :h argument-list
+
+Using netrw. See :h netrw, :h :Explore
+
+Advanced:
+
+Tags and cscope. See :h tags, :h cscope
+
+Diffing between files. See :h diff
+
+Using :autocmd and :augroup. See :h autocmd.txt
+
+Learning vimscript. See :h eval.txt, :h functions
+
+Creating complex mappings via <c-r> and <expr>. See :h :map-expression, :h quote=, :h c_CTRL-r
+
+Using more advanced regex syntax, e.g. zero-width. See: :h pattern.txt, :h /zero-width, :h \zs, :h /\@=
+
+Using sub-replace-expression. :h sub-replace-expresion
+
+Learning more commands, e.g. :g, :norm, :t, :d, :pu.
+
+Using ranges. See :h :range
+
+Creating operators. See :h g@
+
+Using :cdo/:bufdo/:argdo/:windo/:tabdo. See :h :cdo.
+
+Utilizing filetype plugins. See :h ftplugin
+
+Writing plugins. See :h write-plugin, :h <Plug>
+
+Folding. See :h folding
+
+Creating syntax files. See :h syntax
+
+I am tired of listing out Vim topics. Please read the most/all of help manual (seriously!) or at least :h quickref. Using :help/:helpgrep will level up your Vim workflow more than any blog post.

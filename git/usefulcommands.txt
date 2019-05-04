@@ -134,3 +134,7 @@ https://stackoverflow.com/questions/24807930/git-list-all-authors-of-a-folder-of
 git shortlog -n -s -- myfolder
 git log --pretty=format:"%an%x09" myfolder | sort | uniq
 
+
+git log for deleted file when you know the name of the file.
+git log --all --full-history -- **/thefile.*
+

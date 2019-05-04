@@ -6,3 +6,5 @@ Path for spark-shell
 
 Transfering files to aws instance,
 scp -i <pem-key> Scala-and-Spark-Bootcamp-master.zip ubuntu@ec2-54-219-149-40.us-west-1.compute.amazonaws.com:/home/ubuntu/data/
+
+

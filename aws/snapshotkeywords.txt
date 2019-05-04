@@ -1,0 +1,18 @@
+Design-Patterns-GoF
+Head-First-Design-Patterns-Cpp
+http://www.alexeyshmalko.com/2014/using-vim-as-c-cpp-ide/
+
+
+crontab -e
+ 24 #Reboot just before midnight,                                                                                 
+ 25 55 23 * * * sudo reboot                                                                                       
+ 26 #Kill all python processes and rerun arbitrage at 0th minute of every hour.                                   
+ 27 42 * * * *  killall python ; cd arbitrage && /usr/bin/python /home/ubuntu/arbitrage/arbitrage --loop --polltime 30s
+
+
+IMDB.py
+https://github.com/jayrambhia
+
+
+scaladownloads/spark-2.3.1-bin-hadoop2.7.tgz
+

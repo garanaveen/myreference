@@ -9,3 +9,6 @@ https://www.cleanqt.io/blog/crash-course-in-qt-for-c%2B%2B-developers,-part-3
 
 Container Classes,
 https://doc.qt.io/qt-5/containers.html
+
+Qt “private slots:” what is this?
+https://stackoverflow.com/questions/9147636/qt-private-slots-what-is-this

@@ -1,0 +1,2 @@
+BitLocker command,
+manage-bde
