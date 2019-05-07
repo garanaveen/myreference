@@ -1,5 +1,6 @@
 Disable flashing of terminal when tab is pressed with invalid autocompletion
 i.e. Disable visual bell.
+Terminal->Preferences->Profile->Advanced (Disable visual bell and audio bell)
 https://superuser.com/questions/201192/how-to-disable-flashing-terminal-in-mac-os/201193
 
 
