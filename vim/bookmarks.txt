@@ -32,3 +32,7 @@ A good example of .vimrc file,
 https://github.com/jdavis/dotfiles/blob/master/.vimrc
 https://joshldavis.com/2015/08/22/self-documenting-vim-mappings/
 
+
+Swapping/Mapping CAPSLock to ESC key,
+https://github.com/Tanath/dotfiles/blob/master/reference/misctweaks.md
+https://stackoverflow.com/questions/2176532/how-to-map-caps-lock-key-in-vim#2177240
