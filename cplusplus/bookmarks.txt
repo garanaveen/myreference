@@ -50,3 +50,7 @@ https://blog.qt.io/blog/2018/10/12/modern-qt-development-top-10-tools-using/
 https://www.kdab.com/cpp-modernization-brochure/
 
 
+PIMPL, Rule of Zero and Scott Meyers
+https://oliora.github.io/2015/12/29/pimpl-and-rule-of-zero.html#classic-pimpl
+
+
