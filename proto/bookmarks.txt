@@ -1,0 +1,2 @@
+Why proto over json?
+https://codeclimate.com/blog/choose-protocol-buffers/

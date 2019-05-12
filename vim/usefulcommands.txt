@@ -35,3 +35,6 @@ https://youtu.be/E-ZbrtoSuzw
 Reverse the order of lines,
 :g/^/m0
 
+
+vim : How to insert esc/Esc/ESC character while setting a command in to a register?
+In vim, Press control-v then escape to enter <Esc> key
