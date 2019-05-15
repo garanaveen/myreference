@@ -1,0 +1,2 @@
+Remove unicode (non-ascii) characters from a file,
+iconv -c -f utf-8 -t ascii file.txt
