@@ -1,2 +1,5 @@
 "Little book of Semaphores" by Green Tea Press,
 http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
+
+OOPS - SOLID Principles
+https://en.wikipedia.org/wiki/SOLID
