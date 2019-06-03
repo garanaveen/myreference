@@ -69,3 +69,13 @@ echo "HelloWorld.123" | grep -o "1.*$"
 find -L . -maxdepth 3 -name bashrcchanges.txt
 
 ------------------------------------------------------------------------------
+
+
+How to ssh in to mycloud mirror?
+ssh mycloud 
+Command "arp -a" will list all the ipaddress.
+arp -a
+Try http://ipaddress for all ipaddresses.
+ssh -oHostKeyAlgorithms=+ssh-dss sshd@<ipaddress>
+ping wdmycloudmirror.local
+
