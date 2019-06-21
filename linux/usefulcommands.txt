@@ -34,3 +34,8 @@ sudo mount -o loop imagefile.iso /tmp/iso
 cd /tmp/iso
 
 
+
+find files larger than a specific size. (Keywords : large files)
+find . -type f -size +4G
+find . -type f -size +100M
+

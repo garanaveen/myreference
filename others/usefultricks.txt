@@ -1,0 +1,3 @@
+youtube video from a specific time,
+Convert 5:50 to 5*60+50=350 (Append   ?t=350   )
+https://youtu.be/Jr1UuAYNKGo?t=350
