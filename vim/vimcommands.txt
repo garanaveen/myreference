@@ -26,3 +26,8 @@ Explore ~/.viminfo
 Navigate to the link in vim help
 <Ctrl>+]
 
+Delete all lines containing a pattern, (Use ! for negation)
+:g/JDLogger/d
+:g!/^\s*"/d
+https://vim.fandom.com/wiki/Delete_all_lines_containing_a_pattern
+
