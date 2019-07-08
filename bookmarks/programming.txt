@@ -3,3 +3,6 @@ http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
 
 OOPS - SOLID Principles
 https://en.wikipedia.org/wiki/SOLID
+
+ReadLater,
+https://salfreudenberg.wordpress.com/2013/06/08/pair-programming-and-expertise/
