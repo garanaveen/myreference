@@ -12,3 +12,6 @@ https://doc.qt.io/qt-5/containers.html
 
 Qt “private slots:” what is this?
 https://stackoverflow.com/questions/9147636/qt-private-slots-what-is-this
+
+How Qt Signals and Slots Work - Part 2 - Qt5 New Syntax
+https://woboq.com/blog/how-qt-signals-slots-work-part2-qt5.html
