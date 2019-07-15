@@ -25,17 +25,27 @@ function wordfrequency() {
               printf("%3d %s\n", words[w], w)
      } ' | sort -rn
 }
-------------------------------------
 
+------------------------------------
 
 Explore the contents of iso,
 mkdir /tmp/iso/
 sudo mount -o loop imagefile.iso /tmp/iso
 cd /tmp/iso
 
-
+------------------------------------
 
 find files larger than a specific size. (Keywords : large files)
 find . -type f -size +4G
 find . -type f -size +100M
+
+------------------------------------
+
+Say you want to rename just part of a filename. Instead of typing out mv /path/to/file.txt /path/to/file.xml, you could just run:
+mv /path/to/file.{txt,xml}
+Others:
+sudo cp /etc/rc.conf{,-old} “To backup the file.
+sudo mv /etc/rc.conf{-old,} “To revert to original.
+
+-----------------------
 

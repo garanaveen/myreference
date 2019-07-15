@@ -38,3 +38,10 @@ Reverse the order of lines,
 
 vim : How to insert esc/Esc/ESC character while setting a command in to a register?
 In vim, Press control-v then escape to enter <Esc> key
+
+-----------------------
+
+Search and Replace in multiple files using vim,
+http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers
+
+-----------------------
