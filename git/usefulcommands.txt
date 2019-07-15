@@ -114,8 +114,6 @@ For this, you first need to generate rev-list and give that as a parameter.
 
 ----------------------
 
-
-
 How to checkout/revert specific files to specific revision?
 https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
 git checkout c5f567 -- file1/to/restore file2/to/restore
@@ -137,4 +135,19 @@ git log --pretty=format:"%an%x09" myfolder | sort | uniq
 
 git log for deleted file when you know the name of the file.
 git log --all --full-history -- **/thefile.*
+
+
+Search for introduced/deleted search patterns in the history,
+git log -S <SearchPattern> <Path/To/File>
+This is somewhat related to "hg grep" in mercurial
+
+
+https://git-scm.com/book/en/v2/Git-Tools-Searching
+To find the history of a function in a specific file,
+git log -L :function_name:filename.c
+To find when a line was originally introduced
+git log -S ZLIB_BUF_MAX --oneline
+To just grep in the working directory
+git grep -n <SearchPattern>
+git grep --count gmtime_r
 

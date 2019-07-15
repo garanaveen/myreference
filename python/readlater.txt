@@ -1,1 +1,4 @@
 What are generators in python?
+
+
+https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make
