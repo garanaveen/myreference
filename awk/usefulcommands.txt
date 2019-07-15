@@ -1,0 +1,5 @@
+
+Remove duplicate lines,
+awk '!x[$0]++' file > file.new
+
+

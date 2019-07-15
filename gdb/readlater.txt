@@ -1,0 +1,8 @@
+gdb for pthread debug
+http://www.youtube.com/watch?v=oS-CrJNpc54
+gdb core dump analysis for beginners
+http://www.youtube.com/watch?v=mlfz6c9frSU
+gdb tutorial how to start with GDB
+http://www.youtube.com/watch?v=-Jnvwu9iEyY
+
+

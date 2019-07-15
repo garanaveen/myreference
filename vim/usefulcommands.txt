@@ -45,3 +45,35 @@ Search and Replace in multiple files using vim,
 http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers
 
 -----------------------
+
+How to ignore white spaces in vimdiff, (There isn’t any direct option for it though)
+http://vim.wikia.com/wiki/Ignore_white_space_in_vimdiff
+vimdiff -c 'set diffopt+=iwhite' …
+
+How to edit all the opened files in vim. Lets say all the opened files needs replacement of ServiceCenter with DiagnosticsCenter.
+$vim `find . -name “*cpp”`
+:bufdo %s/ServiceCenter/DiagnosticsCenter/ge |updat 
+This will execute the substitute command in all the opened buffers(i.e. files) and update(write/save) the buffer to disk.
+Link : http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers
+Delete all lines containing a pattern
+http://vim.wikia.com/wiki/Delete_all_lines_containing_a_pattern
+:g/<search-pattern>/d
+
+-----------------------
+
+Set the terminal keymapping to VIM.
+set -o vi
+
+Search and replace in multiple files using vim,
+http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers
+Typical sequence of commands,
+Search for all the files containg IncorrectName and replace it with CorrectName,
+vim `grep -rn IncorrectName * -l`
+:argdo %s/IncorrectName/CorrectName/ge | update
+This command will do the replacements in all the files currently opened by vim and updates them too. So make sure to commit changes before you make major changes!
+-----------------------
+
+Remove duplicate lines,
+awk '!x[$0]++' file > file.new
+
+
