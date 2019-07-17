@@ -24,3 +24,10 @@ How to open editor with the current command on linux terminal? (TODO : I couldn'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
+
+Print a file skipping first x lines in bash,
+$ tail -n +<N+1> <filename>
+< filename, excluding first N lines. >
+
+$ tail -n +11 /tmp/myfile
+< /tmp/myfile, starting at line 11, or skipping the first 10 lines. >
