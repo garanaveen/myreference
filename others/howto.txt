@@ -3,5 +3,9 @@ Network->WLAN->SetupWizard
 Choose network from the list and for entering password just keep pressing uparrow and ok button until the required letter is reached.
 Tried to do WiFi-Direct and couldn't succeed.
 
+Print Network Config so that you can add a printer with its ipaddress,
+Menu -> MachineInfo -> Network Config -> Print
+Once you know the ipaddress, open "Printers & Scanners" on mac and choose ipaddress. Enter the ipaddress and the printer should become available for printing from mac.
+
 chrome://devices
 https://www.google.com/cloudprint
