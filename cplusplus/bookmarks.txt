@@ -54,3 +54,7 @@ PIMPL, Rule of Zero and Scott Meyers
 https://oliora.github.io/2015/12/29/pimpl-and-rule-of-zero.html#classic-pimpl
 
 
+20 ABI/abi (Application Binary Interface) breaking changes every C++ developer should know
+https://www.acodersjourney.com/20-abi-breaking-changes/
+
+
