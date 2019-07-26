@@ -36,3 +36,6 @@ How to select columns in vim?
 v -> visual mode
 Ctrl+v -> Visual Block
 When you are in visual block, you can select columns using arrow/hjkl keys. Once selected you can execute any command.
+
+How to see the contents of a register 'a'?
+:echo @a
