@@ -37,5 +37,10 @@ v -> visual mode
 Ctrl+v -> Visual Block
 When you are in visual block, you can select columns using arrow/hjkl keys. Once selected you can execute any command.
 
-How to see the contents of a register 'a'?
+How to see the contents of a recorded register 'a'?
 :echo @a
+
+How to edit my recorded macro?
+https://vi.stackexchange.com/questions/759/how-can-i-view-and-edit-my-recording-i-e-recorded-macro
+All that q does is "clear this register, and append any keystroke to it", and all that @ does is "evaluate a register as commands".
+There is nothing "different" about a macro, you can invoke any register as a macro.
