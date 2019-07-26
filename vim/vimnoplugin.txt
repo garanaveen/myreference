@@ -1,0 +1,11 @@
+How to Do 90% of What Plugins Do (With Just Vim)
+
+Finding files by being inside vim,
+set path+=**
+** means search for directories recursively
+Inside vim, try 
+:find filename.txt
+:find pattern
+:find partial-name-followed-by-tab-for-autofill
+
+
