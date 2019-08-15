@@ -1,0 +1,15 @@
+Deleting elements from STL set while iterating,
+https://stackoverflow.com/questions/2874441/deleting-elements-from-stl-set-while-iterating
+When you delete items while iterating them, it would invalidate the iterator and would fail when you try to move to the next item.
+
+This was solved in C++ by making erase return the iterator to the next item.
+
+for (auto it = numbers.begin(); it != numbers.end(); ) {
+    if (*it % 2 == 0) {
+        it = numbers.erase(it); //Here you move to next iterator.
+    }
+    else {
+        ++it;
+    }
+}
+
