@@ -1,0 +1,5 @@
+gpupdate /force - Reapplies all policy settings. By default, only policy settings that have changed are applied.
+
+This needs to be run every 2 weeks on your laptop so that you are not kicked out of work network.
+
+
