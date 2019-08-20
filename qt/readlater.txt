@@ -15,3 +15,6 @@ https://stackoverflow.com/questions/9147636/qt-private-slots-what-is-this
 
 How Qt Signals and Slots Work - Part 2 - Qt5 New Syntax
 https://woboq.com/blog/how-qt-signals-slots-work-part2-qt5.html
+
+Copied or Not Copied: Arguments in Signal-Slot Connections?
+https://www.embeddeduse.com/2013/06/29/copied-or-not-copied-arguments-signals-slots/
