@@ -18,3 +18,9 @@ https://woboq.com/blog/how-qt-signals-slots-work-part2-qt5.html
 
 Copied or Not Copied: Arguments in Signal-Slot Connections?
 https://www.embeddeduse.com/2013/06/29/copied-or-not-copied-arguments-signals-slots/
+
+QAtomicInt,
+Read through the Qt man page of QAtomicInt
+fetchAndAddRelaxed ( int valueToAdd )
+fetchAndStoreOrdered ( int newValue )
+What is the difference between testAndSetOrdered and testAndSetRelaxed? What should be used when?

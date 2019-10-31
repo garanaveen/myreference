@@ -108,10 +108,12 @@ git format-patch -1 <SHA> # Generate SHA commit as a patch.
 
 ----------------------
 
+
 TODO : Figure out how to do "git grep <SearchPattern> <FileName>"
 https://stackoverflow.com/questions/2928584/how-to-grep-search-committed-code-in-the-git-history
 For this, you first need to generate rev-list and give that as a parameter.
-
+git grep <searchpattern> $(git rev-list --all)
+Mercurial equivalent of "hg grep"
 ----------------------
 
 How to checkout/revert specific files to specific revision?
