@@ -23,3 +23,8 @@ Move a directory from one repo to another,
 http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/
 
 -------------------------------------------------------------------------------------
+
+Some neat bash tricks,
+https://github.com/nibalizer/bash-tricks
+
+-------------------------------------------------------------------------------------
