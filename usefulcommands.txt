@@ -77,5 +77,7 @@ Command "arp -a" will list all the ipaddress.
 arp -a
 Try http://ipaddress for all ipaddresses.
 ssh -oHostKeyAlgorithms=+ssh-dss sshd@<ipaddress>
+scp -oHostKeyAlgorithms=+ssh-dss 500M-File.img sshd@192.168.1.2:/mnt/HD/HD_a2/NaveenGara/tmp
+ping wdmycloudmirror.local (If this doesn't repoond, check if the wifi you are connected to is same as the wired connection of the wdmycloud.)
 ping wdmycloudmirror.local
 
