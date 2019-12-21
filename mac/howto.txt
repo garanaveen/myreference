@@ -1,0 +1,8 @@
+How to convert png to pdf in mac?
+How to convert jpg/jpeg to pdf in mac?
+1.Open PNG file
+2.Click the tool on topleft corner to show the thumbnails
+3.Add Other png files you want to be a part of pdf.
+4.File->Print->SaveAsPdf
+This probably works for any file that that be opened using preview I guess.
+
