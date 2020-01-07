@@ -1,0 +1,36 @@
+CppCon 2019 Presentations
+
+Hello fellow C++ developers,
+ 
+Way back in September of 2019, 4 developers went to CppCon 2019 to see what was new in C++ and learn more interesting things we can do with C++.  We attended many presentations over the course of a week and came back with several different insights as to what we learned and what is coming soon to C++.  This email is a guide to some of the best presentations we saw at CppCon 2019:
+ 
+Recommended for everyone:
+•	Naming is Hard:  Let's Do Better - Kate Gregory
+•	What is C++? - Titus Winters, Chandler Carruth
+•	Non-conforming C++:  The Secrets the Committee is Hiding From You - Miro Knejp
+ 
+C++14, C++17, C++20:
+•	The Best Parts of C++ - Jason Turner
+•	Better Code with C++ Attributes - Ben Saks
+•	Programming with C++ Modules: Guide for the Working - Gabriel Dos Reis
+•	An Overview of Standard Ranges – Tristan Brindle
+•	Range Algorithms, Views, and Actions: A Comprehensive Guide – Dvir Yitzchaki
+ 
+Basics:
+•	Back to Basics: Const as a Promise – Dan Saks
+•	Back to Basics: Understanding Value Categories – Ben Saks
+•	Back to Basics: RAII and the Rule of Zero – Arthur O’Dwyer
+•	Back to Basics: Smart Pointers – Arthur O’Dwyer
+•	Back to Basics: Lambdas from Scratch – Arthur O’Dwyer
+ 
+Interesting:
+•	De-fragmenting C++: Making Exceptions and RTTI More Affordable and Usable - Herb Sutter
+•	C++ Code Smells – Jason Turner
+•	Polymorphism != Virtual: Easy, Flexible Runtime Polymorphism Without Inheritance - John Bandela
+o	First ~20 minutes is good, then falls into a sales pitch
+ 
+All presentations for CppCon 2019 can be found here:  https://www.youtube.com/playlist?list=PLHTh1InhhwT6KhvViwRiTR7I5s09dLCSw
+ 
+It should be noted that Gen4 code is limited to C++14 currently, so while there are some nice additions to C++17 and C++20, they are not available currently.  Hopefully that will change in the near future.
+ 
+Thanks!
