@@ -81,3 +81,9 @@ scp -oHostKeyAlgorithms=+ssh-dss 500M-File.img sshd@192.168.1.2:/mnt/HD/HD_a2/Na
 ping wdmycloudmirror.local (If this doesn't repoond, check if the wifi you are connected to is same as the wired connection of the wdmycloud.)
 ping wdmycloudmirror.local
 
+How to identify ipaddress of wdmycloudmirror?
+Visit router page,
+http://192.168.1.1/index.htm
+Look at Basic->AttachedDevices
+
+
