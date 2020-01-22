@@ -43,9 +43,6 @@ https://www.youtube.com/playlist?list=PL5jc9xFGsL8FWtnZBeTqZBbniyw0uHyaH
 General C++ videos by TheChernoProject,
 https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
 
-
-
-
 https://blog.qt.io/blog/2018/10/12/modern-qt-development-top-10-tools-using/
 https://www.kdab.com/cpp-modernization-brochure/
 
@@ -57,4 +54,10 @@ https://oliora.github.io/2015/12/29/pimpl-and-rule-of-zero.html#classic-pimpl
 20 ABI/abi (Application Binary Interface) breaking changes every C++ developer should know
 https://www.acodersjourney.com/20-abi-breaking-changes/
 
+Static (C++):
+http://msdn.microsoft.com/en-us/library/s1sb61xd.aspx
+
+Operator overloading guidelines:
+http://www.parashift.com/c++-faq-lite/operator-overloading.html#faq-13.5
+Search string "operator [] overloading C++ what operators can be overloaded"
 

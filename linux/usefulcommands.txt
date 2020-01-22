@@ -49,3 +49,7 @@ sudo mv /etc/rc.conf{-old,} “To revert to original.
 
 -----------------------
 
+What does 2>&1 mean ??
+http://stackoverflow.com/questions/818255/in-the-bash-shell-what-is-21
+
+-----------------------
