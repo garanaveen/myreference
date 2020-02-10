@@ -28,3 +28,13 @@ Some neat bash tricks,
 https://github.com/nibalizer/bash-tricks
 
 -------------------------------------------------------------------------------------
+
+How to extract some files from one git repository to another preserving history?
+A little more step by step method is here,
+https://github.community/t5/How-to-use-Git-and-GitHub/Adding-a-folder-from-one-repo-to-another/td-p/5425# 
+Since the destination repo is pretty much empty you only need to do half of what he is saying.
+
+https://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/ 
+https://stackoverflow.com/questions/1365541/how-to-move-files-from-one-git-repo-to-another-not-a-clone-preserving-history 
+
+-------------------------------------------------------------------------------------

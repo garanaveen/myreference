@@ -9,3 +9,4 @@ Once you know the ipaddress, open "Printers & Scanners" on mac and choose ipaddr
 
 chrome://devices
 https://www.google.com/cloudprint
+
