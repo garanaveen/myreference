@@ -1,2 +1,13 @@
 Remove unicode (non-ascii) characters from a file,
 iconv -c -f utf-8 -t ascii file.txt
+
+Simple substitute,
+sed 's/incorrect/correct/g' file.txt > newfile.txt
+
+Delete lines that match,
+sed '/DeleteString/d' file.txt
+
+
+Delete lines that are shorter than X characters in-place,
+sed --regexp-extended --in-place '/^.{,30}$/d' file.txt #Backup the original file as this replaces it!
+
