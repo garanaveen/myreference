@@ -61,3 +61,6 @@ Operator overloading guidelines:
 http://www.parashift.com/c++-faq-lite/operator-overloading.html#faq-13.5
 Search string "operator [] overloading C++ what operators can be overloaded"
 
+
+Good website to look in to usage examples in C++
+https://cpp.hotexamples.com/
