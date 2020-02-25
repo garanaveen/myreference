@@ -24,3 +24,6 @@ Read through the Qt man page of QAtomicInt
 fetchAndAddRelaxed ( int valueToAdd )
 fetchAndStoreOrdered ( int newValue )
 What is the difference between testAndSetOrdered and testAndSetRelaxed? What should be used when?
+
+QBitArray,
+What situation makes this to be used?

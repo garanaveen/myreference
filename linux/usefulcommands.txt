@@ -53,3 +53,6 @@ What does 2>&1 mean ??
 http://stackoverflow.com/questions/818255/in-the-bash-shell-what-is-21
 
 -----------------------
+
+Print epoch time on linux terminal
+date +%s
