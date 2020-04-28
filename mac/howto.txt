@@ -6,3 +6,24 @@ How to convert jpg/jpeg to pdf in mac?
 4.File->Print->SaveAsPdf
 This probably works for any file that that be opened using preview I guess.
 
+------------------------
+
+How to copy photos from iPhone->Mac,
+Open photos app and delete all the photos on macbook. (Just so you know what was imported from iPhone)
+Connect iPhone to mac using usb-c to lighting cable.
+Trust the macbook on iPhone and on macbook say import all files. This is time consuming. Wait for a while.
+   cd $HOME/Pictures/Photos\ Library.photoslibrary/
+   for i in `find . -type f` ; do cp $i ~/tmp/ ; done
+
+------------------------
+
+How to install homebrew on mac
+Site : https://brew.sh/ has all the instructions.
+cd /usr/local/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+Other references,
+https://docs.brew.sh/Installation
+
+------------------------
+
