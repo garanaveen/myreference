@@ -27,3 +27,6 @@ What is the difference between testAndSetOrdered and testAndSetRelaxed? What sho
 
 QBitArray,
 What situation makes this to be used?
+
+QAbstractScrollArea,
+https://doc.qt.io/qt-5/qabstractscrollarea.html
