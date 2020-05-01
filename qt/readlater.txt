@@ -30,3 +30,8 @@ What situation makes this to be used?
 
 QAbstractScrollArea,
 https://doc.qt.io/qt-5/qabstractscrollarea.html
+
+
+String fit of qlabel,
+https://stackoverflow.com/questions/36575192/how-to-make-the-text-fill-all-the-qlabels-space/36577062#36577062
+https://stackoverflow.com/questions/40861305/dynamically-change-font-size-of-qlabel-to-fit-available-space
