@@ -1,3 +1,6 @@
 How to use quickfix window in vim?
 http://vimdoc.sourceforge.net/htmldoc/quickfix.html#quickfix
 https://stackoverflow.com/questions/1747091/how-do-you-use-vims-quickfix-feature
+
+Vim registers: The basics and beyond,
+https://www.brianstorti.com/vim-registers/
