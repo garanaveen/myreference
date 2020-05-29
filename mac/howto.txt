@@ -27,3 +27,6 @@ https://docs.brew.sh/Installation
 
 ------------------------
 
+
+Connect two bluetooth devices,
+https://www.macrumors.com/how-to/output-mac-audio-two-pairs-headphones/
