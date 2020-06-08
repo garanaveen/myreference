@@ -21,7 +21,12 @@ How to sleep?
 QThread::sleep(3);
 -------------
 
-Printing a pointer,
+Printing a pointer in Qt as a QString
 MyClass *ptr = new MyClass();
 QString ptrStr = QString("0x%1").arg((quintptr)ptr, 
                     QT_POINTER_SIZE * 2, 16, QChar('0'));
+
+
+QtCreator->Tools->Options->Text Editor->Snippets->Add. Then add a Trigger and its Variant and insert the text you want in the text box below. (#Shortcut #CodeSnippet)
+This is super useful in logging the entry point in every function you want.
+Logger("This is %1 entry").arg(__PRETTY_FUNCTION__);
