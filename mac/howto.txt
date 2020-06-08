@@ -30,3 +30,8 @@ https://docs.brew.sh/Installation
 
 Connect two bluetooth devices,
 https://www.macrumors.com/how-to/output-mac-audio-two-pairs-headphones/
+
+
+How to make bash as the default shell on mac?
+SystemPreferences->Users&Groups->UnlockIconOnBottomLeftCorner->RightClickOnUser->AdvancedOptions->DefaultShellTo->/bin/bash (bash mac default bash)
+
