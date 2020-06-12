@@ -3,3 +3,10 @@
 #include<thread>
   std::this_thread::sleep_for(std::chrono::seconds(1));
 
+------------------------------------------
+
+How to cause a segmentation fault SIGSEGV?
+#include <signal.h>
+raise(SIGSEGV)
+
+------------------------------------------

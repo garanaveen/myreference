@@ -55,9 +55,13 @@ $vim `find . -name “*cpp”`
 :bufdo %s/ServiceCenter/DiagnosticsCenter/ge |updat 
 This will execute the substitute command in all the opened buffers(i.e. files) and update(write/save) the buffer to disk.
 Link : http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers
-Delete all lines containing a pattern
+
+Delete all lines that match a pattern,
 http://vim.wikia.com/wiki/Delete_all_lines_containing_a_pattern
 :g/<search-pattern>/d
+
+Move all lines that match a pattern to end of file(m -> Move, $ - End of file),
+:g/<search-pattern/m$
 
 -----------------------
 
@@ -77,3 +81,13 @@ Remove duplicate lines,
 awk '!x[$0]++' file > file.new
 
 
+-----------------------
+https://www.youtube.com/watch?v=X6tvJDc5LpQ&list=PL-p5XmQHB_JSTaEPygu1DZjuFfb704Uv7
+Comment selected lines (visual mode) in C++ code.
+select a set of lines and say norm to execute the sequence of keys that follows on all the lines. In this case, go to the start of the line and insert mode and add two slashes.
+:'<,'>norm 0i//
+
+Time travel in vim,
+:earlier 1s/1m/1h
+:later 1s/1m/1h
+-----------------------
