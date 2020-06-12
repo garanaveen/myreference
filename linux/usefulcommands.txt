@@ -58,3 +58,9 @@ Print epoch time on linux terminal
 date +%s
 
 
+
+Keyboard shortcut to open new tab in terminator terminal app on ubuntu,
+Ctrl+Shift+T
+Keyboard shortcut to switch tab in terminator terminal app on ubuntu,
+Ctrl+PageUp/Down
+
