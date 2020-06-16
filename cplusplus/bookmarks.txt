@@ -64,3 +64,6 @@ Search string "operator [] overloading C++ what operators can be overloaded"
 
 Good website to look in to usage examples in C++
 https://cpp.hotexamples.com/
+
+Provides a collaborative, community-edited C++ FAQ on stackoverflow
+https://stackoverflow.com/tags/c%2b%2b-faq/info
