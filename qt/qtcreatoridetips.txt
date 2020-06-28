@@ -6,3 +6,10 @@ How to change the background of QtCreator IDE to black.
 Change to vim dark-mode.
 Tools->Options->TextEditor->FontsAndColors->ColorScheme->Vim(dark)
 
+
+How to enable Ctrl+Shift+U 
+https://superuser.com/questions/358749/how-to-disable-ctrlshiftu-in-ubuntu-linux
+Open "Language Support"
+Keyboard input method system -> None
+vagrant reboot
+You can also do capslock to make it work without making any system changes.

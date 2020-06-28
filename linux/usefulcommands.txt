@@ -56,3 +56,11 @@ http://stackoverflow.com/questions/818255/in-the-bash-shell-what-is-21
 
 Print epoch time on linux terminal
 date +%s
+
+
+
+Keyboard shortcut to open new tab in terminator terminal app on ubuntu,
+Ctrl+Shift+T
+Keyboard shortcut to switch tab in terminator terminal app on ubuntu,
+Ctrl+PageUp/Down
+
