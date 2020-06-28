@@ -24,9 +24,18 @@ sudo pmset -a standbydelayhigh 60
 
 
 How to mount shares on wdmycloud (macos):
-Finder->Go->ConnectToServer->Select mycloud->Provide password details.
+Finder->Go->ConnectToServer->Select mycloud->log me in - Provide password details.
 
 --------------------------------------------------------------
 
 Speedup your mac,
 https://qr.ae/TWInFl
+
+How install tex to pdf utility on MacOs?
+----------------------------------------
+https://sourabhbajaj.com/mac-setup/LaTeX/
+brew cask install mactex
+#LongTime, #RequirePassword
+"pdflatex filename.tex" will generate filename.pdf
+Keywords : pdf2tex, pdflatex, tex2pdf, mac, commandline
+
