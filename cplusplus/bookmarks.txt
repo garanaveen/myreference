@@ -67,3 +67,6 @@ https://cpp.hotexamples.com/
 
 Provides a collaborative, community-edited C++ FAQ on stackoverflow
 https://stackoverflow.com/tags/c%2b%2b-faq/info
+
+C++17 : Beyond the Basics
+https://app.pluralsight.com/library/courses/cplusplus-17-beyond-the-basics/table-of-contents
