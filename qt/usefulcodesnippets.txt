@@ -1,0 +1,5 @@
+Frequently used Code Snippets,
+
+   connect(Timer, SIGNAL(Timeout()), this, SLOT(ShowTheOverlay()));
+   Timer.Start();
+

@@ -1,6 +1,7 @@
 
 sudo apt-get install ack-grep
 sudo apt-get install kruler
+sudo apt-get install screenruler #This is an alternative to kruler. kruler has some issues with dependencies.
 sudo apt-get install nautilus
 sudo apt-get install tidy
 sudo apt-get install gnome-disk-utility

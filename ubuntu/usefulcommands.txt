@@ -1,11 +1,11 @@
 How to work with workspaces in Ubuntu?
 --------------------------------------
 Workspaces have been made vertical in latest version of ubuntu.
-Switching to workspace below -> <Ctrl>+<Alt>+DownArrow
-Switching to workspace above -> <Ctrl>+<Alt>+UpArrow
+Switching to workspace below -> <Ctrl>+<Alt>+DownArrow or WindowsKey+PageDown (#Desktop, #Ubuntu, #Workspace, #Move)
+Switching to workspace above -> <Ctrl>+<Alt>+UpArrow or WindowsKey+PageUp
 https://help.ubuntu.com/stable/ubuntu-help/shell-workspaces-switch.html.en
 
 
 Workspaces in Mate,
 Right click workspaces and go to preferences and make the workspaces vertical (with preferably just 2 workspaces).
-Use <Ctrl>+<Alt>+Up/DownArrow to switch between workspaces.
+Use <Ctrl>+<Alt>+Up/DownArrow to switch between workspaces.  (Deprecated?)

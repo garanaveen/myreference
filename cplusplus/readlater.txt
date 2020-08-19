@@ -6,3 +6,7 @@ https://stackoverflow.com/questions/48058879/return-reference-to-unique-ptr-in-g
 
 
 https://en.cppreference.com/w/cpp/language/using_declaration
+
+
+PODs, non-PODs, rvalue and lvalues
+https://stackoverflow.com/questions/2293796/pods-non-pods-rvalue-and-lvalues

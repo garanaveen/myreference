@@ -155,3 +155,17 @@ git grep --count gmtime_r
 
 
 
+How to archive/tar the current working directory in git?
+git archive --format=tar.gz --prefix=sensiblename/ HEAD > reponame-head.tar.gz
+
+
+See the difference between release-1 and relelase-2 branches on github,
+https://github.deere.com/fork-name/repo-name/compare/
+https://github.deere.com/fork-name/repo-name/compare/release-1...release-2
+Once this page is generated you can search for the file that you are interested in and see the diff.
+
+Another public example,
+https://github.com/octocat/linguist/compare/master...octocat:an-example-comparison-for-docs
+https://docs.github.com/en/github/committing-changes-to-your-project/comparing-commits
+
+
