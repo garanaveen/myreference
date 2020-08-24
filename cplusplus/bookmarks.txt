@@ -39,6 +39,7 @@ https://isocpp.org/wiki/faq/multiple-inheritance
 C++11 youtube videos for a quick introduction,
 https://boqian.weebly.com/c-programming.html
 https://www.youtube.com/playlist?list=PL5jc9xFGsL8FWtnZBeTqZBbniyw0uHyaH
+https://www.youtube.com/watch?v=D5n6xMUKU3A
 
 General C++ videos by TheChernoProject,
 https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb

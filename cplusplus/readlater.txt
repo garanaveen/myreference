@@ -10,3 +10,6 @@ https://en.cppreference.com/w/cpp/language/using_declaration
 
 PODs, non-PODs, rvalue and lvalues
 https://stackoverflow.com/questions/2293796/pods-non-pods-rvalue-and-lvalues
+
+Return value optimization
+https://en.wikipedia.org/wiki/Copy_elision#Return_value_optimization
