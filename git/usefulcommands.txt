@@ -37,7 +37,7 @@ Log/Print the local branches that are not present in remote. (LocalOnly branches
 git log --graph --oneline --branches --not --remotes=*
 
 
-How to see what all changesets had a particular string and what didn't?
+How to check for the existence of a particular string in all changesets of git?
 Other keywords : Bisect. Where did this line change? Where was this line introduced or deleted?
 for sha1 in $(git rev-list HEAD FileName.txt) ; do 
    echo $sha1 ; 
