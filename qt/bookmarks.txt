@@ -1,0 +1,5 @@
+Handling 
+How to make your user facing strings internationalization-friendly,
+Languages that have right to left and lanuguages that have multiple plural forms (like Polish).
+https://doc.qt.io/archives/qq/qq19-plurals.html
+
