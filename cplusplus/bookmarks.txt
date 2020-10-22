@@ -72,5 +72,3 @@ https://stackoverflow.com/tags/c%2b%2b-faq/info
 C++17 : Beyond the Basics
 https://app.pluralsight.com/library/courses/cplusplus-17-beyond-the-basics/table-of-contents
 
-Online C++ Compiler,
-https://ideone.com/l/cpp
