@@ -35,3 +35,6 @@ https://www.macrumors.com/how-to/output-mac-audio-two-pairs-headphones/
 How to make bash as the default shell on mac?
 SystemPreferences->Users&Groups->UnlockIconOnBottomLeftCorner->RightClickOnUser->AdvancedOptions->DefaultShellTo->/bin/bash (bash mac default bash)
 
+
+How to install youtube-dl on mac?
+brew install youtube-dl
