@@ -31,3 +31,9 @@ $ tail -n +<N+1> <filename>
 
 $ tail -n +11 /tmp/myfile
 < /tmp/myfile, starting at line 11, or skipping the first 10 lines. >
+
+finds bugs in your shell scripts.
+bash script syntax errors
+shellcheck is the command
+shellcheck.net is the online tool
+

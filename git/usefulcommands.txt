@@ -169,3 +169,6 @@ https://github.com/octocat/linguist/compare/master...octocat:an-example-comparis
 https://docs.github.com/en/github/committing-changes-to-your-project/comparing-commits
 
 
+
+See the diff for a file between a specific commit sha to current working copy,
+git diff --cached <sha> -- <FileName>

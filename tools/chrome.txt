@@ -6,3 +6,6 @@ Keywords : clear, Chrome, box.com, cookies, cache,
 --------------------------------------------------
 
 
+How to play dino game on chrome (the one that comes when you are out of internet?)
+chrome://dino/
+Dinosaur game on chrome
