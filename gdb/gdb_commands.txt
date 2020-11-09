@@ -13,3 +13,9 @@ set height 35
 print other
 
 thread apply all backtrace
+
+
+set print pretty
+print *this
+info vtbl <variableName>
+

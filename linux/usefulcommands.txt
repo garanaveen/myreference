@@ -64,3 +64,10 @@ Ctrl+Shift+T
 Keyboard shortcut to switch tab in terminator terminal app on ubuntu,
 Ctrl+PageUp/Down
 
+
+Location for list of all the words in dictionary on linux filesystem,
+/usr/share/dict/words
+
+How to untar/unzip a tar file ending in .tar.bz2?
+tar -xvf *.tar.bz2
+

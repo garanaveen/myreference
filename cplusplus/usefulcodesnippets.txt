@@ -11,3 +11,7 @@ How to cause a segmentation fault SIGSEGV?
 raise(SIGSEGV)
 
 ------------------------------------------
+
+std::cout << "number of milliseconds in one hour :" << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::hours(1)).count();
+
+------------------------------------------

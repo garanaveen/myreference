@@ -1,0 +1,2 @@
+set logging file filename.txt
+set logging on
