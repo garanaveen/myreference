@@ -36,6 +36,8 @@ How install tex to pdf utility on MacOs?
 https://sourabhbajaj.com/mac-setup/LaTeX/
 brew cask install mactex
 #LongTime, #RequirePassword
+command to convert tex file to pdf,
+command to generate pdf file from tex,
 "pdflatex filename.tex" will generate filename.pdf
 Keywords : pdf2tex, pdflatex, tex2pdf, mac, commandline
 
