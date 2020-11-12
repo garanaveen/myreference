@@ -86,5 +86,8 @@ Visit router page,
 http://192.168.1.1/index.htm
 Look at Basic->AttachedDevices
 
+Link for Western Digital My Cloud Mirror,
+http://wdmycloudmirror.local/
+
 
 Equivalent of fallocate command on mac - mkfile
