@@ -71,3 +71,6 @@ Location for list of all the words in dictionary on linux filesystem,
 How to untar/unzip a tar file ending in .tar.bz2?
 tar -xvf *.tar.bz2
 
+
+To see the current stack trace use the following command on linux,
+pstack <pid>
