@@ -1,10 +1,20 @@
-How to create a out of office (OOO) appointment to inform your team members?
------------------------------------------------------------------------------
-1. NewMeeting
-2. FillSubjectAndStartAndEndTime
-3. Attendees->ResponseOptions->ClearRequestResponses
-4. Options->ShowAs->Free (This is so that you don't block the time for all the participants.)
-5. Add your team members and Send
+#bookmark : 
+https://support.microsoft.com/en-us/office/add-time-away-from-the-office-to-coworkers-outlook-calendars-69fe38aa-7b5f-4225-8b69-47f47092e65e
+https://support.office.com/en-us/article/add-time-away-from-the-office-to-coworkers-outlook-calendars-69fe38aa-7b5f-4225-8b69-47f47092e65e
 
-PS : If you want your OOO time to be blocked so that no one can create an appointment with you as you are OOO, create another personal appointment with ShowAs-Busy
-#Bookmar : https://support.office.com/en-us/article/add-time-away-from-the-office-to-coworkers-outlook-calendars-69fe38aa-7b5f-4225-8b69-47f47092e65e
+How to do OoO for the entire day or short time,
+----------For others----------
+Outlook -> Calendar -> New Meeting
+Title : OoO - Naveen Gara
+Choose date (StartTime) and then Check "All Day" (If its entire day)
+Options -> Free
+Notify(Alarm icon) -> None
+Response Options -> Uncheck everything.
+Optional -> Borton James R <BortonJamesR@JohnDeere.com>; Nowak Joseph P <NowakJosephP@JohnDeere.com>; Chippigiri Acharya Pavan <ChippigiriAcharyaPavan@JohnDeere.com>; Bharadwaj Yellapragada Vishal <BharadwajYellapragaVishal@JohnDeere.com>; Govindan Rohit <GovindanRohit@JohnDeere.com>
+----------Block time for self----------
+Outlook -> Calendar -> New Appointment.
+Title : OoO - Naveen Gara
+Choose date (StartTime) and then Check "All Day" (If its entire day)
+Options -> Show As -> Out of Office.
+Save & Close.
+
