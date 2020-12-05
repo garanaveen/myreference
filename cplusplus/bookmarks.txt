@@ -75,3 +75,6 @@ https://app.pluralsight.com/library/courses/cplusplus-17-beyond-the-basics/table
 
 105 STL Algorithms in Less Than an Hour (Must watch)
 https://www.youtube.com/watch?v=bFSnXNIsK4A
+
+The definitive C++ book guide and list, #bookmark
+https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
