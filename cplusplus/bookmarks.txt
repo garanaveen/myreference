@@ -78,3 +78,8 @@ https://www.youtube.com/watch?v=bFSnXNIsK4A
 
 The definitive C++ book guide and list, #bookmark
 https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
+
+
+Concurrency with Modern C++ (Looks like a really good course. Need to take this up when you get a chance.)
+https://www.educative.io/courses/modern-cpp-concurrency-in-practice-get-the-most-out-of-any-machine
+
