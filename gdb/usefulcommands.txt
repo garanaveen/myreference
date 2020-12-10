@@ -1,2 +1,17 @@
 set logging file filename.txt
 set logging on
+
+Turn on editor which shows the source code while debugging on terminal using gdb,
+"Ctrl-x-a" - Toggle to/from TUI Mode
+
+.gdbinit
+--------
+set print pretty on
+set pagination off
+set confirm off
+set history save on
+
+#bookmark,
+CppCon 2018: Greg Law “Debugging Linux C++”
+https://www.youtube.com/watch?v=V1t6faOKjuQ
+

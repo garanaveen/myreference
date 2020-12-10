@@ -1,0 +1,8 @@
+List of things that you can do to improve yourself.
+---------------------------------------------------
+See C++ Live Code Reviews on youtube to understand common mistakes ppl do and how to correct them.
+Examples : 
+https://www.youtube.com/watch?v=rFnRzW3vvsQ
+https://www.youtube.com/watch?v=jhH4z-f-B9o
+---------------------------------------------------
+
