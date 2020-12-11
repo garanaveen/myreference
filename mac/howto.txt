@@ -38,3 +38,6 @@ SystemPreferences->Users&Groups->UnlockIconOnBottomLeftCorner->RightClickOnUser-
 
 How to install youtube-dl on mac?
 brew install youtube-dl
+
+How to Enable/Disable audible bell on terminal?
+Terminal->Preferences->Profile->Advanced->AudibleBell
