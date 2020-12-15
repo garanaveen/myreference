@@ -172,3 +172,10 @@ https://docs.github.com/en/github/committing-changes-to-your-project/comparing-c
 
 See the diff for a file between a specific commit sha to current working copy,
 git diff --cached <sha> -- <FileName>
+
+How to squash last N changesets.
+git rebase -i <parentofchangesetstosquash>
+replace "pick" to "squash" or "fixup" for the ones which need to be squashed leavings the top one as it is.
+Ex. to squash the top 5 changesets,
+git rebase -i HEAD~5
+

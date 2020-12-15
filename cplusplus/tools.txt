@@ -10,3 +10,8 @@ https://ideone.com/l/cpp
 
 
 VTune for Performance analysis.
+
+"C++ Insights" helps us to visualize of the types that the compiler deduces. (analyse)
+https://cppinsights.io/
+
+
