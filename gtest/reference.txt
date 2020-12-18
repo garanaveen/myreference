@@ -1,0 +1,8 @@
+Primer.md
+https://code.ornl.gov/ezx/random_ezx/-/blob/3f7be7147cf536b8c7fd9483eaaa8b6f4fbb1671/gtest/docs/Primer.md
+
+AdvancedGuide.md
+https://code.ornl.gov/ezx/random_ezx/blob/3f7be7147cf536b8c7fd9483eaaa8b6f4fbb1671/gtest/docs/AdvancedGuide.md#sharing-resources-between-tests-in-the-same-test-case
+
+github/google/googletest Primer.md,
+https://github.com/google/googletest/blob/master/googletest/docs/primer.md
