@@ -179,3 +179,15 @@ replace "pick" to "squash" or "fixup" for the ones which need to be squashed lea
 Ex. to squash the top 5 changesets,
 git rebase -i HEAD~5
 
+
+
+-----------------------------
+https://stackoverflow.com/questions/2249852/how-to-apply-a-patch-generated-with-git-format-patch
+Applying a patch file in git,
+First the stats:
+git apply --stat a_file.patch
+Then a dry run to detect errors:
+git apply --check a_file.patch
+Finally, you can use git am to apply your patch as a commit. This also allows you to sign off an applied patch.
+git am --signoff < a_file.patch 
+-----------------------------
