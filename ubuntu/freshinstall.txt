@@ -6,6 +6,7 @@ sudo apt-get install nautilus
 sudo apt-get install tidy
 sudo apt-get install gnome-disk-utility
 sudo apt-get install html2text
+sudo apt-get install terminator
 
 
 Q : Ctrl+s doesn't save the file in QtCreator
@@ -32,3 +33,11 @@ Wifi Drivers for RealTek wifi adapter for Ubuntu.
  Link: http://a.co/d/c4Mdykq
 origin  https://github.com/abperiasamy/rtl8812AU_8821AU_linux.git (fetch)
 -------------------------------------------------
+Install slack,
+https://slack.com/downloads/linux
+sudo snap install slack --classic
+
+
+-------------------------------------------------
+Install QtCreator on Ubuntu 20.04 (in ngara-notes) TODO : Document the procedure.
+
