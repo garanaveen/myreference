@@ -16,3 +16,6 @@ https://en.wikipedia.org/wiki/Copy_elision#Return_value_optimization
 
 Should I default virtual destructors?
 https://stackoverflow.com/questions/34383516/should-i-default-virtual-destructors
+
+List Initialization
+http://eel.is/c++draft/dcl.init#list

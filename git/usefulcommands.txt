@@ -119,6 +119,7 @@ Mercurial equivalent of "hg grep"
 How to checkout/revert specific files to specific revision?
 https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
 git checkout c5f567 -- file1/to/restore file2/to/restore
+git checkout -- file/to/restore #git revert outstanding changes to a file.
 
 
 git - How to list all the files in a commit?
@@ -191,3 +192,6 @@ git apply --check a_file.patch
 Finally, you can use git am to apply your patch as a commit. This also allows you to sign off an applied patch.
 git am --signoff < a_file.patch 
 -----------------------------
+
+If a file is already staged and you want to remove it from tracking but not remove it from filesystem,
+git rm FileName.txt --cached

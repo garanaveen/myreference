@@ -41,3 +41,7 @@ sudo snap install slack --classic
 -------------------------------------------------
 Install QtCreator on Ubuntu 20.04 (in ngara-notes) TODO : Document the procedure.
 
+Install/Update google-chrome on Ubuntu,
+Download *.deb of google chrome and execute the following command.
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+
