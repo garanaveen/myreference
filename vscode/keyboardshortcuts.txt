@@ -1,0 +1,5 @@
+
+Ctrl+Shift+P (Open up command tool)
+Ctrl+K Ctrl+V (Enable/Disable vim mode)
+Alt+O (C/C++ switch head/source)
+Ctrl+/ (Toggle line comment)

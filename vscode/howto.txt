@@ -1,0 +1,9 @@
+Open Command Pallate,
+Ctrl+Shift+P (View->CommandPallate)
+
+How to change key binding for any command,
+Open Command Pallate,
+Search for the command.
+Click the gear icon and then the Edit(pencil) icon and enter the new key binding.
+Alternate way - File->Preferences->KeyboardShortcuts
+

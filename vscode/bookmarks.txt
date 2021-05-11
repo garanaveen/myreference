@@ -1,0 +1,12 @@
+https://confluence.portal.roku.com:8443/pages/viewpage.action?spaceKey=%7Efrojo&title=Using+Visual+Studio+Code+For+Firmware+Development
+
+CPPNow
+C++Now 2018: Rong Lu “C++ Development with Visual Studio Code”
+https://www.youtube.com/watch?v=-erXR6k9TeE
+
+
+
+C/C++ IntelliSense, debugging, and code browsing.
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+https://code.visualstudio.com/docs/cpp/introvideos-cpp
+

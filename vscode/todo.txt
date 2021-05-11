@@ -1,0 +1,5 @@
+How to set tab.activeBackground to clearly distinguish what is the currently opened tab in the IDE?
+
+
+TODO: Learn how to create a new C++ file compile it and run it in vscode.
+

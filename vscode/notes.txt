@@ -1,0 +1,9 @@
+@recommended keymaps -> To find the keymaps that you are already used to in marketplace.
+
+Install sourcetrail extension
+
+----------------
+Editor Settings
+Ctrl+, -> Opens up the settings.
+Workbench->EditorManagement->WrapTabs->ON. (This is just before "SettingsEditor")
+
