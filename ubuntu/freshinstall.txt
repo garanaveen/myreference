@@ -45,3 +45,7 @@ Install/Update google-chrome on Ubuntu,
 Download *.deb of google chrome and execute the following command.
 sudo dpkg -i google-chrome-stable_current_amd64.deb 
 
+
+https://medium.com/tech-epic/how-to-use-pbcopy-on-ubuntu-f12940e5e18c
+sudo apt-get install xclip -y
+
