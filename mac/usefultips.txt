@@ -1,0 +1,7 @@
+Clean Paste  (This is similar to using notepad on windows or using Ctrl+Shift+V in chrome browser)
+When you copy text from the internet, a bunch of formatting and HTML gets copied, too. Copy a link’s text and paste it into Mac Notes, and there’s some of the text formatting of the website, plus the link.
+
+I almost never want this extra stuff, so I use an alternate paste dubbed the ‘Clean Paste.’ On MacOS, instead of CMD + V, try CMD + OPTION + SHIFT + V. You’ll get just the text, minus all the extras.
+
+Note: I learned this via the newsletter Recomendo, which I (pause for effect) recommend. It’s so helpful me and I’ve looked it up so many times, that I’m re-sharing it here.
+--------------------------------------------------------------------------------------------------
