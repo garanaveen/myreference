@@ -1,5 +1,0 @@
-@command:workbench.action.navigateForward
-Go Forward -> Alt+RightArrow
-
-@command:workbench.action.navigateBack
-Go Back -> Alt+LeftArrow

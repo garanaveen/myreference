@@ -1,0 +1,10 @@
+
+{
+    "C_Cpp.updateChannel": "Insiders",
+
+        "workbench.colorCustomizations": {
+          "_comment": "comment goes here.",
+          "tab.activeBackground": "#0A84FF"
+        },
+        "window.titleBarStyle": "custom"
+}
