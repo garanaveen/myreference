@@ -11,16 +11,3 @@ How to switch tabs between singleline to multiline?
 
 ----------------
 
-With the default theme in vscode, on the tab where all opened files are shown, visually there is no easy way to figure out which is the file that is opened. You can change the color of current file by adding the following to settings.json
-
-File ->
-Workbench: Color Customizations -> Edit in settings.json
-
-
-
-        "workbench.colorCustomizations": {
-          "tab.activeBackground": "#0A84FF",
-        },
-        "window.titleBarStyle": "custom"
-
-
