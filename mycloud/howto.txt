@@ -1,0 +1,8 @@
+How to copy large files to mycloud using usbdrive?
+Copy files to a usb drive.
+Insert the usbdrive to mycloud.
+From https://files.mycloud.com wdmycloud webportal, move files from usb drive (Attached Storage) to required destination.
+From http://wdmycloudmirror.local/ click on the ExternalDisks icon on top right corner.
+
+
+TODO: Move other wdmycloud related stuff to here.
