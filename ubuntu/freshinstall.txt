@@ -45,7 +45,21 @@ Install/Update google-chrome on Ubuntu,
 Download *.deb of google chrome and execute the following command.
 sudo dpkg -i google-chrome-stable_current_amd64.deb 
 
-
 https://medium.com/tech-epic/how-to-use-pbcopy-on-ubuntu-f12940e5e18c
 sudo apt-get install xclip -y
+
+----------------------------------------------
+
+How to auto mount at startup any external ssd?
+Need to add a mount entry in fstab. To avoid screwing up /etc/fstab, its best to use Ubuntu UI provided by disks,
+https://askubuntu.com/questions/164926/how-to-make-partitions-mount-at-startup
+disks
+Edit Mount Options
+DisplayName:ssd
+MountPoint: <home>/ssd
+File system type: auto
+Check - Mount at system startup
+Check - Show in user interface
+
+----------------------------------------------
 
