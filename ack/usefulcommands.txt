@@ -1,0 +1,2 @@
+ack --noenv
+to disregard ~/.ackrc configuration
