@@ -41,3 +41,11 @@ command to generate pdf file from tex,
 "pdflatex filename.tex" will generate filename.pdf
 Keywords : pdf2tex, pdflatex, tex2pdf, mac, commandline
 
+----------------------------------------
+
+How to kill an application on mac?
+Ctrl+Alt+Delete equivalent in Mac - Option+Command+Esc
+How to kill p4v on mac?
+
+----------------------------------------
+
