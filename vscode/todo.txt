@@ -2,4 +2,5 @@ How to set tab.activeBackground to clearly distinguish what is the currently ope
 
 
 TODO: Learn how to create a new C++ file compile it and run it in vscode.
-
+TODO: How to search in opened files?
+TODO: Map F2 to "Go to definition" (instead of F12).

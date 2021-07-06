@@ -1,0 +1,3 @@
+How to github.pages?
+Got to the repo->settings->pages
+Make sure there is index.html in the root of the repo.

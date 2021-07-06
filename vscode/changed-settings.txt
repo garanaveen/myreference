@@ -30,4 +30,9 @@ Add these lines.
         },
         "window.titleBarStyle": "custom"
 
+--------------------
+
+"Go to Definition" changed from "F12 to F2"
+
+--------------------
 
