@@ -6,3 +6,23 @@ From http://wdmycloudmirror.local/ click on the ExternalDisks icon on top right 
 
 
 TODO: Move other wdmycloud related stuff to here.
+
+---------------
+How to restart hung wdmycloud via ssh?
+
+ssh -oHostKeyAlgorithms=+ssh-dss sshd@wdmycloudmirror.local
+shutdown.sh
+
+Sun Jun 27 01:50:54 CDT 2021
+When I did this, I ended up with this message when I tried to visit this link - http://wdmycloudmirror.local/
+Power was lost from the system. Performing file system consistency check. Please wait.
+I was able to do ssh right away. I was able to connect with that link after a while though.
+
+It's a good idea to schedule restarts every day at 5AM. This will let the device fix itself if I just wait till the next day.
+
+https://community.wd.com/t/shutdown-via-ssh/98555/14
+***** DO NOT USE HALT *****
+Use shutdown.sh as some have already suggested. This is not the same Linux shutdown, it is a shell script that executes many procedures before shutting the device down. Otherwise, you are very likely to corrupt your disks and losing data.
+
+---------------
+
