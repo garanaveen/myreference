@@ -10,3 +10,5 @@ C/C++ IntelliSense, debugging, and code browsing.
 https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 https://code.visualstudio.com/docs/cpp/introvideos-cpp
 
+This is where you can set various customizations.
+~/.config/Code/User/settings.json

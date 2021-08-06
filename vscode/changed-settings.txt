@@ -36,3 +36,7 @@ Add these lines.
 
 --------------------
 
+Toggle Vim Mode Ctrl+Alt+v
+
+--------------------
+

@@ -57,6 +57,8 @@ http://stackoverflow.com/questions/818255/in-the-bash-shell-what-is-21
 Print epoch time on linux terminal
 date +%s
 
+CURRENTTIME=`date +%Y%m%d:%H%M`
+
 
 
 Keyboard shortcut to open new tab in terminator terminal app on ubuntu,
