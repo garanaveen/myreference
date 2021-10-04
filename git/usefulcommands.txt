@@ -195,3 +195,12 @@ git am --signoff < a_file.patch
 
 If a file is already staged and you want to remove it from tracking but not remove it from filesystem,
 git rm FileName.txt --cached
+
+-----------------------------
+
+Dangit, I committed and immediately realized I need to make one small change!
+# make your change
+git add . # or add individual files
+git commit --amend --no-edit
+# now your last commit contains that change!
+# WARNING: never amend public commits
