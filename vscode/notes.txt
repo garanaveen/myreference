@@ -11,3 +11,9 @@ How to switch tabs between singleline to multiline?
 
 ----------------
 
+Where are modified keybindings stored?
+User level keybindings modifications are stored in 
+$HOME/.config/Code/User/keybindings.json
+
+----------------
+
