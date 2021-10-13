@@ -76,3 +76,7 @@ tar -xvf *.tar.bz2
 
 To see the current stack trace use the following command on linux,
 pstack <pid>
+
+
+fallocate -l 1G -n FILE-1G.img
+fallocate -l 5G -n FILE-5G.img

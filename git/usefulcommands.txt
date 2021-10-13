@@ -204,3 +204,24 @@ git add . # or add individual files
 git commit --amend --no-edit
 # now your last commit contains that change!
 # WARNING: never amend public commits
+
+Removes all the untracked files,
+git clean -f 
+
+How to add a tag?
+git tag -a v1.0 -m "Stable version of the project"
+
+Add all files in the repository,
+git add -A 
+Add all files in the current directory,
+git add .
+
+Delete all branches that are on your local machine that are not in the remote repository.
+git remote update --prune
+
+forcefully delete all local changes on your current branch and replace them with the code from the main branch in the remote. 
+git reset --hard origin/main
+
+
+This commands adds the unstaged files and then commits all in one command.
+git commit -am "commit message"

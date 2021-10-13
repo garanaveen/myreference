@@ -10,3 +10,6 @@ https://docs.syntevo.com/SmartGit/Latest/
 
 Cheatsheet for GitLab,
 https://about.gitlab.com/images/press/git-cheat-sheet.pdf
+
+#freetime #todo #bookmark #git
+https://www.cloudbees.com/blog/git-detached-head

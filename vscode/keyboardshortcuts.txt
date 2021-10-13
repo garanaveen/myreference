@@ -5,3 +5,7 @@ Alt+O (C/C++ switch head/source)
 Ctrl+/ (Toggle line comment)
 
 F12 - Go to definition of the function.
+
+How to see the list of all the methods/functions in a file?
+The keyboard shortcut is CTRL+Shift+O 
+

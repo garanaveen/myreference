@@ -7,3 +7,8 @@ Search for the command.
 Click the gear icon and then the Edit(pencil) icon and enter the new key binding.
 Alternate way - File->Preferences->KeyboardShortcuts
 
+
+How to see the list of all the methods/functions in a file?
+The keyboard shortcut is CTRL+Shift+O 
+It's also available as a "OUTLINE" view of the "EXPLORER" on the left side panel.
+

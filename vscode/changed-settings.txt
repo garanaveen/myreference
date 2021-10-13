@@ -45,3 +45,4 @@ Toggle Vim Mode Ctrl+Alt+v
    "editor.bracketPairColorization.enabled" : true
 }
 
+
