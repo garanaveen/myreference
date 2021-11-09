@@ -1,0 +1,6 @@
+Head First Git - Raju Gandhi - Beginner Level
+GitLab Quick Start Guide - Adam O'Grady
+Pro Git - Scott Chacon Ben Straub - Pro Level 
+Git for Programmers - Jesse Liberty and  - Intermediate Level
+Mastering GitLab 12 - Joost Evertse - 
+

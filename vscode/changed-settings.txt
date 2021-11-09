@@ -46,3 +46,5 @@ Toggle Vim Mode Ctrl+Alt+v
 }
 
 
+
+View: Side Bar Visibility -> Ctrl+S Ctrl+B

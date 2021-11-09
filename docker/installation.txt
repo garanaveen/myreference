@@ -1,0 +1,10 @@
+"Install using the repository" is going to install the latest and greatest version of docker,
+https://docs.docker.com/engine/install/ubuntu/
+
+Once installed, check with,
+$ which docker
+$ sudo systemctl status docker #This should say Active(Running). If not you need to run the engine.
+
+docker run hello-world
+
+

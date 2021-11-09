@@ -12,3 +12,10 @@ How to see the list of all the methods/functions in a file?
 The keyboard shortcut is CTRL+Shift+O 
 It's also available as a "OUTLINE" view of the "EXPLORER" on the left side panel.
 
+
+How to see all the open files?
+On the EXPLORER panel on the left side, click on three dots and check "Open Editors"
+
+
+How to distinguish current tab in vscode? Set tab.activeBackground in settings.json #vscode #color
+

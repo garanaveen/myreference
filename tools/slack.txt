@@ -1,0 +1,3 @@
+How to compose a message to multiple people on slack?
+Press the compose button on the top-right corner of left panel.
+

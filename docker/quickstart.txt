@@ -1,0 +1,23 @@
+
+---------------------------------------------------------------
+https://www.youtube.com/watch?v=VZK224Tj_4w&list=PLzuiHhFghD8tXa7dTXPefB-jSkgvjg7UG&index=8
+
+Lets say you want to compile a main.cpp with C++20 in a docker.
+Create a directory (say cpp_test) and enter and create main.cpp and print "Hello Docker Container!"
+Create a Dockerfile in the same directory with the following content,
+--------
+FROM gcc:latest
+COPY . /usr/scr/cpp_test
+WORKDIR /usr/scr/cpp_test
+RUN g++ --std=c++2a -o hellodocker main.cpp
+CMD [ "./hellodocker" ]
+--------
+
+Build this docker,
+$ docker build . -t cpp_test:1
+
+Once built, you can say "docker images" to see the newly created cpp_test docker listed,
+
+Run the docker,
+$ docker run --rm -it  cpp_test:1
+---------------------------------------------------------------

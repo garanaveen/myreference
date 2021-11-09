@@ -225,3 +225,10 @@ git reset --hard origin/main
 
 This commands adds the unstaged files and then commits all in one command.
 git commit -am "commit message"
+
+
+This will fetch all the branches and deletes branches that were deleted in the remote,
+git fetch --all --prune
+
+How to git pull submodules?
+git pull --recurse-submodules

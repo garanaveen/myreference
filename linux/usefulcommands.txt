@@ -78,5 +78,16 @@ To see the current stack trace use the following command on linux,
 pstack <pid>
 
 
-fallocate -l 1G -n FILE-1G.img
-fallocate -l 5G -n FILE-5G.img
+This will create 1GB files for a total of 50GB
+for i in `seq 11 60` ; do fallocate -l 1G $i-FILE-1G.img ; done
+This will create 5GB files for a total of 100GB
+for i in `seq 11 30` ; do fallocate -l 5G $i-FILE-5G.img ; done
+Another 100GB
+for i in `seq 31 50` ; do fallocate -l 5G $i-FILE-5G.img ; done
+
+
+defragment the disk,
+https://thelinuxcode.com/defragment-hard-drive-ubuntu/
+sudo e4defrag “path_to_analyze”
+
+
