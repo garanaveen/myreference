@@ -232,3 +232,15 @@ git fetch --all --prune
 
 How to git pull submodules?
 git pull --recurse-submodules
+
+
+
+
+How to rename a local-only branch in git?
+git branch -m <old> <new>
+
+
+#git : How do I just modify the commit message
+git commit --amend
+
+

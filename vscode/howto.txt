@@ -17,5 +17,5 @@ How to see all the open files?
 On the EXPLORER panel on the left side, click on three dots and check "Open Editors"
 
 
-How to distinguish current tab in vscode? Set tab.activeBackground in settings.json #vscode #color
+How to distinguish/highlight current tab in vscode? Set tab.activeBackground in settings.json #vscode #color
 

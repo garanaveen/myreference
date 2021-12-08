@@ -4,3 +4,11 @@ https://www.getmonero.org/pl/resources/user-guides/verification-allos-advanced.h
 
 Learn git concepts, not commands
 https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc
+
+Online IDEs
+jsfiddle replit, 
+https://ideone.com/l/cpp
+topcoder leetcode-playground
+codeforce
+
+

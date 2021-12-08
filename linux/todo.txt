@@ -1,0 +1,19 @@
+How to do google search from command line?
+https://www.omgubuntu.co.uk/2017/08/search-google-from-the-command-line
+https://github.com/jarun/googler/releases/tag/v4.3.2
+
+
+Tue 07 Dec 2021 06:06:33 PM CST
+I was not able to get this to work by installing from standard Ubuntu distribution.
+TODO : Need to by downloading the latest version from the github link.
+-------------------------------
+
+jrnl 
+https://www.omgubuntu.co.uk/2021/11/jrnl-is-a-command-line-note-taking-app
+
+
+Tue 07 Dec 2021 06:21:35 PM CST
+On Ubuntu, I am getting this error,
+/snap/jrnl/14/usr/bin/python3: can't open file 'jrnl': [Errno 2] No such file or directory
+TODO : Need to figure out how to get rid of this error.
+-------------------------------

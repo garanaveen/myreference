@@ -92,7 +92,7 @@ http://thbecker.net/articles/rvalue_references/section_01.html
 Introduction, Move Semantics, Rvalue References, Forcing Move Semantics, Is an Rvalue Reference an Rvalue?, Move Semantics and Compiler Optimizations, Perfect Forwarding: The Problem, Perfect Forwarding: The Solution, Rvalue References and Exceptions, The Case of the Implicit Move, Acknowledgments and Further Reading
 ---------
 
-Compiler Explorer
+Compiler Explorer #online #compiler #cplusplus #assembly #assemblycode
 https://godbolt.org/
 
 ---------
