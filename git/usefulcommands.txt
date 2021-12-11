@@ -244,3 +244,7 @@ git branch -m <old> <new>
 git commit --amend
 
 
+How to git unstage a file?
+  (use "git restore --staged <file>..." to unstage)
+git restore --staged <filename>
+

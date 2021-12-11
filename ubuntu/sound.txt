@@ -1,0 +1,4 @@
+Open the Sound menu on ubuntu
+Analog Output - BT600 : Plantronics 5200
+Digital Output - BT600 : Plantronics 5200
+
