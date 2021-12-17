@@ -1,7 +1,7 @@
 Plantronics 5200 UC comes with a BT600 Adapter for connectivity.
 
 Following is the mapping for Sound menu on ubuntu,
-Analog Output - BT600 : Plantronics 5200 - This analog option seems to be a lot better with connectivity.
+Analog Output - BT600 : Plantronics 5200 - This analog option seems to be relatively better with connectivity.
 Digital Output - BT600 : Plantronics 5200 - This was having PC disconnected issues.
 
 
