@@ -1,8 +1,6 @@
 /debug.log	
 Prepending a slash matches files only in the repository root.
 
-
-
-If you want to ignore files but don't want to add it to .gitignore file you can create configure global gitignore file.
+If you want to ignore files but don't want to add it to .gitignore file you can create and configure global gitignore file.
 git config --global core.excludesfile ~/.gitignore_global
 
