@@ -248,3 +248,42 @@ How to git unstage a file?
   (use "git restore --staged <file>..." to unstage)
 git restore --staged <filename>
 
+
+Rebase a feature brach to tip of main when there are conflits.
+You made some changes on a branch. main has moved a bit. Now, you want to rebase the branch to the tip of main but you have conflicts that you need to resolve.
+1. checkout the feature branch.
+2. git rebase -i main
+3. You will get conflict errors showing which file had a conflict. Open the file fix the "<<<<<< HEAD", "=====", ">>>>>>> hash-commit-message" issues.
+4. git add <allthefixedfiles>
+5. git rebase --continue (If there is more than one commit and the conflict is on any commit, once you continue, it will try to apply other commits and the process repeats if it has a conflict.
+
+
+
+Meaning of Rebase command,
+You have a main branch from which you branched out a feature-branch
+You have N commits on feature-branch and main has moved quite a bit.
+Now you want to rebase feature-branch to tip of newly fetched main (i.e. replay the N commits in feature-branch to the tip of main.)
+
+1. Checkout feature-branch
+$ git checkout feature-branch
+2. Rebase feature-branch to main (#Meaning : Find the common ancestor of currently checked out branch (feature-branch) and specified branch (main) and replay commits on feature-branch to tip of main.)
+$ git rebase -i main 
+
+
+---------------------
+
+How to force a branch point to a specific commit?
+ngara@D888N83:~/tmp/dummy-repo-2$ git branch -f main 88289bb8be242e79eb362e38a15980432714d5d2
+
+---------------------
+
+If you screw up while rebasing the feature branch to main, you can always work on it in another alt-repo to fix the branch by applying patches on the required branch push it and then go back to original repo and pull the branch fresh.
+If there are conflicts in the branch pulled, delete the branch locally, checkout the same branch and pull it again.
+
+Ex,
+git checkout main
+git branch -D featureBranch
+git checkout featureBranch
+git pull
+
+---------------------

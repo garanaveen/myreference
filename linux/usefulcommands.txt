@@ -91,3 +91,7 @@ https://thelinuxcode.com/defragment-hard-drive-ubuntu/
 sudo e4defrag “path_to_analyze”
 
 
+
+Check if internet is working in loop,
+for i in `seq 1 1000` ; do ping fast.com -c 1 ; sleep 1; done
+

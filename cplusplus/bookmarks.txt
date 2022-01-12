@@ -97,3 +97,32 @@ https://godbolt.org/
 
 ---------
 
+#youtue #cppcon #bookmark
+https://www.reddit.com/r/cpp/comments/ryx1nc/must_watch_playlist_of_cppcon_videos_for
+"Back to Basics" #playlist
+https://www.youtube.com/watch?v=ZAji7PkXaKY&list=PLHTh1InhhwT5o3GwbFYy3sR7HDNRA353e
+For me it’s easier to sort by favorite speakers. Mine are (list is incomplete) Andrei Alexandrescu, Arthur O’Dwyer, Matt Godbolt, Jason Turner, Timur Doumler, Fedor Pikus
+Sean Parent (irrespective of CppCon)
+
+Herb Sutter, Kate Gregory, Sy Brand, Bryce Lelbach, Phil Nash, Sean Parent
+
+Either his cppcon https://www.youtube.com/watch?v=FJIn1YhPJJc or https://www.youtube.com/watch?v=LW_T2RGXego talks are great (and relevant to a wide audience).
+
+If you ever want to do something with time I suggest CppCon 2016: Howard Hinnant “A <chrono> Tutorial” <https://youtu.be/P32hvk8b13M> . It’s really good intro and the guy presenting wrote one of the implementations so he know a what he’s talking about.
+It’s not necessary a must watch but is good to keep in mind if you end up using time in your code (which you will at some point).
+
+#best - This link seems to be the best collection overall.
+I recommend the 'Critical Talks' <https://www.cjdb.com.au/sg20-and-videos> section recommended by the SG 20 study group for Education. While the SG20 study group is concerned with teaching guidelines for c++, the 'Critical talks' are recommended for everyone programming in c++:
+The following talks are talks that all programmers should watch as soon as possible. As programming teachers are a subset of programmers, this includes you.
+
+Your New Mental Model of constexpr - Jason Turner - CppCon 2021
+https://www.youtube.com/watch?v=MdrfPSUtMVM
+
+Not a video, but if you haven't read the C++ FAQ website, you must! I think in terms of what you learn per hour, it's much more valuable.
+https://isocpp.org/faq
+
+CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style" (1.5 hours)
+https://www.youtube.com/watch?v=xnqTKD8uD64
+---------
+
+

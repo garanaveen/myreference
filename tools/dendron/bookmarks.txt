@@ -1,0 +1,1 @@
+In vscode, type Ctrl+Shift+P and choose "Dendron: Launch Tutorial"
