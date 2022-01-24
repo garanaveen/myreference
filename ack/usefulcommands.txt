@@ -1,2 +1,19 @@
 ack --noenv
 to disregard ~/.ackrc configuration
+
+----------------------------------------------------------
+TODO: Comeup with more verbose example,
+equivalant to "grep -f /path/to/patterns.file <search-pattern>",
+ack "$(< /path/to/patterns.file)" *
+
+----------------------------------------------------------
+Search for files that contains both pattern1 and pattern2.
+
+ack -l 'pattern1' | ack -x 'pattern2'
+The -l parameter means to just list the matching files (instead of the matching text). 
+The -x parameter means to search just the files piped to it. This is similar to narrowing down the files for the next ack search.
+
+Search for files that contains both pattern1, pattern2 and pattern3.
+ack -l 'pattern1' | ack -xl 'pattern2' | ack -x 'pattern3'
+This is an AND operator and not the OR operator given in the other solutions.
+----------------------------------------------------------
