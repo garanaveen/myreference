@@ -236,7 +236,7 @@ git pull --recurse-submodules
 
 
 
-How to rename a local-only branch in git?
+How to rename a local-only branch in git? #rename #move #git #branch
 git branch -m <old> <new>
 
 
