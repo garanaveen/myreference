@@ -286,4 +286,10 @@ git branch -D featureBranch
 git checkout featureBranch
 git pull
 
+
+
+
+---------------------
+git log graph, display how two branches are diverging
+git log --graph --oneline currentbranch otherbranch
 ---------------------
