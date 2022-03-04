@@ -1,0 +1,29 @@
+Luke Diamand Feb 10th at 2:56 AM
+I was playing around with interactive rebase of a merge commit. Amazingly it seems to work as you might hope.
+Let's say you want to push a merge to gitlab, so you have something like this:
+*   28799f9eabd (HEAD -> mybranch)
+|\
+| *  24bb4eb9f84 Enable some feature
+| *  7c7ecc73b96 Add infrastructure for new feature
+| *  09da63f543f Fix bug that prevents feature from working
+|/
+* d0118533144 other commits from upstream (origin/main)
+Then someone makes a review comment on your 09da63f543f commit - how are you going to update it?
+It turns out you can just do this:
+vi somefile.cpp
+git add -u    # or however you want to stage your fixup
+git commit --fixup 09da63f543f
+git rebase -i 09da63f543f~ --rebase-merges --autosquash
+:+1:
+2
+
+2 replies
+
+Greg Hunt:house_with_garden:  19 days ago
+FWIW I find the -p option super useful for git add/commit/stash. It'll ask you diff by diff what you want to include. (edited) 
+:100:
+1
+
+
+Jason Cole  19 days ago
+09da63f543f~ instead of e.g. HEAD~2?  If so, that's good to know; may be less error-prone.......

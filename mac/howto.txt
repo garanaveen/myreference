@@ -41,3 +41,6 @@ brew install youtube-dl
 
 How to Enable/Disable audible bell on terminal?
 Terminal->Preferences->Profile->Advanced->AudibleBell
+
+How to get the absolute path for files #sync ed by #box app on #macos
+The default location is /Users/<username>/Library/CloudStorage/Box-Box/

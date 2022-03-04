@@ -7,6 +7,7 @@ sudo apt-get install tidy
 sudo apt-get install gnome-disk-utility
 sudo apt-get install html2text
 sudo apt-get install terminator
+sudo apt-get install tilda
 
 
 Q : Ctrl+s doesn't save the file in QtCreator
@@ -62,4 +63,6 @@ Check - Mount at system startup
 Check - Show in user interface
 
 ----------------------------------------------
+
+
 

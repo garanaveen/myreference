@@ -169,6 +169,8 @@ Another public example,
 https://github.com/octocat/linguist/compare/master...octocat:an-example-comparison-for-docs
 https://docs.github.com/en/github/committing-changes-to-your-project/comparing-commits
 
+See the difference between two commits-shas/branches/forks
+https://github.com/<usename>/<reponame>/compare/<sha1>...<sha2>
 
 
 See the diff for a file between a specific commit sha to current working copy,
@@ -272,7 +274,7 @@ $ git rebase -i main
 
 ---------------------
 
-How to force a branch point to a specific commit?
+How to force a branch point to a specific commit? git branch main force main
 ngara@D888N83:~/tmp/dummy-repo-2$ git branch -f main 88289bb8be242e79eb362e38a15980432714d5d2
 
 ---------------------
@@ -293,3 +295,5 @@ git pull
 git log graph, display how two branches are diverging
 git log --graph --oneline currentbranch otherbranch
 ---------------------
+
+

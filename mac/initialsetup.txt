@@ -1,0 +1,11 @@
+Set vim as default terminal editor. #todo
+
+Create additional standard user for P2 - Log in to icloud.
+Create additional standard user for P3 - Install Google meets?, Microsoft Teams?
+
+Install lastpass
+Install iprintandscan brothers if available.
+
+Change trackpad touch to "JustTap not Press".
+
+

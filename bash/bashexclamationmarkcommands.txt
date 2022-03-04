@@ -1,0 +1,7 @@
+!! -> Execute previous command.
+
+!? #tag -> Execute previous command with a search pattern '#tag'
+https://www.makeuseof.com/tag/3-secret-ways-to-use-hashtags-that-make-digital-searches-easier-faster/
+#bash #tags
+
+
