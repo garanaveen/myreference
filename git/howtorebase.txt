@@ -1,0 +1,18 @@
+O --> main
+|
+O
+|
+O O --> feature-branch-withdebuglogs
+| |
+O O
+| |
+O O --> feature-branch
+| |
+O O 
+|/
+O
+|
+O
+|
+O
+|

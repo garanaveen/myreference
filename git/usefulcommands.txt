@@ -100,6 +100,14 @@ git commit --amend --author="Author Name <email@address.com>"
 git rebase --continue
 Force push to git repo if thats what you want.
 
+
+If there are bunch of random commits which you want to change the author to,
+git rebase -i <ParentOfChangesetForWhichAuthorNeedsToBeChanged>
+Change "pick" to "edit" for all the commits
+git commit --amend --author="Author Name <email@address.com>" --no-edit #repeat this step until the last commit
+git rebase --continue #repeat this step until the last commit
+Force push to git repo if thats what you want.
+
 ---------------------------------------------------------------------------------------------
 
 How to generate a patch?
@@ -275,7 +283,7 @@ $ git rebase -i main
 ---------------------
 
 How to force a branch point to a specific commit? git branch main force main
-ngara@D888N83:~/tmp/dummy-repo-2$ git branch -f main 88289bb8be242e79eb362e38a15980432714d5d2
+:~/tmp/dummy-repo-2$ git branch -f main 88289bb8be242e79eb362e38a15980432714d5d2
 
 ---------------------
 
