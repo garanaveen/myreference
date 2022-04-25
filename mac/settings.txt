@@ -14,3 +14,9 @@ SystemPreferences->Keyboard->ModifierKeys->Switch Alt and Command keys for micro
 SystemPreferences->Mouse -> Uncheck Scrolling : natural direction
 
 
+----------
+SystemPreferences->Keyboard->Shortcuts->App Shortcuts->+->GoogleChrome
+New Tab ^T
+Find... ^F
+Close Tab ^W
+----------
