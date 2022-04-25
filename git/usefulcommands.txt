@@ -44,6 +44,13 @@ for sha1 in $(git rev-list HEAD FileName.txt) ; do
    git show $sha1:./FileName.txt | grep "regex-pattern"; 
 done
 
+git rev-list --all <filename> | (
+    while read revision; do
+        git grep '<search-pattern' $revision <filename>
+    done
+)
+
+
 
 
 How to delete a branch on git?

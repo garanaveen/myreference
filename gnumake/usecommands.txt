@@ -1,0 +1,11 @@
+
+-d : Print debugging information in addition to normal processing. 
+
+‘--debug[=options]’
+--debug=a : All types of debugging output are enabled. 
+--debug=b : All types of debugging output are enabled. 
+
+‘--trace’
+Show tracing information for make execution. Prints the entire recipe to be executed, even for recipes that are normally silent (due to .SILENT or ‘@’). Also prints the makefile name and line number where the recipe was defined, and information on why the target is being rebuilt.
+
+
