@@ -2,3 +2,9 @@ How to update zoom?
 Download the latest deb file.
 sudo apt install ./zoom_amd64.deb
 
+
+How to update vscode?
+https://stackoverflow.com/questions/42960703/how-to-upgrade-visual-studio-code-editor
+sudo add-apt-repository -y "deb https://packages.microsoft.com/repos/vscode stable main "
+sudo apt update
+sudo apt -y install code

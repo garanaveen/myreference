@@ -1,3 +1,8 @@
 Dendron - local, open-source, markdown-based note-taking tools for vscode.
 #freetime #vscode : explore dendron
 
+
+XML Tools
+ext install qub.qub-xml-vscode
+https://marketplace.visualstudio.com/items?itemName=qub.qub-xml-vscode
+
