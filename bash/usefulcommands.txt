@@ -39,3 +39,8 @@ bash script syntax errors
 shellcheck is the command
 shellcheck.net is the online tool
 
+
+How to find all the methods declared in bash?
+typeset -F
+
+
