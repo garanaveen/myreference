@@ -42,5 +42,6 @@ shellcheck.net is the online tool
 
 How to find all the methods declared in bash?
 typeset -F
-
+set | grep <searchpattern>
+declare -F | grep <searchpattern>
 
