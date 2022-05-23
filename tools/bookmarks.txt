@@ -2,3 +2,10 @@ GitHub Student Developer Pack,
 https://education.github.com/pack#offers
 
 
+Calculate the reduced size maintaining the aspect ratio to the original size.
+https://andrew.hedges.name/experiments/aspect_ratio/
+
+Send online invitation cards,
+paperlesspost.com
+greenvelope.com
+

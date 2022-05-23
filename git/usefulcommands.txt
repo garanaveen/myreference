@@ -311,4 +311,29 @@ git log graph, display how two branches are diverging
 git log --graph --oneline currentbranch otherbranch
 ---------------------
 
+How to do fast-forward merge?
+Let's say you have main branch and feature branch.
+main branch is well ahead of feature branch. feature branch is on the main branch and there are no commits on feature branch divering from main.
+In this case you make make feature branch point to latest main by doing a fast-forward merge.
+            feature
+            ^
+            |
+C1 -> C2 -> C3 -> C4 -> C5
+                         ^
+                         |
+                         main
+
+git checkout main
+git merge feature
+These to commands will modify the branches as follows,
+
+                         feature
+                         ^
+                         |
+C1 -> C2 -> C3 -> C4 -> C5
+                         ^
+                         |
+                         main
+
+---------------------
 

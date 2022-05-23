@@ -4,31 +4,18 @@ Go Forward -> Alt+RightArrow
 @command:workbench.action.navigateBack
 Go Back -> Alt+LeftArrow
 
-Change the color of active tab in vscode,
-File->Preferences->Setings->Workbench->Appearance->ColorCustomizations->EditInSettings.json
-
-"workbench.colorCustomizations": {
-    "[Name of the Current Theme you are using]": {
-        "titleBar.activeBackground":"#191919cc",
-        "titleBar.activeForeground":"#ffffff",
-    },
-},
-"window.titleBarStyle": "custom"
-
-
 --------------------
 
 With the default theme in vscode, on the tab where all opened files are shown, visually there is no easy way to figure out which is the file that is opened. You can change the color of current file by adding the following to settings.json
 
-File -> Preferences -> Settings
-Workbench: Color Customizations -> Edit in settings.json
-This should open up settings.json file.
+Change the color of active tab in vscode,
+File->Preferences->Setings->Workbench->Appearance->ColorCustomizations->EditInSettings.json
 Add these lines.
 
         "workbench.colorCustomizations": {
           "tab.activeBackground": "#0A84FF",
         },
-        "window.titleBarStyle": "custom"
+        "window.titleBarStyle": "custom" //Is this really necessary?
 
 --------------------
 
@@ -40,11 +27,10 @@ Toggle Vim Mode Ctrl+Alt+v
 
 --------------------
 
-
+Add this one line as a sibing of other settings in the main {} braces.
 {
    "editor.bracketPairColorization.enabled" : true
 }
 
-
-
 View: Side Bar Visibility -> Ctrl+S Ctrl+B
+
