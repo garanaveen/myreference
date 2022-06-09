@@ -32,5 +32,6 @@ Add this one line as a sibing of other settings in the main {} braces.
    "editor.bracketPairColorization.enabled" : true
 }
 
+How to change this shortcut? Open CommandPallette and search for this setting and change the key combination. #sidebar #visibility #keyboardshortcut
 View: Side Bar Visibility -> Ctrl+S Ctrl+B
 

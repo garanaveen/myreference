@@ -253,7 +253,7 @@ git pull --recurse-submodules
 
 
 
-How to rename a local-only branch in git? #rename #move #git #branch
+How to rename a local-only branch in git?  #git #branch #rename #move
 git branch -m <old> <new>
 
 
@@ -336,4 +336,14 @@ C1 -> C2 -> C3 -> C4 -> C5
                          main
 
 ---------------------
+
+
+How to do dry run for git merge
+You are on <master> branch and want to merge in a <feature> branch but want to check if there are any merge conflicts.
+https://stackoverflow.com/questions/501407/is-there-a-git-merge-dry-run-option
+
+git checkout <master>
+$ git merge --no-commit --no-ff <feature>
+$ git diff --cached #You can investigate what the merge changeset looks like from the staged changes.
+$ git merge --abort #Abort the merge to discard the staged changes
 
