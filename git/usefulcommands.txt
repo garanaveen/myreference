@@ -312,9 +312,10 @@ git log --graph --oneline currentbranch otherbranch
 ---------------------
 
 How to do fast-forward merge?
-Let's say you have main branch and feature branch.
-main branch is well ahead of feature branch. feature branch is on the main branch and there are no commits on feature branch divering from main.
-In this case you make make feature branch point to latest main by doing a fast-forward merge.
+Let's say you created a feature branch from main. You didn't commit anything on the feature branch and stopped working on this feature branch.
+After a while, main has had quite a few commits.
+When you want to start working on feature branch again, since your feature branch was created from a older hash of main, it only makes sense to point the feature branch to latest main before starting to commit changes on it.
+Since there is a linear path from feature branch to latest main, you can make feature branch point to latest main by doing a fast-forward merge.
             feature
             ^
             |
@@ -323,8 +324,9 @@ C1 -> C2 -> C3 -> C4 -> C5
                          |
                          main
 
-git checkout main
-git merge feature
+>git checkout feature
+>git merge main
+
 These to commands will modify the branches as follows,
 
                          feature
@@ -346,4 +348,28 @@ git checkout <master>
 $ git merge --no-commit --no-ff <feature>
 $ git diff --cached #You can investigate what the merge changeset looks like from the staged changes.
 $ git merge --abort #Abort the merge to discard the staged changes
+
+
+How to merge latest changes in master to your current feature branch?
+git checkout <feature>
+git merge --no-commit --no-ff <master> #Resolve any conflicts!
+git diff --cached
+git commit -m "Merged main to feature" #This will create a merge commit
+
+
+
+git : How to create a branch at a specific commit/hash
+git branch branch_name <commit-hash>
+
+--------------------------------------------------
+How to git diff with meld?
+--------------------------
+
+git difftool --tool=meld
+git diff
+
+git diff main..feature-branch
+git difftool --tool=meld main..feature-branch
+--------------------------------------------------
+
 

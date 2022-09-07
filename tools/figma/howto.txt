@@ -1,0 +1,6 @@
+How to create a simple 9-patch image?
+This is an example of a button.
+First draw a square (say 20x20 pxl). If needed add ronded corners (say 3 pxl)
+Apply a 9-patch plugin (file->plugin->9patch)
+Now adjust the black line at the left and top appropriately set the stretchable area.
+Also adjust the black line on the right and bottom to set the optional-content area.

@@ -35,3 +35,6 @@ Add this one line as a sibing of other settings in the main {} braces.
 How to change this shortcut? Open CommandPallette and search for this setting and change the key combination. #sidebar #visibility #keyboardshortcut
 View: Side Bar Visibility -> Ctrl+S Ctrl+B
 
+Turn on AutoSave with 
+Preferences -> Settings -> Search for "autosave" -> Auto Save onWindowChange.
+As long as you are in vscode, it won't save files. A switch to another window will trigger autosave.

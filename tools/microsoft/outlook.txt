@@ -21,3 +21,5 @@ Save & Close.
 
 How to create a rule on outlook web?
 Settings->Mail->Rules
+
+

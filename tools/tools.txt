@@ -5,3 +5,6 @@ brew install youtube-dl
 -------------------------------
 
 #freetime explore clang-tidy tool.
+
+#encrypt your data before storing it in the cloud - cryptomator
+
