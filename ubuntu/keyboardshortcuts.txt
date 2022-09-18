@@ -1,0 +1,3 @@
+"Broadcast all" on terminator -> Alt+A
+"Broadcast off" on terminator -> Alt+O
+

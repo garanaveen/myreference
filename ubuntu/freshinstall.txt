@@ -8,6 +8,8 @@ sudo apt-get install gnome-disk-utility
 sudo apt-get install html2text
 sudo apt-get install terminator
 sudo apt-get install tilda
+sudo apt-get install openimageio-tools
+
 
 
 Q : Ctrl+s doesn't save the file in QtCreator

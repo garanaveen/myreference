@@ -1,0 +1,8 @@
+----------------------------------------
+
+How to do rot13 encoding? #rot13, #ROT13
+Select the block you want to encode. Type "g?" to do the encoding.
+To encode the entire file do, "ggVGg?"
+
+----------------------------------------
+

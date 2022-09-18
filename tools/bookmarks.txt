@@ -2,3 +2,22 @@ GitHub Student Developer Pack,
 https://education.github.com/pack#offers
 
 
+Calculate the reduced size maintaining the aspect ratio to the original size.
+https://andrew.hedges.name/experiments/aspect_ratio/
+
+Send online invitation cards,
+paperlesspost.com
+greenvelope.com
+
+
+Save a snapshot of web
+archive.org
+Click on "Web" on top left corner.
+Paste the web link in "Save page now" and check the box on "Save also in my web archive" if needed.
+
+
+Detect changes on website - Free to begin with. 6 hrs minimum frequency for checking for changes for free account.
+https://monitor.distill.io/#/w/0/list/all/
+
+
+Alternatives to smallpdf.com : ilovepdf.com

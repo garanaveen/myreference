@@ -1,0 +1,3 @@
+Rich Filters for Jira Dashboards,
+https://wiki.qotilabs.com/rich-filters/user-s-guide
+
