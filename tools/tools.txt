@@ -8,3 +8,6 @@ brew install youtube-dl
 
 #encrypt your data before storing it in the cloud - cryptomator
 
+direnv – unclutter your .profile
+https://direnv.net/docs/hook.html
+

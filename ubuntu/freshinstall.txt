@@ -9,6 +9,7 @@ sudo apt-get install html2text
 sudo apt-get install terminator
 sudo apt-get install tilda
 sudo apt-get install openimageio-tools
+sudo apt-get install direnv
 
 
 
@@ -46,7 +47,7 @@ Install QtCreator on Ubuntu 20.04 (in ngara-notes) TODO : Document the procedure
 
 Install/Update google-chrome on Ubuntu,
 Download *.deb of google chrome and execute the following command.
-sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo dpkg -i google-chrome-stable_current_amd64.deb  #update chrome
 
 https://medium.com/tech-epic/how-to-use-pbcopy-on-ubuntu-f12940e5e18c
 sudo apt-get install xclip -y
@@ -65,6 +66,8 @@ Check - Mount at system startup
 Check - Show in user interface
 
 ----------------------------------------------
+
+
 
 
 

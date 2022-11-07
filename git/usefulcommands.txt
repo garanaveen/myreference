@@ -373,3 +373,6 @@ git difftool --tool=meld main..feature-branch
 --------------------------------------------------
 
 
+How to get recent branch/branches names in git? #git #recent #branches
+ngara@D888N83:~/ssd/aspen/app$ git for-each-ref --sort=-committerdate refs/heads/
+
