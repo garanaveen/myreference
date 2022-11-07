@@ -103,3 +103,5 @@ for i in `seq 1 1000` ; do ping fast.com -c 1 ; sleep 1; done
 
 
 
+This will clear space in /boot partition by removing unnecessary files.
+sudo apt autoremove
