@@ -1,0 +1,14 @@
+How to Set Up SSH Passwordless Login (Step-by-Step Tutorial)
+https://www.strongdm.com/blog/ssh-passwordless-login
+
+How to setup ssh keys so that you don't need to enter password everytime you ssh in to a remote machine
+
+Generate a key pair
+>ssh-keygen -t rsa #Give a path that is unique like 'from_homemachine_to_officemachine'
+
+On server side if ~/.ssh directory isn't already avaialble, create it.
+
+Upload public key to remote server. For Linux or MacOs clinet, you could just do this to upload public key.
+>ssh-copy-id user@remotemachineipaddress
+
+
