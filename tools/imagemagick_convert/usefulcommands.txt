@@ -1,3 +1,6 @@
+How to install imagemagick on ubuntu? #howto #ubuntu #imagemagick
+sudo apt install imagemagick
+
 How to change the resolution/size of an image?
 > convert Original.JPG -resize 400x300 Modified.JPG
 If you mention the dimensions that are not the same aspect ration of the original file, it will try to keep the original aspect ration and try to fit the destination dimension.
