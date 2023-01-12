@@ -1,0 +1,18 @@
+How to install imagemagick on ubuntu? #howto #ubuntu #imagemagick
+sudo apt install imagemagick
+
+How to change the resolution/size of an image?
+> convert Original.JPG -resize 400x300 Modified.JPG
+If you mention the dimensions that are not the same aspect ration of the original file, it will try to keep the original aspect ration and try to fit the destination dimension.
+If you want to force the resize by disregarding the aspect ratio, use a "!" modifier as follows,
+
+> convert Original.JPG -resize 400x300! Modified.JPG
+
+
+How to convert ID Card photos to pdf front and back?
+convert Front.JPG Back.JPG IDCard.pdf
+This will generate IDCard with two pages, each page the same as the size of the images.
+
+
+How to convert an image to pdf?
+convert Document.JPG Document.pdf

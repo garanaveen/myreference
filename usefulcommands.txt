@@ -71,3 +71,4 @@ find -L . -maxdepth 3 -name bashrcchanges.txt
 ------------------------------------------------------------------------------
 
 Equivalent of fallocate command on mac - mkfile
+

@@ -10,3 +10,4 @@ Extiontion to take notes in vscode,
 https://marketplace.visualstudio.com/items?itemName=vscode-org-mode.org-mode
 
 
+Add a shortcut to insert this text : "TEMP : Take care of this before merging to main."
