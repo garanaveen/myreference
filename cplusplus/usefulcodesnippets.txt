@@ -18,3 +18,5 @@ std::cout << "number of milliseconds in one hour :" << std::chrono::duration_cas
 
 std::cout << std::boolalpha
 
+
+How to print the type of a variable.

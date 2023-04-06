@@ -40,7 +40,7 @@ shellcheck is the command
 shellcheck.net is the online tool
 
 
-How to find all the methods declared in bash? #bash #function #method #definition
+How to find/list all the methods/functions declared in bash? #bash #function #method #definition
 typeset -F
 set | grep <searchpattern>
 declare -F | grep <searchpattern>
