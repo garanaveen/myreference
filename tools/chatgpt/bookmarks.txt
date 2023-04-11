@@ -1,0 +1,7 @@
+https://chat.openai.com/chat
+
+Examples,
+Generate a python script to find all the files with name that matches a regex
+Generate a python script to read a file and tokenize based on a comma character
+
+

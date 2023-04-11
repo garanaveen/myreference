@@ -15,3 +15,11 @@ set history save on
 CppCon 2018: Greg Law “Debugging Linux C++”
 https://www.youtube.com/watch?v=V1t6faOKjuQ
 
+
+List all sources that are used,
+info sources FileNameRegex
+
+List all function that are used,
+info functions FunctionNameRegex
+
+

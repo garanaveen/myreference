@@ -42,4 +42,17 @@ Turn on AutoSave with
 Preferences -> Settings -> Search for "autosave" -> Auto Save onWindowChange.
 As long as you are in vscode, it won't save files. A switch to another window will trigger autosave.
 
+--------------------
+
+https://stackoverflow.com/questions/30884131/remove-trailing-spaces-automatically-or-with-a-shortcut
+You can enable whitespace trimming at file save time from settings:
+
+Open Visual Studio Code User Settings (menu File → Preferences → Settings → User Settings tab).
+Click the enter image description here icon in the top-right part of the window. This will open a document.
+Add a new "files.trimTrailingWhitespace": true setting to the User Settings document if it's not already there. This is so you aren't editing the Default Setting directly, but instead adding to it.
+Save the User Settings file.
+We also added a new command to trigger this manually (Trim Trailing Whitespace from the command palette).
+
+--------------------
+
 

@@ -20,3 +20,7 @@ git config --global core.excludesfile ~/.gitignore
 
 ---------------------------------------------------------------------------------
 
+How to clone all repositories from an account on github?
+https://stackoverflow.com/questions/8713596/how-to-retrieve-the-list-of-all-github-repositories-of-a-person
+GHUSER=CHANGEME; curl "https://api.github.com/users/$GHUSER/repos?per_page=100" | grep -o 'git@[^"]*'
+
