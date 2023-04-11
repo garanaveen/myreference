@@ -1,0 +1,22 @@
+How to map teamcity build number to gitlab commit-id/hash?
+
+If your build system make references build numbers, you can fetch them something like this,
+git fetch origin '+refs/buildnumber/*:refs/buildnumber/*'
+
+
+Then in your git repo, you can checkout a specific reference.
+git checkout refs/buildnumber/main/<teamcity-build-number>
+
+You will be in detatched HEAD state when you do this but you can check logs and source code to verify if a build made it or not.
+
+---------------------------------------------------------------------------------
+
+Another simple way is to check the "Parameters" tab of teamcity and look for hash
+env.BUILD_VCS_NUMBER
+
+---------------------------------------------------------------------------------
+
+git config --global core.excludesfile ~/.gitignore
+
+---------------------------------------------------------------------------------
+

@@ -1,0 +1,3 @@
+https://developer.roku.com/docs/developer-program/dev-tools/resource-monitor.md
+
+https://developer.roku.com/docs/developer-program/dev-tools/brightscript-profiler.md

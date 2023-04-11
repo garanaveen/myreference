@@ -11,6 +11,7 @@ sudo apt-get install tilda
 sudo apt-get install openimageio-tools
 sudo apt-get install direnv
 
+snap install jq
 
 
 Q : Ctrl+s doesn't save the file in QtCreator

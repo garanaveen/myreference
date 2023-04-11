@@ -376,3 +376,17 @@ git difftool --tool=meld main..feature-branch
 How to get recent branch/branches names in git? #git #recent #branches
 ngara@D888N83:~/ssd/aspen/app$ git for-each-ref --sort=-committerdate refs/heads/
 
+
+How to clone all repositories for a username?
+---------------------------------------------
+GHORG=company; curl "https://api.github.com/orgs/$GHORG/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone
+For example for https://github.com/orgs/rokudev
+GHORG=company; curl "https://api.github.com/orgs/$GHORG/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone
+
+How to squash when you have merged with main?
+git rebase -i main --autosquash
+
+Change the timestamp of a git commit to current time,
+git commit --amend --date=now --no-edit
+
+
