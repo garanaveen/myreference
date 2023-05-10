@@ -11,3 +11,9 @@ https://code.visualstudio.com/docs/cpp/introvideos-cpp
 
 This is where you can set various customizations.
 $HOME/.config/Code/User/settings.json - This is the path for linux.
+
+#vscode Day 2023,
+https://www.youtube.com/playlist?list=PLj6YeMhvp2S7hWnmPEcxsSPEB0FLHqi0j
+
+Using #vscode, #copilot, and Codespaces to Level Up to Rust from Python
+
