@@ -10,3 +10,13 @@ Once you know the ipaddress, open "Printers & Scanners" on mac and choose ipaddr
 chrome://devices
 https://www.google.com/cloudprint
 
+
+-----------------------------
+How to create passport photo? #PassportPhoto #howto #diy
+Take a photo with good lighting (Garage with door open) in portrait mode of iPhone. Leave a good enough gap on the top of head and make sure both the ears are visible.
+Adjust the lighting in iPhone.
+Remove the backgroud using free adobe express tool and download image (default is png) https://www.adobe.com/express/feature/image/remove-background
+Convert to jpg (https://express.adobe.com/sp/tools/convert-to-jpg)
+Create 4x6 photo photoid4you.
+Order from walgreens (matte is preferrable but only glossy is available for immediate pickup). Matte is available only for mail orders.
+-----------------------------
