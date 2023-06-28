@@ -1,3 +1,5 @@
-youtube video from a specific start time,
-Convert 5:50 to 5*60+50=350 (Append   ?t=350   )
-https://youtu.be/Jr1UuAYNKGo?t=350
+Share link for youtube video from a specific start time,
+Convert 5:50 to 5*60+50=350 (Append   &t=350   )
+https://youtu.be/Jr1UuAYNKGo&t=350
+https://www.youtube.com/watch?v=QuKUFdJ5Q0M&t=3m10s
+
