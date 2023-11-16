@@ -393,3 +393,4 @@ git commit --amend --date=now --no-edit
 
 How to get the list of all submodules?
 git config --file .gitmodules --get-regexp path | awk '{ print $2 }' #git #submodules #list
+
