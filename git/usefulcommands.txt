@@ -394,3 +394,8 @@ git commit --amend --date=now --no-edit
 How to get the list of all submodules?
 git config --file .gitmodules --get-regexp path | awk '{ print $2 }' #git #submodules #list
 
+
+Reuse the last commit message,
+https://stackoverflow.com/questions/18429086/is-there-a-way-to-reuse-the-previous-comment-on-a-git-commit
+git commit --reuse-message=HEAD # reuse previous commit message
+
