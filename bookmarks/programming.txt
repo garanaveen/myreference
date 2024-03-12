@@ -6,3 +6,8 @@ https://en.wikipedia.org/wiki/SOLID
 
 ReadLater,
 https://salfreudenberg.wordpress.com/2013/06/08/pair-programming-and-expertise/
+
+Quick #reference for #cplusplus of any language - Find syntax of common programming.
+https://quickref.me/cpp
+https://quickref.me/bash
+
