@@ -1,0 +1,209 @@
+
+Aspell 0.60.8.  Copyright 2000-2019 by Kevin Atkinson.
+
+Usage: aspell [options] <command>
+
+<command> is one of:
+  -?|usage         display a brief usage message
+  help             display a detailed help message
+  -c|check <file>  spellchecks a file
+  -a|pipe          "ispell -a" compatibility mode
+  list             produce a list of misspelled words from standard input
+  [dump] config    dumps the current configuration to stdout
+  config <key>     prints the current value of an option
+  soundslike       returns the sounds like equivalent for each word entered
+  munch            generate possible root words and affixes
+  expand [1-4]     expands affix flags
+  clean [strict]   cleans a word list so that every line is a valid word
+  filter           filters input as if it was being spellchecked
+  -v|version       prints a version line
+  munch-list [simple] [single|multi] [keep]
+    reduce the size of a word list via affix compression
+  conv <from> <to> [<norm-form>]
+    converts from one encoding to another
+  norm (<norm-map> | <from> <norm-map> <to>) [<norm-form>]
+    perform Unicode normalization
+  [dump] dicts | filters | modes
+    lists available dictionaries / filters / filter modes
+  dump|create|merge master|personal|repl [<name>]
+    dumps, creates or merges a master, personal, or replacement dictionary.
+
+  <norm-form>      normalization form to use, either none, internal, or strict
+
+[options] is any of the following:
+
+  --conf=<str>                main configuration file
+  --conf-dir=<str>            location of main configuration file
+  --data-dir=<str>            location of language data files
+  --add|rem-dict-alias=<str>  create dictionary aliases
+  --dict-dir=<str>            location of the main word list
+  --encoding=<str>            encoding to expect data to be in
+  --add|rem-filter=<str>      add or removes a filter
+  --add|rem-filter-path=<str> path(s) aspell looks for filters
+  --mode=<str>                filter mode
+  -D,--mode=debctrl           enter Debctrl mode.
+  -e,--mode=email             enter Email mode.
+  -H,--mode=html              enter HTML mode.
+  -t,--mode=tex               enter TeX mode.
+  -n,--mode=nroff             enter Nroff mode.
+  -M,--mode=markdown          enter Markdown mode.
+  --add|rem-extra-dicts=<str> extra dictionaries to use
+  --add|rem-wordlists=<str>   files with list of extra words to accept
+  --home-dir=<str>            location for personal files
+  -W,--ignore=<int>           ignore words <= n chars
+  --[dont-]ignore-case        ignore case when checking words
+  --[dont-]ignore-repl        ignore commands to store replacement pairs
+  --keyboard=<str>            keyboard definition to use for typo analysis
+  -l,--lang=<str>             language code
+  --local-data-dir=<str>      location of local language data files
+  -d,--master=<str>           base name of the main dictionary to use
+  --[dont-]normalize          enable Unicode normalization
+  --[dont-]norm-required      Unicode normalization required for current lang
+  --norm-form=<str>           Unicode normalization form: none, nfd, nfc, comp
+  --[dont-]norm-strict        avoid lossy conversions when normalization
+  --per-conf=<str>            personal configuration file
+  -p,--personal=<str>         personal dictionary file name
+  --prefix=<str>              prefix directory
+  --repl=<str>                replacements list file name
+  -C|-B,--[dont-]run-together consider run-together words legal
+  --run-together-limit=<int>  maximum number that can be strung together
+  --run-together-min=<int>    minimal length of interior words
+  --[dont-]camel-case         consider camel case words legal
+  --[dont-]save-repl          save replacement pairs on save all
+  --[dont-]set-prefix         set the prefix based on executable location
+  --size=<str>                size of the word list
+  --sug-mode=<str>            suggestion mode
+  --[dont-]sug-typo-analysis  use typo analysis, override sug-mode default
+  --[dont-]sug-repl-table     use replacement tables, override sug-mode default
+  --add|rem-sug-split-char=<str>
+                              characters to insert when a word is split
+  --[dont-]use-other-dicts    use personal, replacement & session dictionaries
+  --add|rem-variety=<str>     extra information for the word list
+  --[dont-]warn               enable warnings
+  --[dont-]affix-compress     use affix compression when creating dictionaries
+  --[dont-]clean-affixes      remove invalid affix flags
+  --[dont-]clean-words        attempts to clean words so that they are valid
+  --[dont-]invisible-soundslike
+                              compute soundslike on demand rather than storing
+  --[dont-]partially-expand   partially expand affixes for better suggestions
+  --[dont-]skip-invalid-words skip invalid words
+  --[dont-]validate-affixes   check if affix flags are valid
+  --[dont-]validate-words     check if words are valid
+  -b|-x,--[dont-]backup       create a backup file by appending ".bak"
+  --[dont-]byte-offsets       use byte offsets instead of character offsets
+  -m|-P,--[dont-]guess        create missing root/affix combinations
+  --keymapping=<str>          keymapping for check mode: "aspell" or "ispell"
+  --[dont-]reverse            reverse the order of the suggest list
+  --[dont-]suggest            suggest possible replacements
+  --[dont-]time               time load time and suggest time in pipe mode
+
+
+Available Dictionaries:
+    Dictionaries can be selected directly via the "-d" or "master"
+    option.  They can also be selected indirectly via the "lang",
+    "variety", and "size" options.
+
+  en
+  en-variant_0
+  en-variant_1
+  en-variant_2
+  en-w_accents
+  en-wo_accents
+  en_AU
+  en_AU-variant_0
+  en_AU-variant_1
+  en_AU-w_accents
+  en_AU-wo_accents
+  en_CA
+  en_CA-variant_0
+  en_CA-variant_1
+  en_CA-w_accents
+  en_CA-wo_accents
+  en_GB
+  en_GB-ise
+  en_GB-ise-w_accents
+  en_GB-ise-wo_accents
+  en_GB-ize
+  en_GB-ize-w_accents
+  en_GB-ize-wo_accents
+  en_GB-variant_0
+  en_GB-variant_1
+  en_GB-w_accents
+  en_GB-wo_accents
+  en_US
+  en_US-variant_0
+  en_US-variant_1
+  en_US-w_accents
+  en_US-wo_accents
+
+
+Available Filters (and associated options):
+    Filters can be added or removed via the "filter" option.
+
+  url filter: filter to skip URL like constructs
+
+  debctrl filter: filter for Debian packaging control files
+
+  context filter: experimental filter for hiding delimited contexts
+  --add|rem-context-delimiters=<str>
+                              context delimiters (separated by spaces)
+  --[dont-]context-visible-first
+                              swaps visible and invisible text
+
+  email filter: filter for skipping quoted text in email messages
+  --add|rem-email-quote=<str> email quote characters
+  --email-margin=<int>        num chars that can appear before the quote char
+
+  nroff filter: filter for dealing with Nroff documents
+
+  html filter: filter for dealing with HTML documents
+  --add|rem-html-check=<str>  HTML attributes to always check
+  --add|rem-html-skip=<str>   HTML tags to always skip the contents of
+
+  ddtp filter: filter for Debian DDTP-emails
+
+  tex filter: filter for dealing with TeX/LaTeX documents
+  --[dont-]tex-check-comments check TeX comments
+  --add|rem-tex-command=<str> TeX commands
+
+  sgml filter: filter for dealing with generic SGML/XML documents
+  --add|rem-sgml-check=<str>  SGML attributes to always check
+  --add|rem-sgml-skip=<str>   SGML tags to always skip the contents of
+
+  markdown filter: filter for Markdown/CommonMark documents
+  --[dont-]markdown-skip-ref-labels
+                              skip link labels in link reference definitions
+  --[dont-]markdown-multiline-tags
+                              support tags that span multiple lines outside of HTML blocks
+  --add|rem-markdown-raw-start-tags=<str>
+                              HTML tags that start an HTML block that allows blank lines
+  --add|rem-markdown-block-start-tags=<str>
+                              HTML tags that start an HTML block that ends with a blank line
+
+  texinfo filter: filter for dealing with Texinfo documents
+  --add|rem-texinfo-ignore=<str>
+                              Texinfo commands to ignore the parameters of
+  --add|rem-texinfo-ignore-env=<str>
+                              Texinfo environments to ignore
+
+
+Available Filter Modes:
+    Filter Modes are reconfigured combinations of filters optimized for
+    files of a specific type. A mode is selected via the "mode" option.
+    This will happen implicitly if Aspell is able to identify the file
+    type from the extension, and possibility the contents, of the file.
+
+  markdown       mode for checking Markdown/CommonMark documents
+  debctrl        mode for Debian packaging control files
+  email          mode for skipping quoted text in email messages
+  ccpp           mode for checking C++ comments and string literals
+  ddtp           mode for Debian DDTP-emails
+  url            mode to skip URL like constructs (default mode)
+  texinfo        mode for checking Texinfo documents
+  sgml           mode for checking generic SGML/XML documents
+  nroff          mode for checking Nroff documents
+  perl           mode for checking Perl comments and string literals
+  none           mode to disable all filters
+  comment        mode to check any lines starting with a #
+  tex            mode for checking TeX/LaTeX documents
+  html           mode for checking HTML documents

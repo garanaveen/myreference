@@ -1,0 +1,9 @@
+How to use spell check on a txt file?
+aspell check file.txt
+aspell -c file.txt
+
+When you add a word to dictionary, the word will be added it will be added to ${HOME}/.aspell.en.pws
+
+
+
+aspell -c main.txt --personal adventures-of-rama-dictonary.txt

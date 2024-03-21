@@ -11,3 +11,5 @@ brew install youtube-dl
 direnv – unclutter your .profile
 https://direnv.net/docs/hook.html
 
+
+text to flowchat creator - https://flowchart.fun/

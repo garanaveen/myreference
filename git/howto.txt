@@ -24,3 +24,19 @@ How to clone all repositories from an account on github?
 https://stackoverflow.com/questions/8713596/how-to-retrieve-the-list-of-all-github-repositories-of-a-person
 GHUSER=CHANGEME; curl "https://api.github.com/users/$GHUSER/repos?per_page=100" | grep -o 'git@[^"]*'
 
+---------------------------------------------------------------------------------
+
+How to discard all changes on a diverged local branch and use/update to remote branch?
+git checkout feature-branch
+git reset --hard origin/feature-branch
+
+This tells git to reset the head of feature-branch to the same commit as origin/feature-branch, and to update the working tree to match.
+
+
+Another way to do this is as follows (however this is destructive operation),
+$ git branch -D feature-branch
+$ git checkout --track -b feature-branch origin/feature-branch
+
+---------------------------------------------------------------------------------
+
+

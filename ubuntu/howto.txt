@@ -10,7 +10,7 @@ sudo apt update
 sudo apt -y install code
 
 How to uninstall and install slack?
-sudo snap remove slack, sudo snap install slack --classic
+sudo snap remove slack; sudo snap install slack --classic
 
 
 How to move a window from one monitor to another.

@@ -1,3 +1,26 @@
 How to compose a message to multiple people on slack?
 Press the compose button on the top-right corner of left panel.
 
+
+#keyboard #shortcuts
+#ext-roku-slack-training
+Ctrl+K : Navigate to search bar.
+Ctrl+/ : Show keyboard shortcuts
+Ctrl+F : Search within a particular channel
+
+Option+8 : bullet points
+Ctrl+Shift+x : Strikethrough
+Ctrl+_Shift+c : Code block shortcut.
+
+/remind + who + activity + time-to-remind
+
+How to send a clip on slack?
+
+Use the timer button right next to the search bar to access all recent conversations.
+
+:eyes:
+:heavy_plus_sing: to indicate I agree.
+
+TODO : Organizing channels as section.
+
+
