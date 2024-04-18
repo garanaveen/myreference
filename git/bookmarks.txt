@@ -16,3 +16,7 @@ https://www.cloudbees.com/blog/git-detached-head
 
 #freetime #gitlens #vscode #extension #bookmark
 https://gitlens.amod.io/#features
+
+
+learn git branching bookmark,
+https://learngitbranching.js.org/
