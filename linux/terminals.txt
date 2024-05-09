@@ -1,7 +1,7 @@
-I use terminator to be able to split the terminal as per my needs.
 tilda is xterm kind of terminal which doesn't have any kind of titlebar. Could be best used on an external monitor for say logging.
-sudo apt-get install tilda
+sudo apt-get install tilda # This is a full scree terminal with no straightforward way to resize the screen. I didn't like it.
 
-sudo apt-get install tilix
-Change the theme to dark.
+sudo apt-get install tilix # Change the theme to dark. 3horizontallines->Preferences->Appearance->ThemeVariant->RestartTheTerminal
+
+sudo apt-get install terminator #Wonderful choice if you want to split the terminal.
 
