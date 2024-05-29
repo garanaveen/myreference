@@ -17,3 +17,4 @@ How to move a window from one monitor to another.
 On a fresh install of 20.x.x.x
 Windows + Shift + Left
 Other tags : #wmctrl 
+

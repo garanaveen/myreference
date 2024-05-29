@@ -1,3 +1,8 @@
 Rich Filters for Jira Dashboards,
 https://wiki.qotilabs.com/rich-filters/user-s-guide
 
+
+How to filter jira tickets that are in my name?
+AND assignee = Naveen Gara AND
+Here "Naveen Gara" is auto filled.
+
