@@ -1,0 +1,2 @@
+Link to make chrome browser as a notepad. (notepad on chrome)
+data:text/html,<html contenteditable>

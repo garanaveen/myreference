@@ -5,4 +5,7 @@ Issues -> SearchForIssues -> Paste the following in the search bar and click on 
 (summary ~ currentUser() OR description ~ currentUser() OR comment ~ currentUser()) and updatedDate >= -7d
 
 
+How to get "My Open Issues" page?
+Project->ProjectName->Issues->MyOpenIssues
+Now change the "Status" equal-to Open.
 
