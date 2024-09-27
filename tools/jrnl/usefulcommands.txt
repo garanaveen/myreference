@@ -1,0 +1,7 @@
+Tags are preceding with @ (instead of #).
+jrnl @chase @p1
+
+
+#bookmark
+https://jrnl.sh/en/stable/tips-and-tricks/
+
