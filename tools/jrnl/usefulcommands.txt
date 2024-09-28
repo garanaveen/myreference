@@ -5,3 +5,14 @@ jrnl @chase @p1
 #bookmark
 https://jrnl.sh/en/stable/tips-and-tricks/
 
+You can add multiple journals in the config file ~/.config/jrnl/jrnl.yaml file
+While adding an entry you can specify journal name.
+Ex.
+jrnl <journal-name> A new entry in specified journal.
+If no <journal-name> is specified then default journal is used to make an entry.
+
+Switch Between Journals: If you want to switch the default journal temporarily, you can use the --journal option with the journal name defined in the configuration.
+jrnl --journal work
+jrnl --journal personal
+
+
