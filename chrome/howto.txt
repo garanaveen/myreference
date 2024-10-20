@@ -1,2 +1,6 @@
 Link to make chrome browser as a notepad. (notepad on chrome)
 data:text/html,<html contenteditable>
+
+
+How to clear/delete cache/cookies from a particular website on chrome?
+
