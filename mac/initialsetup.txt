@@ -1,3 +1,6 @@
+Install xcode from app store.
+Then install brew. (Instructions in howto.txt)
+
 Set vim as default terminal editor. #todo
 
 Create additional standard user for P2 - Log in to icloud.
