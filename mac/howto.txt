@@ -44,3 +44,9 @@ Terminal->Preferences->Profile->Advanced->AudibleBell
 
 How to get the absolute path for files #sync ed by #box app on #macos
 The default location is /Users/<username>/Library/CloudStorage/Box-Box/
+
+What is the equivalent of bashrc on mac?
+$HOME/.bash_profile gets executed on the launch of an terminal.
+
+External drives can be found under /Volumes on macOS.10 Mar 2018 (Not /mnt not /media)
+
