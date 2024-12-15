@@ -3,6 +3,8 @@ Settings->Privacy & Security->SiteSettings->Cookies and Site Data -> See all coo
 Delete "account.google.com" entries
 If thats not good enough deleting box.com related cookies should be good enough or google.com related.
 Keywords : clear, Chrome, box.com, cookies, cache,
+
+Another easy way to go to the right screen is : Search:cookies and then select "Third party cookies" and then select "See all site data and permissions"
 --------------------------------------------------
 
 
