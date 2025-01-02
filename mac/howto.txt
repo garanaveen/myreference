@@ -34,6 +34,7 @@ https://www.macrumors.com/how-to/output-mac-audio-two-pairs-headphones/
 
 How to make bash as the default shell on mac?
 SystemPreferences->Users&Groups->UnlockIconOnBottomLeftCorner->RightClickOnUser->AdvancedOptions->DefaultShellTo->/bin/bash (bash mac default bash)
+On Sequoia Mac, open Terminal app, go to "Terminal > Settings > General", and then under "Shells open with", select "Command (complete path)" and enter the full path to the bash executable, which is usually "/bin/bash" on a Mac; this will set bash as the default shell for new Terminal windows
 
 
 How to install youtube-dl on mac?
