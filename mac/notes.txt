@@ -1,1 +1,1 @@
-The personal macbook that I bought has Intel processor/silicon. This can be check by visiting "About your mac" -> Processor. It should show M1/M2 if it is apple silicon.
+The personal macbook that I bought has Intel processor/silicon. This can be checked by visiting "About your mac" -> Processor. It should show M1/M2 if it is apple silicon.

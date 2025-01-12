@@ -10,7 +10,7 @@ Macbook should be actively charging for it to not go to sleep when the lid is cl
 Connect external display via hdmi adapter
 Connect external mouse and keyboard using usb hub, and usb adapter.
 SystemPreferences->Keyboard->Add MicrosoftKeyboard
-SystemPreferences->Keyboard->ModifierKeys->Switch Alt and Command keys for microsoft keyboard.
+SystemPreferences->Keyboard->KeyboardShortcuts->ModifierKeys->Switch Alt and Command keys for microsoft keyboard.
 SystemPreferences->Mouse -> Uncheck Scrolling : natural direction
 
 
