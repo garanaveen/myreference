@@ -1,14 +1,24 @@
 Install xcode from app store.
 Then install brew. (Instructions in howto.txt)
 
-Set vim as default terminal editor. #todo
+Set vim as default terminal editor. @todo
 
-Create additional standard user for P2 - Log in to icloud.
-Create additional standard user for P3 - Install Google meets?, Microsoft Teams?
-
-Install lastpass
-Install iprintandscan brothers if available.
+Create additional standard user for P2 - Log in to icloud. @personal
+Create additional standard user for P3 - Install Google meets?, Microsoft Teams? @personal
+Install lastpass @personal
+Install iprintandscan brothers if available. @personal
 
 Change trackpad touch to "JustTap not Press".
 
+
+@terminal settings,
+@howto make the background of the terminal black?
+Terminal->Settings->Profiles->Pro
+
+@howto increase the font size of text on terminal?
+Terminal->Settings->Profile->Font->Change->18
+
+@howto change the default shell in terminal to @bash?
+Terminal->Settings->General
+"Shells open with" -> "/bin/sh"
 
