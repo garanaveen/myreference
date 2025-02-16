@@ -22,3 +22,6 @@ Terminal->Settings->Profile->Font->Change->18
 Terminal->Settings->General
 "Shells open with" -> "/bin/sh"
 
+
+Install software,
+* Install homebrew (instructions in howto.txt)
