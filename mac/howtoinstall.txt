@@ -2,3 +2,5 @@ brew install jq
 brew install wget
 brew install jrnl
 brew install ghostscript # This is for merging and changing the size of pdfs.
+
+brew install ack #https://sourabhbajaj.com/mac-setup/iTerm/ack.html
