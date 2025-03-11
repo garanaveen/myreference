@@ -1,5 +1,6 @@
 How to search?
 "due:incomplete" That are past due.
-"due:1"
+"due:1" (Shows you tickets that are due within 1 day)
 "label:urgent"
+
 
