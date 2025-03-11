@@ -1,4 +1,4 @@
-How to install iTerm2 on MacOs?
+@howto install iTerm2 on MacOs?
 -------------------------------
 brew cask install iterm2
 https://www.iterm2.com/downloads.html
@@ -23,7 +23,7 @@ sudo pmset -a standbydelayhigh 60
 -----------------------------------------------------------------------------
 
 
-How to mount shares on wdmycloud (macos):
+@howto mount shares on wdmycloud (macos):
 Finder->Go->ConnectToServer->Select mycloud->log me in - Provide password details.
 
 --------------------------------------------------------------
@@ -31,7 +31,7 @@ Finder->Go->ConnectToServer->Select mycloud->log me in - Provide password detail
 Speedup your mac,
 https://qr.ae/TWInFl
 
-How install tex to pdf utility on MacOs?
+@howto install tex to pdf utility on MacOs?
 ----------------------------------------
 https://sourabhbajaj.com/mac-setup/LaTeX/
 brew cask install mactex
@@ -43,9 +43,9 @@ Keywords : pdf2tex, pdflatex, tex2pdf, mac, commandline
 
 ----------------------------------------
 
-How to kill an application on mac?
+@howto kill an application on mac?
 Ctrl+Alt+Delete equivalent in Mac - Option+Command+Esc
-How to kill p4v on mac?
+@howto kill p4v on mac?
 
 ----------------------------------------
 

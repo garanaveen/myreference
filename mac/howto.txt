@@ -51,3 +51,10 @@ $HOME/.bash_profile gets executed on the launch of an terminal.
 
 External drives can be found under /Volumes on macOS.10 Mar 2018 (Not /mnt not /media)
 
+
+@howto set the default terminal as @bash? @todo
+
+@howto capture screen on @macos?
+Windows+Shift+5
+Select a specific area you want to record.
+Press Windows+Shift+5 again to bring the menu and stop it when you are done.
