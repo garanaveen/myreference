@@ -56,3 +56,5 @@ We also added a new command to trigger this manually (Trim Trailing Whitespace f
 --------------------
 
 
+GitHub Copilot: Enable/Disable Copilot completions (auto complete, code suggestions) : Keybinding <Ctrl+g> 'g' is for gpt
+
