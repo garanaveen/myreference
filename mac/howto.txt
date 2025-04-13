@@ -58,3 +58,10 @@ External drives can be found under /Volumes on macOS.10 Mar 2018 (Not /mnt not /
 Windows+Shift+5
 Select a specific area you want to record.
 Press Windows+Shift+5 again to bring the menu and stop it when you are done.
+
+@howto know how much diskspace is remaining on macos?
+Look for an entry that is mouted on "/" directory. The available field there should show the available diskspace.
+df -h
+Filesystem       Size   Used  Avail Capacity iused     ifree %iused  Mounted on
+/dev/disk1s6s1  233Gi   14Gi   15Gi    49%  502388 156740040    0%   /
+
