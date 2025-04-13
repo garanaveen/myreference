@@ -65,3 +65,8 @@ df -h
 Filesystem       Size   Used  Avail Capacity iused     ifree %iused  Mounted on
 /dev/disk1s6s1  233Gi   14Gi   15Gi    49%  502388 156740040    0%   /
 
+
+@howto create a file with junk contents to eat up diskspace.
+This is the equivalent of fallocate in linux.
+mkfile 5g myfile.img #This creates a 5G file.
+
