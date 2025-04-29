@@ -1,3 +1,6 @@
+Add this line to .bash_profile to supress the warning about the default shell,
+export BASH_SILENCE_DEPRECATION_WARNING=1 #To supress the warning about default shell being zsh.
+
 Install xcode from app store.
 Then install brew. (Instructions in howto.txt)
 

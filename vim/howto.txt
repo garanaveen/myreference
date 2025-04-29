@@ -6,3 +6,8 @@ To encode the entire file do, "ggVGg?"
 
 ----------------------------------------
 
+@howto make the @cursor in vim bright on a dark themed @terminal?
+On @mac, Terminal->Settings->BlinkCursor and Change color to bright color.
+
+----------------------------------------
+
