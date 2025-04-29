@@ -398,7 +398,7 @@ git config --file .gitmodules --get-regexp path | awk '{ print $2 }' #git #submo
 Reuse the last commit message,
 https://stackoverflow.com/questions/18429086/is-there-a-way-to-reuse-the-previous-comment-on-a-git-commit
 git commit --reuse-message=HEAD # reuse previous commit message
-git commit --reuse-message=HEAD ; git commit --amend
+git commit --reuse-message=HEAD ; git commit --amend # reuse previous commit message and amend
 
 ssh -T git@github.com
 
