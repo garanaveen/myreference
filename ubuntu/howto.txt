@@ -18,3 +18,16 @@ On a fresh install of 20.x.x.x
 Windows + Shift + Left
 Other tags : #wmctrl 
 
+
+@howto fix flickering issue on ubuntu?
+Use xrandr to Reinitialize the Flickering Display
+Use "xrandr" to show all the displays,
+>> DP-3 connected primary 3440x1440+0+809 (normal left inverted right x axis y axis) 800mm x 335mm
+>> DP-5 connected 1440x3440+3440+0 left (normal left inverted right x axis y axis) 800mm x 335mm
+
+Then do the following,
+xrandr --output DP-5 --off
+xrandr --output DP-5 --auto
+Here "DP-5" is the name of the display you are trying to fix.
+
+
