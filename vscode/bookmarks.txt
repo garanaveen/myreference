@@ -17,3 +17,5 @@ https://www.youtube.com/playlist?list=PLj6YeMhvp2S7hWnmPEcxsSPEB0FLHqi0j
 
 Using #vscode, #copilot, and Codespaces to Level Up to Rust from Python
 
+
+https://code.visualstudio.com/insiders/
