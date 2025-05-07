@@ -24,3 +24,7 @@ How to distinguish/highlight current tab in vscode? Set tab.activeBackground in 
 
 @howto turn off auto complete suggestions on vscode
 
+
+@howto bring up @github @copilot window in @vscode
+Ctrl+Alt+I
+
