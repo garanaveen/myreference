@@ -1,2 +1,2 @@
-@howto make a TODO checklist in OneNote?
-Select the text -> Home -> TODO
+@howto make a @todo checklist in OneNote?
+Select the text -> Home -> @todo

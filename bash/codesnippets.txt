@@ -1,6 +1,6 @@
 List of most frequently used code snippets,
 
-TODO : Fill up these,
+@todo : Fill up these,
 
 if
 for loop

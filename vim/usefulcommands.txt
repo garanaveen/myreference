@@ -1,4 +1,4 @@
-TODO : http://sourabhbajaj.com/mac-setup/Vim/
+@todo : http://sourabhbajaj.com/mac-setup/Vim/
 
 
 Format the html file,

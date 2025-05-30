@@ -2,7 +2,7 @@ ack --noenv
 to disregard ~/.ackrc configuration
 
 ----------------------------------------------------------
-TODO: Comeup with more verbose example,
+@todo: Comeup with more verbose example,
 equivalant to "grep -f /path/to/patterns.file <search-pattern>",
 ack "$(< /path/to/patterns.file)" *
 

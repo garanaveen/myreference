@@ -21,6 +21,6 @@ Use the timer button right next to the search bar to access all recent conversat
 :eyes:
 :heavy_plus_sing: to indicate I agree.
 
-TODO : Organizing channels as section.
+@todo : Organizing channels as section.
 
 
