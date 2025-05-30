@@ -11,4 +11,7 @@ On server side if ~/.ssh directory isn't already avaialble, create it.
 Upload public key to remote server. For Linux or MacOs clinet, you could just do this to upload public key.
 >ssh-copy-id user@remotemachineipaddress
 
+@howto get rid of "^M" dos characters on linux?
+dos2unix <filename>
+dos2unix: converting file <filename> to Unix format...
 
