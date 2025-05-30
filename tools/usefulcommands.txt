@@ -1,4 +1,4 @@
-How to combine/merge pdf files using "gs" command on linux/ununtu,
+@howto combine/merge pdf files using "gs" command on linux/ununtu,
 https://stackoverflow.com/questions/4184174/how-to-merge-many-pdf-files-into-a-single-one
 gs \
   -o merged.pdf \
@@ -11,7 +11,7 @@ gs \
    input_5.pdf
 
 
-How to reduce the size of pdf file,
+@howto reduce the size of pdf file,
 https://askubuntu.com/questions/113544/how-can-i-reduce-the-file-size-of-a-scanned-pdf-file
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=screen.pdf input.pdf
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=ebook.pdf input.pdf

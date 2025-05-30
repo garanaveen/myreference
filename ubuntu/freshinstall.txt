@@ -55,7 +55,7 @@ sudo apt-get install xclip -y
 
 ----------------------------------------------
 
-How to auto mount at startup any external ssd?
+@howto auto mount at startup any external ssd?
 Need to add a mount entry in fstab. To avoid screwing up /etc/fstab, its best to use Ubuntu UI provided by disks,
 https://askubuntu.com/questions/164926/how-to-make-partitions-mount-at-startup
 disks

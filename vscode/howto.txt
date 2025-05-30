@@ -1,23 +1,23 @@
 Open Command Pallate,
 Ctrl+Shift+P (View->CommandPallate)
 
-How to change key binding for any command,
+@howto change key binding for any command,
 Open Command Pallate,
 Search for the command.
 Click the gear icon and then the Edit(pencil) icon and enter the new key binding.
 Alternate way - File->Preferences->KeyboardShortcuts
 
 
-How to see the list of all the methods/functions in a file?
+@howto see the list of all the methods/functions in a file?
 The keyboard shortcut is CTRL+Shift+O 
 It's also available as a "OUTLINE" view of the "EXPLORER" on the left side panel.
 
 
-How to see all the open files?
+@howto see all the open files?
 On the EXPLORER panel on the left side, click on three dots and check "Open Editors"
 
 
-How to distinguish/highlight current tab in vscode? Set tab.activeBackground in settings.json #vscode #color
+@howto distinguish/highlight current tab in vscode? Set tab.activeBackground in settings.json #vscode #color
 
 @how to change editor settings in @vscode?
 

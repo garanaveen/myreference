@@ -1,4 +1,4 @@
-How to create a code snippet (Code auto completion for frequently used code)?
+@howto create a code snippet (Code auto completion for frequently used code)?
 
 Tools->Options->TextEditor->Snippets : Add the shortcut to "Trigger" column and the auto-complete code snippet in the textbox below it.
 
@@ -16,7 +16,7 @@ public:
 
 
 -------------
-How to sleep?
+@howto sleep?
 #include <QThread>
 QThread::sleep(3);
 -------------

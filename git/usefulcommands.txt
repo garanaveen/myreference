@@ -14,7 +14,7 @@ Delete the entry in .gitkraken/profiles/<uuid>/localRepoCache
 https://stackoverflow.com/questions/38068790/remove-repository-from-gitkraken-overview
 
 
-How to archive the entire repo's working directory?
+@howto archive the entire repo's working directory?
 hg archive ~/source.tar.gz -X ".hg*"
 git archive --format=tar --prefix=myreference-20181019/ HEAD > ~/tarofmyreference.tar.gz
 
@@ -37,7 +37,7 @@ Log/Print the local branches that are not present in remote. (LocalOnly branches
 git log --graph --oneline --branches --not --remotes=*
 
 
-How to check for the existence of a particular string in all changesets of git?
+@howto check for the existence of a particular string in all changesets of git?
 Other keywords : Bisect. Where did this line change? Where was this line introduced or deleted?
 for sha1 in $(git rev-list HEAD FileName.txt) ; do 
    echo $sha1 ; 
@@ -53,7 +53,7 @@ git rev-list --all <filename> | (
 
 
 
-How to delete a branch on git?
+@howto delete a branch on git?
 git branch -d branch_name
 git branch -D branch_name
 
@@ -86,7 +86,7 @@ Host *
 
 ---------------------------------------------------------------------------------------------
 
-How to add ssh keys to bitbucket correctly?
+@howto add ssh keys to bitbucket correctly?
 
 $git push origin master
 repository access denied. access via a deployment key is read-only.
@@ -117,7 +117,7 @@ Force push to git repo if thats what you want.
 
 ---------------------------------------------------------------------------------------------
 
-How to generate a patch?
+@howto generate a patch?
 git format-patch -3 HEAD #Generate top three commits as patches.
 git format-patch -1 <SHA> # Generate SHA commit as a patch.
 
@@ -131,13 +131,13 @@ git grep <searchpattern> $(git rev-list --all)
 Mercurial equivalent of "hg grep"
 ----------------------
 
-How to checkout/revert specific files to specific revision?
+@howto checkout/revert specific files to specific revision?
 https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
 git checkout c5f567 -- file1/to/restore file2/to/restore
 git checkout -- file/to/restore #git revert outstanding changes to a file.
 
 
-git - How to list all the files in a commit?
+git - @howto list all the files in a commit?
 git diff-tree --no-commit-id --name-only -r <sha>
 hg st <sha> -n
 
@@ -171,7 +171,7 @@ git grep --count gmtime_r
 
 
 
-How to archive/tar the current working directory in git?
+@howto archive/tar the current working directory in git?
 git archive --format=tar.gz --prefix=sensiblename/ HEAD > reponame-head.tar.gz
 
 
@@ -191,7 +191,7 @@ https://github.com/<usename>/<reponame>/compare/<sha1>...<sha2>
 See the diff for a file between a specific commit sha to current working copy,
 git diff --cached <sha> -- <FileName>
 
-How to squash last N changesets.
+@howto squash last N changesets.
 git rebase -i <parentofchangesetstosquash>
 replace "pick" to "squash" or "fixup" for the ones which need to be squashed leavings the top one as it is.
 Ex. to squash the top 5 changesets,
@@ -225,7 +225,7 @@ git commit --amend --no-edit
 Removes all the untracked files,
 git clean -f 
 
-How to add a tag?
+@howto add a tag?
 git tag -a v1.0 -m "Stable version of the project"
 
 Add all files in the repository,
@@ -247,13 +247,13 @@ git commit -am "commit message"
 This will fetch all the branches and deletes branches that were deleted in the remote,
 git fetch --all --prune
 
-How to git pull submodules?
+@howto git pull submodules?
 git pull --recurse-submodules
 
 
 
 
-How to rename a local-only branch in git?  #git #branch #rename #move
+@howto rename a local-only branch in git?  #git #branch #rename #move
 git branch -m <old> <new>
 
 
@@ -261,7 +261,7 @@ git branch -m <old> <new>
 git commit --amend
 
 
-How to git unstage a file?
+@howto git unstage a file?
   (use "git restore --staged <file>..." to unstage)
 git restore --staged <filename>
 
@@ -289,7 +289,7 @@ $ git rebase -i main
 
 ---------------------
 
-How to force a branch point to a specific commit? git branch main force main
+@howto force a branch point to a specific commit? git branch main force main
 :~/tmp/dummy-repo-2$ git branch -f main 88289bb8be242e79eb362e38a15980432714d5d2
 
 ---------------------
@@ -311,7 +311,7 @@ git log graph, display how two branches are diverging
 git log --graph --oneline currentbranch otherbranch
 ---------------------
 
-How to do fast-forward merge?
+@howto do fast-forward merge?
 Let's say you created a feature branch from main. You didn't commit anything on the feature branch and stopped working on this feature branch.
 After a while, main has had quite a few commits.
 When you want to start working on feature branch again, since your feature branch was created from a older hash of main, it only makes sense to point the feature branch to latest main before starting to commit changes on it.
@@ -340,7 +340,7 @@ C1 -> C2 -> C3 -> C4 -> C5
 ---------------------
 
 
-How to do dry run for git merge
+@howto do dry run for git merge
 You are on <master> branch and want to merge in a <feature> branch but want to check if there are any merge conflicts.
 https://stackoverflow.com/questions/501407/is-there-a-git-merge-dry-run-option
 
@@ -350,7 +350,7 @@ $ git diff --cached #You can investigate what the merge changeset looks like fro
 $ git merge --abort #Abort the merge to discard the staged changes
 
 
-How to merge latest changes in master to your current feature branch?
+@howto merge latest changes in master to your current feature branch?
 git checkout <feature>
 git merge --no-commit --no-ff <master> #Resolve any conflicts!
 git diff --cached
@@ -358,11 +358,11 @@ git commit -m "Merged main to feature" #This will create a merge commit
 
 
 
-git : How to create a branch at a specific commit/hash
+git : @howto create a branch at a specific commit/hash
 git branch branch_name <commit-hash>
 
 --------------------------------------------------
-How to git diff with meld?
+@howto git diff with meld?
 --------------------------
 
 git difftool --tool=meld
@@ -373,17 +373,17 @@ git difftool --tool=meld main..feature-branch
 --------------------------------------------------
 
 
-How to get list of recent branch/branches names in git? 
+@howto get list of recent branch/branches names in git? 
 git for-each-ref --sort=-committerdate refs/heads/ #git #recent #branches
 
 
-How to clone all repositories for a username?
+@howto clone all repositories for a username?
 ---------------------------------------------
 GHORG=company; curl "https://api.github.com/orgs/$GHORG/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone
 For example for https://github.com/orgs/rokudev
 GHORG=company; curl "https://api.github.com/orgs/$GHORG/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone
 
-How to squash when you have merged with main?
+@howto squash when you have merged with main?
 git rebase -i main --autosquash
 
 Change the timestamp of a git commit to current time,
@@ -391,7 +391,7 @@ git commit --amend --date=now --no-edit
 
 
 
-How to get the list of all submodules?
+@howto get the list of all submodules?
 git config --file .gitmodules --get-regexp path | awk '{ print $2 }' #git #submodules #list
 
 

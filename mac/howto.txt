@@ -1,5 +1,5 @@
-How to convert png to pdf in mac?
-How to convert jpg/jpeg to pdf in mac?
+@howto convert png to pdf in mac?
+@howto convert jpg/jpeg to pdf in mac?
 1.Open PNG file
 2.Click the tool on topleft corner to show the thumbnails
 3.Add Other png files you want to be a part of pdf.
@@ -8,7 +8,7 @@ This probably works for any file that that be opened using preview I guess.
 
 ------------------------
 
-How to copy photos from iPhone->Mac,
+@howto copy photos from iPhone->Mac,
 Open photos app and delete all the photos on macbook. (Just so you know what was imported from iPhone)
 Connect iPhone to mac using usb-c to lighting cable.
 Trust the macbook on iPhone and on macbook say import all files. This is time consuming. Wait for a while.
@@ -17,7 +17,7 @@ Trust the macbook on iPhone and on macbook say import all files. This is time co
 
 ------------------------
 
-How to install homebrew on mac
+@howto install homebrew on mac
 Site : https://brew.sh/ has all the instructions.
 cd /usr/local/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -32,18 +32,18 @@ Connect two bluetooth devices,
 https://www.macrumors.com/how-to/output-mac-audio-two-pairs-headphones/
 
 
-How to make bash as the default shell on mac?
+@howto make bash as the default shell on mac?
 SystemPreferences->Users&Groups->UnlockIconOnBottomLeftCorner->RightClickOnUser->AdvancedOptions->DefaultShellTo->/bin/bash (bash mac default bash)
 On Sequoia Mac, open Terminal app, go to "Terminal > Settings > General", and then under "Shells open with", select "Command (complete path)" and enter the full path to the bash executable, which is usually "/bin/bash" on a Mac; this will set bash as the default shell for new Terminal windows
 
 
-How to install youtube-dl on mac?
+@howto install youtube-dl on mac?
 brew install youtube-dl
 
-How to Enable/Disable audible bell on terminal?
+@howto Enable/Disable audible bell on terminal?
 Terminal->Preferences->Profile->Advanced->AudibleBell
 
-How to get the absolute path for files #sync ed by #box app on #macos
+@howto get the absolute path for files #sync ed by #box app on #macos
 The default location is /Users/<username>/Library/CloudStorage/Box-Box/
 
 What is the equivalent of bashrc on mac?

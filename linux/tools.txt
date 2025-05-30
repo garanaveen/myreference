@@ -1,7 +1,7 @@
 idiff -> Generate diff between two images,
 idiff image1.jpg image2.jpg -o diff.jpg
 
-How to install?
+@howto install?
 sudo apt-get install openimageio-tools
 
 -------------------------------------------

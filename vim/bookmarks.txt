@@ -2,7 +2,7 @@ Using the leader key,
 http://stevelosh.com/blog/2010/09/coming-home-to-vim/
 
 ----------------------------------
-How to edit an existing vim macro,
+@howto edit an existing vim macro,
 https://robots.thoughtbot.com/how-to-edit-an-existing-vim-macro
 
 ----------------------------------
@@ -37,6 +37,6 @@ Swapping/Mapping CAPSLock to ESC key,
 https://github.com/Tanath/dotfiles/blob/master/reference/misctweaks.md
 https://stackoverflow.com/questions/2176532/how-to-map-caps-lock-key-in-vim#2177240
 
-How to Do 90% of What Plugins Do (With Just Vim)
+@howto Do 90% of What Plugins Do (With Just Vim)
 https://www.youtube.com/watch?v=XA2WjJbmmoM
 

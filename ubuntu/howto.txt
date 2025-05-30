@@ -1,19 +1,19 @@
-How to update zoom?
+@howto update zoom?
 Download the latest deb file.
 sudo apt install ./zoom_amd64.deb
 
 
-How to update vscode?
+@howto update vscode?
 https://stackoverflow.com/questions/42960703/how-to-upgrade-visual-studio-code-editor
 sudo add-apt-repository -y "deb https://packages.microsoft.com/repos/vscode stable main "
 sudo apt update
 sudo apt -y install code
 
-How to uninstall and install slack?
+@howto uninstall and install slack?
 sudo snap remove slack; sudo snap install slack --classic
 
 
-How to move a window from one monitor to another.
+@howto move a window from one monitor to another.
 On a fresh install of 20.x.x.x
 Windows + Shift + Left
 Other tags : #wmctrl 

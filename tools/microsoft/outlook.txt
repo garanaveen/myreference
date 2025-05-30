@@ -2,7 +2,7 @@
 https://support.microsoft.com/en-us/office/add-time-away-from-the-office-to-coworkers-outlook-calendars-69fe38aa-7b5f-4225-8b69-47f47092e65e
 https://support.office.com/en-us/article/add-time-away-from-the-office-to-coworkers-outlook-calendars-69fe38aa-7b5f-4225-8b69-47f47092e65e
 
-How to do OoO for the entire day or short time,
+@howto do OoO for the entire day or short time,
 ----------For others----------
 Outlook -> Calendar -> New Meeting
 Title : OoO - Naveen Gara
@@ -19,7 +19,7 @@ Options -> Show As -> Out of Office.
 Save & Close.
 
 
-How to create a rule on outlook web?
+@howto create a rule on outlook web?
 Settings->Mail->Rules
 
 

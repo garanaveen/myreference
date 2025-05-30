@@ -14,7 +14,7 @@ Tutorial for learning advanced git usage, git internals and most useful git comm
 -------------------------------------------------------------------------------------
 
 
-How to compare a local git branch with its remote branch?
+@howto compare a local git branch with its remote branch?
 https://stackoverflow.com/questions/1800783/how-to-compare-a-local-git-branch-with-its-remote-branch
 
 -------------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ https://github.com/nibalizer/bash-tricks
 
 -------------------------------------------------------------------------------------
 
-How to extract some files from one git repository to another preserving history?
+@howto extract some files from one git repository to another preserving history?
 A little more step by step method is here,
 https://github.community/t5/How-to-use-Git-and-GitHub/Adding-a-folder-from-one-repo-to-another/td-p/5425# 
 Since the destination repo is pretty much empty you only need to do half of what he is saying.

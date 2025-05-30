@@ -1,7 +1,7 @@
 {
         "workbench.colorCustomizations": {
 	  "_comment2": "Add this entire block (workbench.colorCustomizations) to /home/ngara/.config/Code/User/settings.json",
-          "_comment": "How to distinguish current tab - #vscode #color",
+          "_comment": "@howto distinguish current tab - #vscode #color",
           "tab.activeBackground": "#0A84FF"
         }
 }

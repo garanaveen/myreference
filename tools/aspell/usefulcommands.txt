@@ -1,4 +1,4 @@
-How to use spell check on a txt file?
+@howto use spell check on a txt file?
 aspell check file.txt
 aspell -c file.txt
 

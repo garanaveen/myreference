@@ -1,4 +1,4 @@
-How to use QProcess::startDetached with setStandardOutputFile()
+@howto use QProcess::startDetached with setStandardOutputFile()
 
 I have a process which is supposed to start another process and am using QProcess::startDetached() as there is no relationship to the forked process. Now I am trying to figure out a way to redirect the stdout to a file. 
 When I use setStandardOutputFile() with QProcess::startDetached the redirection to file doesn't work. 

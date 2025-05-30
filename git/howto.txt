@@ -1,4 +1,4 @@
-How to map teamcity build number to gitlab commit-id/hash?
+@howto map teamcity build number to gitlab commit-id/hash?
 
 If your build system make references build numbers, you can fetch them something like this,
 git fetch origin '+refs/buildnumber/*:refs/buildnumber/*'
@@ -20,13 +20,13 @@ git config --global core.excludesfile ~/.gitignore
 
 ---------------------------------------------------------------------------------
 
-How to clone all repositories from an account on github?
+@howto clone all repositories from an account on github?
 https://stackoverflow.com/questions/8713596/how-to-retrieve-the-list-of-all-github-repositories-of-a-person
 GHUSER=CHANGEME; curl "https://api.github.com/users/$GHUSER/repos?per_page=100" | grep -o 'git@[^"]*'
 
 ---------------------------------------------------------------------------------
 
-How to discard all changes on a diverged local branch and use/update to remote branch?
+@howto discard all changes on a diverged local branch and use/update to remote branch?
 git checkout feature-branch
 git reset --hard origin/feature-branch
 

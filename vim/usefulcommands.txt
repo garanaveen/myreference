@@ -36,7 +36,7 @@ Reverse the order of lines,
 :g/^/m0
 
 
-vim : How to insert esc/Esc/ESC character while setting a command in to a register?
+vim : @howto insert esc/Esc/ESC character while setting a command in to a register?
 In vim, Press control-v then escape to enter <Esc> key
 
 -----------------------
@@ -46,11 +46,11 @@ http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers
 
 -----------------------
 
-How to ignore white spaces in vimdiff, (There isn’t any direct option for it though)
+@howto ignore white spaces in vimdiff, (There isn’t any direct option for it though)
 http://vim.wikia.com/wiki/Ignore_white_space_in_vimdiff
 vimdiff -c 'set diffopt+=iwhite' …
 
-How to edit all the opened files in vim. Lets say all the opened files needs replacement of ServiceCenter with DiagnosticsCenter.
+@howto edit all the opened files in vim. Lets say all the opened files needs replacement of ServiceCenter with DiagnosticsCenter.
 $vim `find . -name “*cpp”`
 :bufdo %s/ServiceCenter/DiagnosticsCenter/ge |updat 
 This will execute the substitute command in all the opened buffers(i.e. files) and update(write/save) the buffer to disk.
@@ -92,8 +92,8 @@ Time travel in vim,
 :later 1s/1m/1h
 -----------------------
 
-How to insert special non pritable characters in vim?
-How to enter non-ascii characters using hex code in vim?
+@howto insert special non pritable characters in vim?
+@howto enter non-ascii characters using hex code in vim?
 In insert mode, type Ctrl+V followed by 'x' then a hex number.
 For example "Ctrl+C x41" will give you 'A'
 "Ctrl+C xa3" will give you '£'

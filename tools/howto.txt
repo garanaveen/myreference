@@ -1,7 +1,7 @@
-How to make microsoftstreams video public to all your coworkers?
+@howto make microsoftstreams video public to all your coworkers?
 https://web.microsoftstream.com/studio/videos
 Click the Edit button and check the checkbox "Allow everyone in your company to view this video."
 
 
-How to separate vocals and music from a audio.
+@howto separate vocals and music from a audio.
 vocalremover.com

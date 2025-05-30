@@ -1,4 +1,4 @@
-How to verify keys,
+@howto verify keys,
 https://www.getmonero.org/pl/resources/user-guides/verification-allos-advanced.html
 
 

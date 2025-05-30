@@ -1,4 +1,4 @@
-How to clear cookies from specific site on google chrome browser?
+@howto clear cookies from specific site on google chrome browser?
 Settings->Privacy & Security->SiteSettings->Cookies and Site Data -> See all cookies and site data.
 Delete "account.google.com" entries
 If thats not good enough deleting box.com related cookies should be good enough or google.com related.
@@ -8,7 +8,7 @@ Another easy way to go to the right screen is : Search:cookies and then select "
 --------------------------------------------------
 
 
-How to play dino game on chrome (the one that comes when you are out of internet?)
+@howto play dino game on chrome (the one that comes when you are out of internet?)
 chrome://dino/
 Dinosaur game on chrome
 

@@ -1,7 +1,7 @@
-How to distinguish current tab in vscode? Set tab.activeBackground in settings.json #vscode #color
+@howto distinguish current tab in vscode? Set tab.activeBackground in settings.json #vscode #color
 
 TODO: Learn how to create a new C++ file compile it and run it in vscode.
-TODO: How to search in opened files?
+TODO: @howto search in opened files?
 
 Explore how groups work.
 What is the number that is displayed on the right side of the file name?

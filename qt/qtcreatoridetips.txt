@@ -2,12 +2,12 @@ FileName too long in Qt Creator IDE
 When searching for Files in QtCreator IDE using <Ctrl+k> if the file name is too long pressing <Alt> while the file is selected will show the full name of the file along with its path.
 https://doc.qt.io/qtcreator/creator-editor-locator.html
 
-How to change the background of QtCreator IDE to black.
+@howto change the background of QtCreator IDE to black.
 Change to vim dark-mode.
 Tools->Options->TextEditor->FontsAndColors->ColorScheme->Vim(dark)
 
 
-How to enable Ctrl+Shift+U 
+@howto enable Ctrl+Shift+U 
 https://superuser.com/questions/358749/how-to-disable-ctrlshiftu-in-ubuntu-linux
 Open "Language Support"
 Keyboard input method system -> None

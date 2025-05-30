@@ -9,6 +9,6 @@ Run "cmake -Wdev --debug-output --trace <sourcedir> 2>&1 |tee cmake.log"
 
 
 
-How to enable C++11 in cmake,
+@howto enable C++11 in cmake,
 add_definitions(-std=c++11)
 

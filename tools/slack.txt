@@ -1,4 +1,4 @@
-How to compose a message to multiple people on slack?
+@howto compose a message to multiple people on slack?
 Press the compose button on the top-right corner of left panel.
 
 
@@ -14,7 +14,7 @@ Ctrl+_Shift+c : Code block shortcut.
 
 /remind + who + activity + time-to-remind
 
-How to send a clip on slack?
+@howto send a clip on slack?
 
 Use the timer button right next to the search bar to access all recent conversations.
 

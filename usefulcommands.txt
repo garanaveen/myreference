@@ -8,7 +8,7 @@ GMail search
 from:me to:me has:attachment filename:xlsx
 ----------------------------------------------------
 
-How to serve files from http on ubuntu using python?
+@howto serve files from http on ubuntu using python?
 ----------------------------------------------------
 Open a Terminal window and go to the directory containing the files you want to serve and run:
 python -m SimpleHTTPServer
@@ -54,7 +54,7 @@ find . -type d -name '.git*' -prune -o -type f -print       # DO THIS
 
 ----------------------------------------------------
 
-How to find largest files in the current directory recursively?
+@howto find largest files in the current directory recursively?
 du -cks * | sort -rn | head
 https://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/
 

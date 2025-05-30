@@ -7,7 +7,7 @@ Install sourcetrail extension
 Editor Settings
 Ctrl+, -> Opens up the settings.
 Workbench->EditorManagement->WrapTabs->ON. (This is just before "SettingsEditor")
-How to switch tabs between singleline to multiline?
+@howto switch tabs between singleline to multiline?
 
 ----------------
 

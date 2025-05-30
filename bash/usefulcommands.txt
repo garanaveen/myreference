@@ -2,12 +2,12 @@ In the shell, what does “ 2>&1 ” mean?
 https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean
 
 
-How to navigate directories faster with bash?
+@howto navigate directories faster with bash?
 ---------------------------------------------
 https://mhoffman.github.io/2015/05/21/how-to-navigate-directories-with-the-shell.html
 
 
-How to check if a command is installed or not in bash?
+@howto check if a command is installed or not in bash?
 ------------------------------------------------------
 if [ -x "$(command -v ack-grep)" ]; then
    echo "ack-grep is installed
@@ -15,7 +15,7 @@ fi
 
 
 ------------------------------------------------------
-How to open editor with the current command on linux terminal? (TODO : I couldn't make this work. Need to figure out the right way to do it!)
+@howto open editor with the current command on linux terminal? (TODO : I couldn't make this work. Need to figure out the right way to do it!)
        edit-and-execute-command (C-xC-e)
               Invoke an editor on the current command line, and execute the result as shell commands.  Bash attempts to invoke $VISUAL, $EDITOR, and emacs as the editor, in that order.
 If you are in vim mode, "<ESC>v" will do the trick.
@@ -40,7 +40,7 @@ shellcheck is the command
 shellcheck.net is the online tool
 
 
-How to find/list all the methods/functions declared in bash? #bash #function #method #definition
+@howto find/list all the methods/functions declared in bash? #bash #function #method #definition
 typeset -F
 set | grep <searchpattern>
 declare -F | grep <searchpattern>

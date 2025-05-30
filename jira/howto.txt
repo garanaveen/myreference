@@ -1,11 +1,11 @@
 Find all metions of me in the last 7 days.
 https://jira.portal.roku.com:8443/issues/?jql=(summary%20~%20currentUser()%20OR%20description%20~%20currentUser()%20OR%20comment%20~%20currentUser())%20AND%20updatedDate%20%3E%3D%20-7d
-How to create this search?
+@howto create this search?
 Issues -> SearchForIssues -> Paste the following in the search bar and click on search.
 (summary ~ currentUser() OR description ~ currentUser() OR comment ~ currentUser()) and updatedDate >= -7d
 
 
-How to get "My Open Issues" page?
+@howto get "My Open Issues" page?
 Project->ProjectName->Issues->MyOpenIssues
 Now change the "Status" equal-to Open.
 
